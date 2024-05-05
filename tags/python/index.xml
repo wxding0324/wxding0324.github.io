@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Home</description>
+    <title>Python on Home</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DropOut and DropPath</title>
       <link>http://localhost:1313/dataprocessing/dropout-and-droppath/dropout-and-droppath/</link>
@@ -15,16 +15,6 @@
       
       <guid>http://localhost:1313/dataprocessing/dropout-and-droppath/dropout-and-droppath/</guid>
       <description>Drop out和Drop path的区别与作用 # 两者的提出都是为了提</description>
-      
-    </item>
-    
-    <item>
-      <title>GATED MULTIMODAL UNITS FOR INFORMATION FUSION</title>
-      <link>http://localhost:1313/paperreading/%E9%97%A8%E6%8E%A7/%E9%97%A8%E6%8E%A7%E6%B3%A8%E6%84%8F%E5%8A%9B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/paperreading/%E9%97%A8%E6%8E%A7/%E9%97%A8%E6%8E%A7%E6%B3%A8%E6%84%8F%E5%8A%9B/</guid>
-      <description>门控注意力机制 # 门控注意力图 The Gated Multimodal Unit (GMU) model is intended to be used as an internal unit in</description>
       
     </item>
     
