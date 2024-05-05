@@ -19,21 +19,21 @@
     </item>
     
     <item>
-      <title>DataProcessing</title>
-      <link>http://localhost:1313/tags/dataprocessing/</link>
+      <title>DataProcess</title>
+      <link>http://localhost:1313/tags/dataprocess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/dataprocessing/</guid>
+      <guid>http://localhost:1313/tags/dataprocess/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>ImageProcessing</title>
-      <link>http://localhost:1313/tags/imageprocessing/</link>
+      <title>ImgProcess</title>
+      <link>http://localhost:1313/tags/imgprocess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/imageprocessing/</guid>
+      <guid>http://localhost:1313/tags/imgprocess/</guid>
       <description></description>
       
     </item>
@@ -44,6 +44,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>弱监督</title>
+      <link>http://localhost:1313/tags/%E5%BC%B1%E7%9B%91%E7%9D%A3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%BC%B1%E7%9B%91%E7%9D%A3/</guid>
       <description></description>
       
     </item>
