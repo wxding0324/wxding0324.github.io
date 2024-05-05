@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>欢迎来到 Blowfish ！ on Home</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in 欢迎来到 Blowfish ！ on Home</description>
+    <title>Attention on Home</title>
+    <link>http://localhost:1313/tags/attention/</link>
+    <description>Recent content in Attention on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/attention/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GATED MULTIMODAL UNITS FOR INFORMATION FUSION</title>
       <link>http://localhost:1313/paperreading/%E9%97%A8%E6%8E%A7/</link>
