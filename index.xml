@@ -9,11 +9,21 @@
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DropOut and DropPath</title>
-      <link>http://localhost:1313/dataprocessing/dropout-and-droppath/dropout-and-droppath/</link>
+      <title>CLI</title>
+      <link>http://localhost:1313/notes/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/dataprocessing/dropout-and-droppath/dropout-and-droppath/</guid>
+      <guid>http://localhost:1313/notes/cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DropOut and DropPath</title>
+      <link>http://localhost:1313/python/dataprocessing/dropout-and-droppath/dropout-and-droppath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/python/dataprocessing/dropout-and-droppath/dropout-and-droppath/</guid>
       <description>Drop out和Drop path的区别与作用 # 两者的提出都是为了提</description>
       
     </item>
@@ -29,11 +39,21 @@
     </item>
     
     <item>
-      <title>读取图像并显示的几种方法</title>
-      <link>http://localhost:1313/imageprocessing/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
+      <title>TO DO LIST</title>
+      <link>http://localhost:1313/notes/to-do-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/imageprocessing/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://localhost:1313/notes/to-do-list/</guid>
+      <description>最近事情太多，心烦意乱 先记录一下需要较长时间完成（乱学）的事</description>
+      
+    </item>
+    
+    <item>
+      <title>读取图像并显示的几种方法</title>
+      <link>http://localhost:1313/python/imageprocessing/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/python/imageprocessing/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
       <description>一.读取通道为RGB # 1.PIL (Python Imaging Library) # from PIL import Image import numpy as np img = Image.open(&amp;#34;/path/image&amp;#34;) img = np.array(img)</description>
       
     </item>
