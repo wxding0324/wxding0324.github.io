@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LIST on Home</title>
+    <title>List on Home</title>
     <link>http://localhost:1313/tags/list/</link>
-    <description>Recent content in LIST on Home</description>
+    <description>Recent content in List on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer on Home</title>
+    <link>http://localhost:1313/tags/transformer/</link>
+    <description>Recent content in Transformer on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Xiiin&#39;s Blog</copyright>
+    <atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BiFormer: Vision Transformer with Bi-Level Routing Attention</title>
+      <link>http://localhost:1313/paperreading/cvpr/biformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/paperreading/cvpr/biformer/</guid>
+      <description>也算是一篇对VIT注意力机制的改进，采用两步来对token进</description>
+      
+    </item>
+    
+  </channel>
+</rss>
