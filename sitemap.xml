@@ -9,6 +9,30 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/paperreading/cvpr/biformer/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/cvpr/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/paperreading/cvpr/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/cvpr2023/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/python/imageprocessing/</loc>
     <lastmod>2024-05-08T11:25:52+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -33,6 +57,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/paperreading/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/python/</loc>
     <lastmod>2024-05-08T11:25:52+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -40,6 +70,18 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/transformer/</loc>
+    <lastmod>2024-05-08T11:25:52+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/vit/</loc>
     <lastmod>2024-05-08T11:25:52+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -56,11 +98,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/authors/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/paperreading/cvpr/biformer/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -91,21 +128,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/cnn/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/cvpr/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/paperreading/cvpr/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/cvpr2023/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -160,11 +182,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/paperreading/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tags/pooling/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -210,17 +227,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/transformer/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/paperreading/cvpr/svit/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/vit/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
