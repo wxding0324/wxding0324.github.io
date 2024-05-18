@@ -200,11 +200,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/list/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/paperreading/mia/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
