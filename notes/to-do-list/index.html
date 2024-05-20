@@ -127,6 +127,13 @@
 
 
 
+<script defer type="text/javascript" src="/js/chart.bundle.33366557078b6a50010a5a2fefa2dc17f7b88a1cb3ad45fc85697d84aa83a28402d75bf0306eb5a0a0909192d6186a6cfa68118715f5e43eb92b91b4bfa5701b.js"
+  integrity="sha512-MzZlVweLalABClov76LcF/e4ihyzrUX8hWl9hKqDooQC11vwMG61oKCQkZLWGGps&#43;mgRhxX15D65K5G0v6VwGw=="></script>
+
+
+
+
+
 
 
 
@@ -986,6 +993,50 @@
 
         <div class="article-content max-w-prose mb-20">
           
+<div class="chart">
+  <canvas id="chart-e4f9d7588599a3e05637f39aa1b8e1fa"></canvas>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", (event) => {
+      const ctx = document.getElementById("chart-e4f9d7588599a3e05637f39aa1b8e1fa");
+      const chart = new Chart(ctx, {
+        
+  type: 'radar',
+  data: data = {
+  labels: [
+    'Paper Reading',
+    'Algorithm',
+    'Running',
+  ],
+  datasets: [{
+    label: 'This Week Progress Bar',
+    data: [20, 0, 10],
+    fill: true,
+    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    borderColor: 'rgb(255, 99, 132)',
+    pointBackgroundColor: 'rgb(255, 99, 132)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(255, 99, 132)'
+  }, {
+    label: 'Target',
+    data: [60, 50, 30],
+    fill: true,
+    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+    borderColor: 'rgb(54, 162, 235)',
+    pointBackgroundColor: 'rgb(54, 162, 235)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(54, 162, 235)'
+  }
+  ]
+  }
+
+      });
+    });
+  </script>
+</div>
+
+
 
 <h2 class="relative group">本周事 
     <div id="%E6%9C%AC%E5%91%A8%E4%BA%8B" class="anchor"></div>
