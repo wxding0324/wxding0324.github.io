@@ -164,6 +164,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/python/algorithm/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/tags/attention/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -285,6 +290,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/paperreading/cvpr/svit/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/python/algorithm/%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95/algorithm/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
