@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KD on Home</title>
-    <link>http://localhost:1313/tags/kd/</link>
+    <link>https://wxding0324.github.io/tags/kd/</link>
     <description>Recent content in KD on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 18 May 2024 17:07:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/kd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 17:07:28 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/kd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discrepancy and Gradient-Guided Multi-modal Knowledge Distillation for Pathological Glioma Grading</title>
-      <link>http://localhost:1313/paperreading/miccai/dcdistill/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/dcdistill/</link>
       <pubDate>Sat, 18 May 2024 17:07:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/dcdistill/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/dcdistill/</guid>
       <description>整体概述 # 多模态的数据融合可以为网络分类提供补充信息从而获得</description>
       
     </item>

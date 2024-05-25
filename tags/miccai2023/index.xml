@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MICCAI2023 on Home</title>
-    <link>http://localhost:1313/tags/miccai2023/</link>
+    <link>https://wxding0324.github.io/tags/miccai2023/</link>
     <description>Recent content in MICCAI2023 on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <atom:link href="http://localhost:1313/tags/miccai2023/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wxding0324.github.io/tags/miccai2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A2FSeg: Adaptive Multi-Modal Fusion Network for Medical Image Segmentation</title>
-      <link>http://localhost:1313/paperreading/miccai/a2fseg/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/a2fseg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/a2fseg/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/a2fseg/</guid>
       <description>A2FSeg 是一篇关于多模态融合医学影像分割的文章。 创新点在于： 1.不</description>
       
     </item>
     
     <item>
       <title>Breast Ultrasound Tumor Classification Using a Hybrid Multitask CNN-Transformer Network</title>
-      <link>http://localhost:1313/paperreading/miccai/hybridmt-estan/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/hybridmt-estan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/hybridmt-estan/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/hybridmt-estan/</guid>
       <description>本文是结合CNN和Transformer来进行分类和分割，其</description>
       
     </item>
     
     <item>
       <title>Representation, Alignment, Fusion: A Generic Transformer-Based Framework for Multi-modal Glaucoma Recognition</title>
-      <link>http://localhost:1313/paperreading/miccai/mm-raf/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/mm-raf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/mm-raf/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/mm-raf/</guid>
       <description>是一张关于CFP和OCT多模态分类的网络，采用了传统的提特征</description>
       
     </item>

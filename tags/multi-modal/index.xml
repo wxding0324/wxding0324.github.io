@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multi-Modal on Home</title>
-    <link>http://localhost:1313/tags/multi-modal/</link>
+    <link>https://wxding0324.github.io/tags/multi-modal/</link>
     <description>Recent content in Multi-Modal on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 19 May 2024 20:08:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/multi-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 20:08:35 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/multi-modal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bi-directional Adapter for Multi-modal Tracking</title>
-      <link>http://localhost:1313/paperreading/aaai/bat/</link>
+      <link>https://wxding0324.github.io/paperreading/aaai/bat/</link>
       <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/aaai/bat/</guid>
+      <guid>https://wxding0324.github.io/paperreading/aaai/bat/</guid>
       <description>AAAI2024的一篇文章，是一篇关于模态融合的文章，设计了</description>
       
     </item>
     
     <item>
       <title>Discrepancy and Gradient-Guided Multi-modal Knowledge Distillation for Pathological Glioma Grading</title>
-      <link>http://localhost:1313/paperreading/miccai/dcdistill/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/dcdistill/</link>
       <pubDate>Sat, 18 May 2024 17:07:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/dcdistill/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/dcdistill/</guid>
       <description>整体概述 # 多模态的数据融合可以为网络分类提供补充信息从而获得</description>
       
     </item>
     
     <item>
       <title>A2FSeg: Adaptive Multi-Modal Fusion Network for Medical Image Segmentation</title>
-      <link>http://localhost:1313/paperreading/miccai/a2fseg/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/a2fseg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/a2fseg/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/a2fseg/</guid>
       <description>A2FSeg 是一篇关于多模态融合医学影像分割的文章。 创新点在于： 1.不</description>
       
     </item>
     
     <item>
       <title>Representation, Alignment, Fusion: A Generic Transformer-Based Framework for Multi-modal Glaucoma Recognition</title>
-      <link>http://localhost:1313/paperreading/miccai/mm-raf/</link>
+      <link>https://wxding0324.github.io/paperreading/miccai/mm-raf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/miccai/mm-raf/</guid>
+      <guid>https://wxding0324.github.io/paperreading/miccai/mm-raf/</guid>
       <description>是一张关于CFP和OCT多模态分类的网络，采用了传统的提特征</description>
       
     </item>
