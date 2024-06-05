@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AAAI2024 on Home</title>
-    <link>http://localhost:1313/tags/aaai2024/</link>
+    <link>https://wxding0324.github.io/tags/aaai2024/</link>
     <description>Recent content in AAAI2024 on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 19 May 2024 20:08:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/aaai2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 20:08:35 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/aaai2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bi-directional Adapter for Multi-modal Tracking</title>
-      <link>http://localhost:1313/paperreading/aaai/bat/</link>
+      <link>https://wxding0324.github.io/paperreading/aaai/bat/</link>
       <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/aaai/bat/</guid>
+      <guid>https://wxding0324.github.io/paperreading/aaai/bat/</guid>
       <description>AAAI2024的一篇文章，是一篇关于模态融合的文章，设计了</description>
       
     </item>
