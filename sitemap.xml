@@ -4,19 +4,61 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/aaai/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/paperreading/aaai/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/aaai2024/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/paperreading/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/paperreading/aaai/sharpose/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/transformer/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/vit/</loc>
+    <lastmod>2024-07-07T22:01:01+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/paperreading/aaai/lf-vit/</loc>
+    <lastmod>2024-07-07T21:45:54+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -28,30 +70,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/paperreading/aaai/cf-vit/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/paperreading/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/transformer/</loc>
-    <lastmod>2024-07-07T17:41:32+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/vit/</loc>
     <lastmod>2024-07-07T17:41:32+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -77,12 +95,6 @@
   <url>
     <loc>http://localhost:1313/python/cheetsheet/ddp/ddp/</loc>
     <lastmod>2024-06-17T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/aaai2024/</loc>
-    <lastmod>2024-06-08T20:17:07+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

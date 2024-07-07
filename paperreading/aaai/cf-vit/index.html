@@ -105,7 +105,7 @@
     "keywords": ["Transformer","AAAI","AAAI2023","ViT"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1944"
+    "wordCount": "2200"
   }]
   </script>
 
@@ -866,7 +866,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>1944 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>2200 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -1364,7 +1364,27 @@
   </figure>
 
 </p>
+<p>模型大致训练过程如下</p>
+<pre tabindex="0"><code>1. 初始化模型参数和优化器
+    - 设置图像大小、patch大小、通道数、类别数、嵌入维度等
+    - 初始化优化器，例如 Adam 或 SGD
 
+2. 开始训练循环
+    for 每一个 epoch 执行：
+        for 每一个 batch (粗粒度图像，细粒度图像，标签) 执行：
+            a. 粗粒度推理
+                - 前向传播通过粗粒度图像
+                - 计算输出和全局注意力图
+            b. 全局注意力更新
+                - 使用 EMA 更新公式：global_attention = β * prev_attention + (1-β) * current_attention
+            c. 细粒度推理
+                - 根据全局注意力选择重要区域
+                - 前向传播通过细粒度图像和重用特征
+            d. 计算损失
+                - 使用交叉熵或其他适合的损失函数
+            e. 反向传播和参数更新
+                - 调用 optimizer.step() 更新模型权重
+</code></pre>
         </div>
         
         
@@ -1406,6 +1426,26 @@
       <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
       <div class="flex justify-between pt-3">
         <span>
+          
+            <a class="flex group mr-3" href="/paperreading/aaai/lf-vit/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >LF-ViT: Reducing Spatial Redundancy in Vision Transformer for Efficient Image Recognition</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+            </a>
           
         </span>
         <span>

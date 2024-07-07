@@ -7,14 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 07 Jul 2024 17:41:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 22:01:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SHaRPose</title>
+      <link>http://localhost:1313/paperreading/aaai/sharpose/</link>
+      <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/paperreading/aaai/sharpose/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LF-ViT: Reducing Spatial Redundancy in Vision Transformer for Efficient Image Recognition</title>
+      <link>http://localhost:1313/paperreading/aaai/lf-vit/</link>
+      <pubDate>Sun, 07 Jul 2024 21:45:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/paperreading/aaai/lf-vit/</guid>
+      <description>AAAI2024的一篇文章，总体思想和CF-VIT相似，实际</description>
+      
+    </item>
+    
     <item>
       <title>CF-ViT: A General Coarse-to-Fine Method for Vision Transformer</title>
       <link>http://localhost:1313/paperreading/aaai/cf-vit/</link>
       <pubDate>Sun, 07 Jul 2024 17:41:32 +0800</pubDate>
       
       <guid>http://localhost:1313/paperreading/aaai/cf-vit/</guid>
-      <description></description>
+      <description>AAAI2023的一篇文章，为了解决ViT在处理图片时存在计</description>
       
     </item>
     
