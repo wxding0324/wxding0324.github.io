@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 17 Jun 2024 17:11:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 17:41:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CF-ViT: A General Coarse-to-Fine Method for Vision Transformer</title>
+      <link>http://localhost:1313/paperreading/aaai/cf-vit/</link>
+      <pubDate>Sun, 07 Jul 2024 17:41:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/paperreading/aaai/cf-vit/</guid>
+      <description>AAAI2023的一篇文章，为了解决ViT在处理图片时存在计</description>
+      
+    </item>
+    
     <item>
       <title>单卡多机训练</title>
       <link>http://localhost:1313/python/cheetsheet/ddp/ddp/</link>
