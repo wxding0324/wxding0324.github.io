@@ -9,12 +9,12 @@
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
     <lastBuildDate>Sun, 07 Jul 2024 22:01:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/paperreading/aaai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SHaRPose</title>
+      <title>SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation</title>
       <link>http://localhost:1313/paperreading/aaai/sharpose/</link>
       <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
       
       <guid>http://localhost:1313/paperreading/aaai/sharpose/</guid>
-      <description></description>
+      <description>AAAI2024的一篇文章，和CF-VIT和LF-VIT是相</description>
       
     </item>
     
