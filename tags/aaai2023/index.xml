@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AAAI2023 on Home</title>
-    <link>http://localhost:1313/tags/aaai2023/</link>
+    <link>https://wxding0324.github.io/tags/aaai2023/</link>
     <description>Recent content in AAAI2023 on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 07 Jul 2024 17:41:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/aaai2023/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 17:41:32 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/aaai2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CF-ViT: A General Coarse-to-Fine Method for Vision Transformer</title>
-      <link>http://localhost:1313/paperreading/aaai/cf-vit/</link>
+      <link>https://wxding0324.github.io/paperreading/aaai/cf-vit/</link>
       <pubDate>Sun, 07 Jul 2024 17:41:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/aaai/cf-vit/</guid>
+      <guid>https://wxding0324.github.io/paperreading/aaai/cf-vit/</guid>
       <description></description>
       
     </item>
