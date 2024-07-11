@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CVPR on Home</title>
-    <link>http://localhost:1313/tags/cvpr/</link>
+    <link>https://wxding0324.github.io/tags/cvpr/</link>
     <description>Recent content in CVPR on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Wed, 08 May 2024 11:25:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 11:25:52 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BiFormer: Vision Transformer with Bi-Level Routing Attention</title>
-      <link>http://localhost:1313/paperreading/cvpr/biformer/</link>
+      <link>https://wxding0324.github.io/paperreading/cvpr/biformer/</link>
       <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/cvpr/biformer/</guid>
+      <guid>https://wxding0324.github.io/paperreading/cvpr/biformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>RandAugment</title>
-      <link>http://localhost:1313/paperreading/cvpr/randaugment/</link>
+      <link>https://wxding0324.github.io/paperreading/cvpr/randaugment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/cvpr/randaugment/</guid>
+      <guid>https://wxding0324.github.io/paperreading/cvpr/randaugment/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vision Transformer with Super Token Sampling</title>
-      <link>http://localhost:1313/paperreading/cvpr/svit/</link>
+      <link>https://wxding0324.github.io/paperreading/cvpr/svit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/paperreading/cvpr/svit/</guid>
+      <guid>https://wxding0324.github.io/paperreading/cvpr/svit/</guid>
       <description></description>
       
     </item>
