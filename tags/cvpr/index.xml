@@ -14,7 +14,7 @@
       <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
       
       <guid>http://localhost:1313/paperreading/cvpr/biformer/</guid>
-      <description>也算是一篇对VIT注意力机制的改进，采用两步来对token进</description>
+      <description></description>
       
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/paperreading/cvpr/randaugment/</guid>
-      <description>randaugment就是每次batch加载的时候都采用随机</description>
+      <description></description>
       
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/paperreading/cvpr/svit/</guid>
-      <description>对VIT的中的注意力机制进行魔改，没有采用先打成固定patc</description>
+      <description></description>
       
     </item>
     

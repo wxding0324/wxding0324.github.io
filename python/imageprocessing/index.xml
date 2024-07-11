@@ -14,7 +14,7 @@
       <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
       
       <guid>http://localhost:1313/python/imageprocessing/nii.gz%E5%9B%BE%E5%83%8F%E7%9A%84%E8%AF%BB%E5%8F%96%E4%B8%8E%E6%98%BE%E7%A4%BA%E8%B5%B0%E8%BF%87%E7%9A%84%E5%9D%91/nii.gz%E5%9B%BE%E5%83%8F%E7%9A%84%E8%AF%BB%E5%8F%96%E4%B8%8E%E6%98%BE%E7%A4%BA%E8%B5%B0%E8%BF%87%E7%9A%84%E5%9D%91/</guid>
-      <description>均使用plt库进行显示 使用nibabel和MONAI库 # ni</description>
+      <description></description>
       
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/python/imageprocessing/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA/%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F%E5%B9%B6%E6%98%BE%E7%A4%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
-      <description>一.读取通道为RGB # 1.PIL (Python Imaging Library) # from PIL import Image import numpy as np img = Image.open(&amp;#34;/path/image&amp;#34;) img = np.array(img)</description>
+      <description></description>
       
     </item>
     
