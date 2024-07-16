@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Transformer on Home</title>
+    <title>Transformer on Xiiin&#39;s Blog</title>
     <link>http://localhost:1313/tags/transformer/</link>
-    <description>Recent content in Transformer on Home</description>
+    <description>Recent content in Transformer on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Xiiin&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 07 Jul 2024 22:01:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation</title>
-      <link>http://localhost:1313/paperreading/aaai/sharpose/</link>
-      <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
-      
-      <guid>http://localhost:1313/paperreading/aaai/sharpose/</guid>
-      <description></description>
-      
-    </item>
-    
+    <copyright>© 2024 Xiiin</copyright>
+    <lastBuildDate>Sun, 07 Jul 2024 21:45:54 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LF-ViT: Reducing Spatial Redundancy in Vision Transformer for Efficient Image Recognition</title>
       <link>http://localhost:1313/paperreading/aaai/lf-vit/</link>
