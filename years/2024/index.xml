@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/years/2024/</link>
+    <link>http://localhost:1313/years/2024/</link>
     <description>Recent content in 2024 on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 11:12:12 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 11:12:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/years/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ZIPFORMER: A FASTER AND BETTER ENCODER FOR AUTOMATIC SPEECH RECOGNITION</title>
-      <link>https://wxding0324.github.io/paperreading/iclr/zipformer/</link>
+      <link>http://localhost:1313/paperreading/iclr/zipformer/</link>
       <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/iclr/zipformer/</guid>
+      <guid>http://localhost:1313/paperreading/iclr/zipformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation</title>
-      <link>https://wxding0324.github.io/paperreading/aaai/sharpose/</link>
+      <link>http://localhost:1313/paperreading/aaai/sharpose/</link>
       <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/aaai/sharpose/</guid>
+      <guid>http://localhost:1313/paperreading/aaai/sharpose/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LF-ViT: Reducing Spatial Redundancy in Vision Transformer for Efficient Image Recognition</title>
-      <link>https://wxding0324.github.io/paperreading/aaai/lf-vit/</link>
+      <link>http://localhost:1313/paperreading/aaai/lf-vit/</link>
       <pubDate>Sun, 07 Jul 2024 21:45:54 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/aaai/lf-vit/</guid>
+      <guid>http://localhost:1313/paperreading/aaai/lf-vit/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DTMFormer: Dynamic Token Merging for Boosting Transformer-Based Medical Image Segmentationer</title>
-      <link>https://wxding0324.github.io/paperreading/aaai/dtmformer/</link>
+      <link>http://localhost:1313/paperreading/aaai/dtmformer/</link>
       <pubDate>Sat, 08 Jun 2024 20:17:07 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/aaai/dtmformer/</guid>
+      <guid>http://localhost:1313/paperreading/aaai/dtmformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bi-directional Adapter for Multi-modal Tracking</title>
-      <link>https://wxding0324.github.io/paperreading/aaai/bat/</link>
+      <link>http://localhost:1313/paperreading/aaai/bat/</link>
       <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/aaai/bat/</guid>
+      <guid>http://localhost:1313/paperreading/aaai/bat/</guid>
       <description></description>
       
     </item>
