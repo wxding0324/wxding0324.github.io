@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="ViT, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/paperreading/nips/dynamicvit/" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/nips/dynamicvit/" />
   
   
   
@@ -63,7 +63,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/paperreading/nips/dynamicvit/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/nips/dynamicvit/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
   <meta property="og:title" content="DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification">
   <meta property="og:locale" content="en">
@@ -87,7 +87,7 @@
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/paperreading\/nips\/dynamicvit\/",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/nips\/dynamicvit\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
@@ -101,7 +101,7 @@
     "keywords": ["ViT"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "172"
   }]
   </script>
 
@@ -852,7 +852,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -871,7 +875,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  
+  <span>172 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -1009,7 +1013,23 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>2022的NIPS，关于Token Sparsification的一篇文章，目的是为了模型加速，其思想和方法都比较简单。</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031434316.png" alt="image-20240903143450165" />
+    
+  </figure>
+
+</p>
+<p>就是训练一个判别器去进行token的选择，留下重要的，直接删掉不重要的。</p>
+<p>但这有两个问题：</p>
+<p>1.直接删掉会使得网络漏掉一些信息</p>
+<p>2.这个判别器P怎么样才能在网络中训练，也就是说怎么样可以使得它也反向传播，更新参数，实现端到端的训练。</p>
+
         </div>
         
         
@@ -1085,7 +1105,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
@@ -1145,7 +1171,7 @@
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://wxding0324.github.io/"
   style="z-index:500"
 >
   <div

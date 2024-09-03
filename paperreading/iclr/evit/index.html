@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="ViT, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/paperreading/iclr/evit/" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/iclr/evit/" />
   
   
   
@@ -63,7 +63,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/paperreading/iclr/evit/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/iclr/evit/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
   <meta property="og:title" content="NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS">
   <meta property="og:locale" content="en">
@@ -87,7 +87,7 @@
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/paperreading\/iclr\/evit\/",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/iclr\/evit\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
@@ -101,7 +101,7 @@
     "keywords": ["ViT"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "362"
   }]
   </script>
 
@@ -852,7 +852,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -871,7 +875,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  
+  <span>362 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -1009,7 +1013,68 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>2022的ICLR，想要降低ViT的网络复杂度的文章。</p>
+<p>动机如图所示，将一些背景mask掉，ViT可以正确分类；mask掉主体，ViT则不可以正确识别。因此一些杂乱的背景对网络准确识别的贡献较小，可以在网络训练中进行删除或者融合。</p>
+<p>作者实验发现，直接删除会较大影响网络性能，因此选择了一种融合的策略来应对这些不重要的token。</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031444057.png" alt="image-20240903144445924" />
+    
+  </figure>
+
+</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031447389.png" alt="image-20240903144748334" />
+    
+  </figure>
+
+</p>
+<p>下图为本文的方法，ViT在自己自注意力计算的时候会得到一个token与其它token的softmax分数，该分数可以视为token的重要性权重。</p>
+<p>在进行分类的时候，只使用cls token，因此其系数（softmax分数）可以视作其它token的权重，系数越大则该token越重要。</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031449962.png" alt="image-20240903144909927" />
+    
+  </figure>
+
+</p>
+<p>因此，就可以想到使用topk算法来筛选出最重要的token进行保留，其不重要的token则可以使用下面的公式进行加权融合。</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031453793.png" alt="image-20240903145315763" />
+    
+  </figure>
+
+</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202409031444400.png" alt="image-20240903144455272" />
+    
+  </figure>
+
+</p>
+
         </div>
         
         
@@ -1085,7 +1150,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
@@ -1145,7 +1216,7 @@
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://wxding0324.github.io/"
   style="z-index:500"
 >
   <div

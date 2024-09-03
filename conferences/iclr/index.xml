@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ICLR on Xiiin&#39;s Blog</title>
-    <link>http://localhost:1313/conferences/iclr/</link>
+    <link>https://wxding0324.github.io/conferences/iclr/</link>
     <description>Recent content in ICLR on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 11:12:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/conferences/iclr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 11:12:12 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/iclr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ZIPFORMER: A FASTER AND BETTER ENCODER FOR AUTOMATIC SPEECH RECOGNITION</title>
-      <link>http://localhost:1313/paperreading/iclr/zipformer/</link>
+      <link>https://wxding0324.github.io/paperreading/iclr/zipformer/</link>
       <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/iclr/zipformer/</guid>
+      <guid>https://wxding0324.github.io/paperreading/iclr/zipformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS</title>
-      <link>http://localhost:1313/paperreading/iclr/evit/</link>
+      <link>https://wxding0324.github.io/paperreading/iclr/evit/</link>
       <pubDate>Tue, 23 Jul 2024 10:32:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/iclr/evit/</guid>
+      <guid>https://wxding0324.github.io/paperreading/iclr/evit/</guid>
       <description></description>
       
     </item>
