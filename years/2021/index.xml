@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2021 on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/years/2021/</link>
+    <link>http://localhost:1313/years/2021/</link>
     <description>Recent content in 2021 on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 10:22:46 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 10:22:46 +0800</lastBuildDate><atom:link href="http://localhost:1313/years/2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All Tokens Matter: Token Labeling for Training Better Vision Transformers</title>
-      <link>https://wxding0324.github.io/paperreading/nips/lv-vit/</link>
+      <link>http://localhost:1313/paperreading/nips/lv-vit/</link>
       <pubDate>Tue, 23 Jul 2024 10:22:46 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/nips/lv-vit/</guid>
+      <guid>http://localhost:1313/paperreading/nips/lv-vit/</guid>
       <description></description>
       
     </item>

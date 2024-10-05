@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Years on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/years/</link>
+    <link>http://localhost:1313/years/</link>
     <description>Recent content in Years on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 12:29:30 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 12:29:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/years/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023</title>
-      <link>https://wxding0324.github.io/years/2023/</link>
+      <link>http://localhost:1313/years/2023/</link>
       <pubDate>Sun, 29 Sep 2024 12:29:30 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/years/2023/</guid>
+      <guid>http://localhost:1313/years/2023/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>2024</title>
-      <link>https://wxding0324.github.io/years/2024/</link>
+      <link>http://localhost:1313/years/2024/</link>
       <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/years/2024/</guid>
+      <guid>http://localhost:1313/years/2024/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>2022</title>
-      <link>https://wxding0324.github.io/years/2022/</link>
+      <link>http://localhost:1313/years/2022/</link>
       <pubDate>Tue, 23 Jul 2024 10:32:27 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/years/2022/</guid>
+      <guid>http://localhost:1313/years/2022/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>2021</title>
-      <link>https://wxding0324.github.io/years/2021/</link>
+      <link>http://localhost:1313/years/2021/</link>
       <pubDate>Tue, 23 Jul 2024 10:22:46 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/years/2021/</guid>
+      <guid>http://localhost:1313/years/2021/</guid>
       <description></description>
       
     </item>
