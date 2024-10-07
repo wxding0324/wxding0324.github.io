@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/python/algorithm/hot100/hot100/" />
+  <link rel="canonical" href="https://wxding0324.github.io/python/algorithm/hot100/hot100/" />
   
   
   
@@ -63,7 +63,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/python/algorithm/hot100/hot100/">
+  <meta property="og:url" content="https://wxding0324.github.io/python/algorithm/hot100/hot100/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
   <meta property="og:title" content="力扣Hot100">
   <meta property="og:locale" content="en">
@@ -84,7 +84,7 @@
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/python\/algorithm\/hot100\/hot100\/",
+    "url" : "https:\/\/wxding0324.github.io\/python\/algorithm\/hot100\/hot100\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
@@ -98,7 +98,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "905"
+    "wordCount": "1433"
   }]
   </script>
 
@@ -872,7 +872,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>905 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>1433 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -996,7 +996,7 @@
       <ul>
         <li><a href="#移动零">移动零</a></li>
         <li><a href="#盛最多水的容器">盛最多水的容器</a></li>
-        <li><a href="#三数和">三数和</a></li>
+        <li><a href="#三数之和">三数之和</a></li>
         <li><a href="#接雨水">接雨水</a></li>
       </ul>
     </li>
@@ -1025,7 +1025,7 @@
       <ul>
         <li><a href="#移动零">移动零</a></li>
         <li><a href="#盛最多水的容器">盛最多水的容器</a></li>
-        <li><a href="#三数和">三数和</a></li>
+        <li><a href="#三数之和">三数之和</a></li>
         <li><a href="#接雨水">接雨水</a></li>
       </ul>
     </li>
@@ -1241,18 +1241,73 @@
 </h3>
 <p><a href="https://leetcode.cn/problems/container-with-most-water"   target="_blank">
     链接</a></p>
+<p>贪心算法和双指针的一题，通过定义左右指针指向左边，去不断寻求该区间的最大值，从而得到全局最优解。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">maxArea</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">right</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">height</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">height</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">height</span><span class="p">[</span><span class="n">left</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">height</span><span class="p">[</span><span class="n">right</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">result</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="p">(</span><span class="n">right</span><span class="o">-</span><span class="n">left</span><span class="p">)</span><span class="o">*</span><span class="n">height</span><span class="p">[</span><span class="n">left</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                <span class="n">left</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">result</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="p">(</span><span class="n">right</span><span class="o">-</span><span class="n">left</span><span class="p">)</span><span class="o">*</span><span class="n">height</span><span class="p">[</span><span class="n">right</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span>
+</span></span><span class="line"><span class="cl">            
+</span></span></code></pre></div>
 
-
-<h3 class="relative group">三数和 
-    <div id="%E4%B8%89%E6%95%B0%E5%92%8C" class="anchor"></div>
+<h3 class="relative group">三数之和 
+    <div id="%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%89%E6%95%B0%E5%92%8C" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p><a href="https://leetcode.cn/problems/3sum"   target="_blank">
+    链接</a></p>
+<p>和二数之和不一样，二数之和是用hashmap来存储已经遍历的数据，从而降低计算复杂度。但三数之和需要进行去重处理，hashmap不能方便地进行处理，因此考虑使用双指针进行求解。</p>
+<p>双指针法通过对数组排序，配合双指针遍历，能够在 O(n^2) 的时间复杂度下有效地找到所有符合条件的三元组。</p>
+<ol>
+<li>
+<p>先对数组进行排序。</p>
+</li>
+<li>
+<p>对于每个固定的数 <code>nums[i]</code>，用两个指针分别指向剩余数组的开头和末尾（即 <code>left</code> 和 <code>right</code>），通过检查三数之和来决定指针的移动。</p>
+</li>
+<li>
+<p>如果三数之和大于 0，说明右边的数太大，移动右指针向左。如果三数之和小于 0，说明左边的数太小，移动左指针向右。如果三数之和等于 0，记录这个三元组，并继续移动两个指针（跳过重复元素），确保不会有重复解。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">threeSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nums</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">            <span class="n">left</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">right</span> <span class="o">=</span> <span class="n">length</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span><span class="o">+</span><span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">left</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                <span class="k">elif</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span><span class="o">+</span><span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">],</span><span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">while</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">length</span> <span class="o">-</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span> <span class="o">==</span> <span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="o">+</span><span class="mi">1</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">left</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">while</span> <span class="n">right</span> <span class="o">&gt;</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">==</span> <span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span> 
+</span></span><span class="line"><span class="cl">                    <span class="n">left</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span>
+</span></span></code></pre></div><p>其实就是先选定一个元素（即遍历时用i表示），然后用两个指针去不断逼近答案。</p>
+</li>
+</ol>
 
 
 <h3 class="relative group">接雨水 
@@ -1381,7 +1436,7 @@
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://wxding0324.github.io/"
   style="z-index:500"
 >
   <div

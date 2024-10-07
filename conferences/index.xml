@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conferences on Xiiin&#39;s Blog</title>
-    <link>http://localhost:1313/conferences/</link>
+    <link>https://wxding0324.github.io/conferences/</link>
     <description>Recent content in Conferences on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 12:29:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 12:29:30 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVPR</title>
-      <link>http://localhost:1313/conferences/cvpr/</link>
+      <link>https://wxding0324.github.io/conferences/cvpr/</link>
       <pubDate>Sun, 29 Sep 2024 12:29:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/conferences/cvpr/</guid>
+      <guid>https://wxding0324.github.io/conferences/cvpr/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>ICLR</title>
-      <link>http://localhost:1313/conferences/iclr/</link>
+      <link>https://wxding0324.github.io/conferences/iclr/</link>
       <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/conferences/iclr/</guid>
+      <guid>https://wxding0324.github.io/conferences/iclr/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>NIPS</title>
-      <link>http://localhost:1313/conferences/nips/</link>
+      <link>https://wxding0324.github.io/conferences/nips/</link>
       <pubDate>Tue, 23 Jul 2024 10:24:29 +0800</pubDate>
       
-      <guid>http://localhost:1313/conferences/nips/</guid>
+      <guid>https://wxding0324.github.io/conferences/nips/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AAAI</title>
-      <link>http://localhost:1313/conferences/aaai/</link>
+      <link>https://wxding0324.github.io/conferences/aaai/</link>
       <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
       
-      <guid>http://localhost:1313/conferences/aaai/</guid>
+      <guid>https://wxding0324.github.io/conferences/aaai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MICCAI</title>
-      <link>http://localhost:1313/conferences/miccai/</link>
+      <link>https://wxding0324.github.io/conferences/miccai/</link>
       <pubDate>Sat, 18 May 2024 17:07:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/conferences/miccai/</guid>
+      <guid>https://wxding0324.github.io/conferences/miccai/</guid>
       <description></description>
       
     </item>

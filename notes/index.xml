@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Xiiin&#39;s Blog</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://wxding0324.github.io/notes/</link>
     <description>Recent content in Notes on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 16 Jul 2024 10:05:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 10:05:43 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>癫痫调研</title>
-      <link>http://localhost:1313/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</link>
+      <link>https://wxding0324.github.io/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</link>
       <pubDate>Tue, 16 Jul 2024 10:05:43 +0800</pubDate>
       
-      <guid>http://localhost:1313/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</guid>
+      <guid>https://wxding0324.github.io/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>CLI</title>
-      <link>http://localhost:1313/notes/cli/</link>
+      <link>https://wxding0324.github.io/notes/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/cli/</guid>
+      <guid>https://wxding0324.github.io/notes/cli/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>TO DO LIST</title>
-      <link>http://localhost:1313/notes/to-do-list/</link>
+      <link>https://wxding0324.github.io/notes/to-do-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/to-do-list/</guid>
+      <guid>https://wxding0324.github.io/notes/to-do-list/</guid>
       <description></description>
       
     </item>
