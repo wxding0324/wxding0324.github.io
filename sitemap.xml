@@ -4,7 +4,25 @@
 
   <url>
     <loc>https://wxding0324.github.io/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
+    <lastmod>2024-10-12T02:32:25+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/cheetsheet/</loc>
+    <lastmod>2024-10-12T02:32:25+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</loc>
+    <lastmod>2024-10-12T02:32:25+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/</loc>
+    <lastmod>2024-10-12T02:32:25+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -177,19 +195,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/python/cheetsheet/</loc>
-    <lastmod>2024-06-17T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/tags/ddp/</loc>
-    <lastmod>2024-06-17T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/python/</loc>
     <lastmod>2024-06-17T17:11:08+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
