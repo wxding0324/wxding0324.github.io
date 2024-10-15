@@ -403,6 +403,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wxding0324.github.io/paperreading/ijcai/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wxding0324.github.io/paperreading/mia/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
