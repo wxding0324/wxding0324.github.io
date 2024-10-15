@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TrainStrategy on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/trainstrategy/</link>
+    <description>Recent content in TrainStrategy on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Xiiin</copyright>
+    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/trainstrategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
+      <link>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
+      <pubDate>Tue, 15 Oct 2024 16:29:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

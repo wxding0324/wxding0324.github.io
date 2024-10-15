@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 11:12:12 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
+      <link>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
+      <pubDate>Tue, 15 Oct 2024 16:29:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>ZIPFORMER: A FASTER AND BETTER ENCODER FOR AUTOMATIC SPEECH RECOGNITION</title>
       <link>https://wxding0324.github.io/paperreading/iclr/zipformer/</link>

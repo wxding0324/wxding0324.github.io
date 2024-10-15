@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sat, 12 Oct 2024 02:32:25 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
+      <link>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
+      <pubDate>Tue, 15 Oct 2024 16:29:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GhostNetV2: Enhance Cheap Operation with Long-Range Attention</title>
+      <link>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</link>
+      <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GhostNet: More Features from Cheap Operations</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</link>
+      <pubDate>Tue, 15 Oct 2024 16:15:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>linux进程守护,避免终端意外关闭程序中断</title>
       <link>https://wxding0324.github.io/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</link>

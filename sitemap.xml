@@ -4,7 +4,127 @@
 
   <url>
     <loc>https://wxding0324.github.io/</loc>
-    <lastmod>2024-10-12T02:32:25+08:00</lastmod>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/2024/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/arxiv/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/arxiv/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/trainstrategy/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/</loc>
+    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/2022/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/cnn/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/lightweight/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/nips/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/nips/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/vit/</loc>
+    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/2020/</loc>
+    <lastmod>2024-10-15T16:15:36+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/cvpr/</loc>
+    <lastmod>2024-10-15T16:15:36+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/cvpr/</loc>
+    <lastmod>2024-10-15T16:15:36+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</loc>
+    <lastmod>2024-10-15T16:15:36+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,56 +153,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/cnn/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/conferences/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/conferences/cvpr/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/cvpr/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/cvpr/fastercnn/</loc>
     <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/years/</loc>
-    <lastmod>2024-09-29T12:29:30+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/years/2024/</loc>
-    <lastmod>2024-07-23T11:12:12+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -99,20 +171,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/vit/</loc>
-    <lastmod>2024-07-23T11:12:12+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/iclr/zipformer/</loc>
     <lastmod>2024-07-23T11:12:12+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/years/2022/</loc>
-    <lastmod>2024-07-23T10:32:27+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -124,18 +184,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/nips/dynamicvit/</loc>
-    <lastmod>2024-07-23T10:24:29+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/conferences/nips/</loc>
-    <lastmod>2024-07-23T10:24:29+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/nips/</loc>
     <lastmod>2024-07-23T10:24:29+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
