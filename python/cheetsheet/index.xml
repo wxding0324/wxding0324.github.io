@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheet Sheets on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/python/cheetsheet/</link>
+    <link>http://localhost:1313/python/cheetsheet/</link>
     <description>Recent content in Cheet Sheets on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sat, 12 Oct 2024 02:32:25 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/python/cheetsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Oct 2024 02:32:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/python/cheetsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux进程守护,避免终端意外关闭程序中断</title>
-      <link>https://wxding0324.github.io/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</link>
+      <link>http://localhost:1313/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Sat, 12 Oct 2024 02:32:25 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/python/cheetsheet/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>单卡多机训练</title>
-      <link>https://wxding0324.github.io/python/cheetsheet/ddp/ddp/</link>
+      <link>http://localhost:1313/python/cheetsheet/ddp/ddp/</link>
       <pubDate>Mon, 17 Jun 2024 17:11:08 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/python/cheetsheet/ddp/ddp/</guid>
+      <guid>http://localhost:1313/python/cheetsheet/ddp/ddp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>校园网防断连（仅限suda，其它学校如果是网页验证登录也可以</title>
-      <link>https://wxding0324.github.io/python/cheetsheet/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</link>
+      <link>http://localhost:1313/python/cheetsheet/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</link>
       <pubDate>Sat, 11 May 2024 17:39:25 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/python/cheetsheet/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</guid>
+      <guid>http://localhost:1313/python/cheetsheet/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</guid>
       <description></description>
       
     </item>

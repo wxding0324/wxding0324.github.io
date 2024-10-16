@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CVPR on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/paperreading/cvpr/</link>
+    <link>http://localhost:1313/paperreading/cvpr/</link>
     <description>Recent content in CVPR on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 16:15:36 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/paperreading/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 16:15:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/paperreading/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GhostNet: More Features from Cheap Operations</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</link>
+      <link>http://localhost:1313/paperreading/cvpr/ghostnet/</link>
       <pubDate>Tue, 15 Oct 2024 16:15:36 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/ghostnet/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/fastercnn/</link>
+      <link>http://localhost:1313/paperreading/cvpr/fastercnn/</link>
       <pubDate>Sun, 29 Sep 2024 12:29:30 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/fastercnn/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/fastercnn/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>BiFormer: Vision Transformer with Bi-Level Routing Attention</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/biformer/</link>
+      <link>http://localhost:1313/paperreading/cvpr/biformer/</link>
       <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/biformer/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/biformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/untitled/</link>
+      <link>http://localhost:1313/paperreading/cvpr/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/untitled/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/untitled/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>RandAugment</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/randaugment/</link>
+      <link>http://localhost:1313/paperreading/cvpr/randaugment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/randaugment/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/randaugment/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vision Transformer with Super Token Sampling</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/svit/</link>
+      <link>http://localhost:1313/paperreading/cvpr/svit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/svit/</guid>
+      <guid>http://localhost:1313/paperreading/cvpr/svit/</guid>
       <description></description>
       
     </item>
