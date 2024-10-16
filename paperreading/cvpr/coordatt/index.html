@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>DropOut and DropPath &middot; Xiiin&#39;s Blog</title>
-  <meta name="title" content="DropOut and DropPath &middot; Xiiin&#39;s Blog" />
+  <title>Coordinate Attention for Efficient Mobile Network Design &middot; Xiiin&#39;s Blog</title>
+  <meta name="title" content="Coordinate Attention for Efficient Mobile Network Design &middot; Xiiin&#39;s Blog" />
   
   
-  <meta name="keywords" content="Python, DataAugment, " />
+  <meta name="keywords" content="CNN, Attention, " />
   
   
-  <link rel="canonical" href="https://wxding0324.github.io/python/dataprocessing/dropout-and-droppath/dropout-and-droppath/" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/cvpr/coordatt/" />
   
   
   
@@ -63,16 +63,18 @@
   
   
   
-  <meta property="og:url" content="https://wxding0324.github.io/python/dataprocessing/dropout-and-droppath/dropout-and-droppath/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/cvpr/coordatt/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
-  <meta property="og:title" content="DropOut and DropPath">
+  <meta property="og:title" content="Coordinate Attention for Efficient Mobile Network Design">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="python">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="DataAugment">
+    <meta property="article:section" content="paperreading">
+    <meta property="article:published_time" content="2024-10-16T21:02:31+08:00">
+    <meta property="article:modified_time" content="2024-10-16T21:02:31+08:00">
+    <meta property="article:tag" content="CNN">
+    <meta property="article:tag" content="Attention">
 
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="DropOut and DropPath">
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coordinate Attention for Efficient Mobile Network Design">
 <meta name="twitter:description" content="">
 
   
@@ -80,27 +82,27 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Python",
-    "name": "DropOut and DropPath",
-    "headline": "DropOut and DropPath",
+    "articleSection": "Paper Reading",
+    "name": "Coordinate Attention for Efficient Mobile Network Design",
+    "headline": "Coordinate Attention for Efficient Mobile Network Design",
     
     
     "inLanguage": "en",
-    "url" : "https:\/\/wxding0324.github.io\/python\/dataprocessing\/dropout-and-droppath\/dropout-and-droppath\/",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/cvpr\/coordatt\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
     },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-10-16T21:02:31\u002b08:00",
+    "datePublished": "2024-10-16T21:02:31\u002b08:00",
     
+    "dateModified": "2024-10-16T21:02:31\u002b08:00",
     
-    
-    
-    
-    
-    "keywords": ["Python","DataAugment"],
+    "keywords": ["CNN","Attention"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "351"
+    "wordCount": "392"
   }]
   </script>
 
@@ -801,8 +803,8 @@
   <li class="inline ">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/python/"
-      >Python</a
+      href="/paperreading/"
+      >Paper Reading</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -810,8 +812,8 @@
   <li class="inline ">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/python/dataprocessing/"
-      >Data Processing</a
+      href="/paperreading/cvpr/"
+      >CVPR</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -819,8 +821,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/python/dataprocessing/dropout-and-droppath/dropout-and-droppath/"
-      >DropOut and DropPath</a
+      href="/paperreading/cvpr/coordatt/"
+      >Coordinate Attention for Efficient Mobile Network Design</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -829,7 +831,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      DropOut and DropPath
+      Coordinate Attention for Efficient Mobile Network Design
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -874,7 +876,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>351 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>392 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -935,24 +937,10 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/conferences/cvpr/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Python
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dataaugment/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    DataAugment
+    CVPR
   </span>
 </span>
   </span>
@@ -960,6 +948,40 @@
   
   
   
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cnn/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    CNN
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/attention/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Attention
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/years/2021/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2021
+  </span>
+</span>
+  </span>
   
   
   
@@ -1000,39 +1022,80 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>常用的SENet将空间信息压缩成了1x1，这会导致位置信息被严重忽略并且网络的全局特征提取能力也比较有限，CBAM也是如此。因此作者就想要实现一个模块可以实现捕获远程空间信息依赖性的同时具有精确的位置信息。
 
-<h1 class="relative group">Drop out和Drop path的区别与作用 
-    <div id="drop-out%E5%92%8Cdrop-path%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E4%BD%9C%E7%94%A8" class="anchor"></div>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202410162104447.png" alt="image-20241016210430384" />
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#drop-out%E5%92%8Cdrop-path%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E4%BD%9C%E7%94%A8" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-<p>两者的提出都是为了提升网络性能，提升网络泛化性，防止网络出现过拟合等情况而使用的一种正则化的方法。</p>
-<p>其区别在于drop out 是使得一些网络神经元进行失活，常用于全连接层。而drop path常用于resnet等并行连接的网络中，使得其中一条网络路径完全失活，以resnet举例，就是只保留残差连接，而主路径的输入为0，即失活，此时Xi+1 = Xi。</p>
-<p>下面为代码示例：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">drop_path</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">drop_prob</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.</span><span class="p">,</span> <span class="n">training</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">drop_prob</span> <span class="o">==</span> <span class="mf">0.</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">training</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">x</span>
-</span></span><span class="line"><span class="cl">    <span class="n">keep_prob</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">drop_prob</span>
-</span></span><span class="line"><span class="cl">    <span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span><span class="p">,)</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ndim</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>  <span class="c1"># work with diff dim tensors, not just 2D ConvNets</span>
-</span></span><span class="line"><span class="cl">    <span class="n">random_tensor</span> <span class="o">=</span> <span class="n">keep_prob</span> <span class="o">+</span> <span class="n">torch</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="n">shape</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">x</span><span class="o">.</span><span class="n">dtype</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">x</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">random_tensor</span><span class="o">.</span><span class="n">floor_</span><span class="p">()</span>  <span class="c1"># binarize</span>
-</span></span><span class="line"><span class="cl">    <span class="n">output</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">div</span><span class="p">(</span><span class="n">keep_prob</span><span class="p">)</span> <span class="o">*</span> <span class="n">random_tensor</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">output</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">output</span> <span class="o">=</span> <span class="n">drop_path</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">drop_prob</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">training</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">output</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-</span></span></code></pre></div><p>由代码示例可知，drop out失活了部分神经元，使其输入部分为0，输出自然也为0；而drop path使得一整个输入为0，即失活一整条神经路径。</p>
+  </figure>
+
+</p>
+<p>方法其实很简单，就是沿着高度和宽度方向分别进行池化（和GhostNetV2的想法非常非常类似），然后进行Concat，从而获得全局信息。</p>
+<p>直接看代码就行</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">h_sigmoid</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">h_sigmoid</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">relu</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">ReLU6</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="n">inplace</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">/</span> <span class="mi">6</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">h_swish</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">h_swish</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid</span> <span class="o">=</span> <span class="n">h_sigmoid</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="n">inplace</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">CoordAtt</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inp</span><span class="p">,</span> <span class="n">oup</span><span class="p">,</span> <span class="n">reduction</span><span class="o">=</span><span class="mi">32</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">CoordAtt</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">pool_h</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AdaptiveAvgPool2d</span><span class="p">((</span><span class="kc">None</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">pool_w</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AdaptiveAvgPool2d</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">mip</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="n">inp</span> <span class="o">//</span> <span class="n">reduction</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">inp</span><span class="p">,</span> <span class="n">mip</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">bn1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="n">mip</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">act</span> <span class="o">=</span> <span class="n">h_swish</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv_h</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">mip</span><span class="p">,</span> <span class="n">oup</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv_w</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">mip</span><span class="p">,</span> <span class="n">oup</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">identity</span> <span class="o">=</span> <span class="n">x</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">n</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">h</span><span class="p">,</span><span class="n">w</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pool_h</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_w</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pool_w</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">permute</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">y</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">x_h</span><span class="p">,</span> <span class="n">x_w</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">conv1</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">bn1</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">act</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">x_h</span><span class="p">,</span> <span class="n">x_w</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="p">[</span><span class="n">h</span><span class="p">,</span> <span class="n">w</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_w</span> <span class="o">=</span> <span class="n">x_w</span><span class="o">.</span><span class="n">permute</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">a_h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">conv_h</span><span class="p">(</span><span class="n">x_h</span><span class="p">)</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">a_w</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">conv_w</span><span class="p">(</span><span class="n">x_w</span><span class="p">)</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">out</span> <span class="o">=</span> <span class="n">identity</span> <span class="o">*</span> <span class="n">a_w</span> <span class="o">*</span> <span class="n">a_h</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">out</span>
+</span></span></code></pre></div><p>文章Readme指出</p>
+<ul>
+<li>SiLU activation (h_swish in the code) works better than ReLU6</li>
+<li>Either horizontal or vertical direction attention performs the same to the SE attention</li>
+<li>When applied to MobileNeXt, adding the attention block after the first depthwise 3x3 convolution works better</li>
+<li>Note sure whether the results would be better if a softmax is applied between the horizontal and vertical features</li>
+</ul>
 
         </div>
         
@@ -1052,8 +1115,8 @@
           
         
       <script>
-        var oid = "views_Python\\DataProcessing\\DropOut and DropPath\\DropOut and DropPath.md"
-        var oid_likes = "likes_Python\\DataProcessing\\DropOut and DropPath\\DropOut and DropPath.md"
+        var oid = "views_PaperReading\\CVPR\\CoordAtt\\index.md"
+        var oid_likes = "likes_PaperReading\\CVPR\\CoordAtt\\index.md"
       </script>
       
       
@@ -1076,28 +1139,28 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/python/dataprocessing/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/paperreading/cvpr/ghostnet/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >BN和LN的区别与对比</span
+                  >GhostNet: More Features from Cheap Operations</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
                 </span>
               </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
             </a>
-          
-        </span>
-        <span>
           
         </span>
       </div>

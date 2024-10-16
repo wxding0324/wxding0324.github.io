@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="CNN, LightWeight, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/paperreading/ijcai/spconv/" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/ijcai/spconv/" />
   
   
   
@@ -63,7 +63,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/paperreading/ijcai/spconv/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/ijcai/spconv/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
   <meta property="og:title" content="Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution">
   <meta property="og:locale" content="en">
@@ -88,7 +88,7 @@
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/paperreading\/ijcai\/spconv\/",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/ijcai\/spconv\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
@@ -102,7 +102,7 @@
     "keywords": ["CNN","LightWeight"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "524"
+    "wordCount": "723"
   }]
   </script>
 
@@ -876,7 +876,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>524 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>723 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -1052,10 +1052,72 @@
 <p>如图所示，是一个即插即用的模块，可以用于替换其它网络结构中的<code>3X3</code>卷积。</p>
 <p>具体如下，</p>
 <ul>
-<li>将特征$C_i$按比例$\alpha$分为两部分，上部分称为<strong>Representative</strong>，下半部分称为<strong>Redundant</strong>；</li>
-<li>对Representative分别进行组卷积和点卷积提取特征然后进行<code>add</code>，组卷积降低计算量，点卷积提高通道信息交互；Redundant直接进行<code>1x1</code>的点卷积；</li>
-<li>接着使用类似于门控机制的特征融合模块对特征进行融合从而得到输出，但此处特点是没有使用卷积进一步提取特征，而是直接全局池化接<code>Softmax</code></li>
+<li>
+<p>将特征$C_i$按比例$\alpha$分为两部分，上部分称为<strong>Representative</strong>，下半部分称为<strong>Redundant</strong>；</p>
+</li>
+<li>
+<p>对Representative分别进行组卷积和点卷积提取特征然后进行<code>add</code>，组卷积降低计算量，点卷积提高通道信息交互；Redundant直接进行<code>1x1</code>的点卷积；</p>
+</li>
+<li>
+<p>接着使用类似于门控机制的特征融合模块对特征进行融合从而得到输出，但此处特点是没有使用卷积进一步提取特征，而是直接全局池化接<code>Softmax</code></p>
+</li>
 </ul>
+<p>代码如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">SPConv_3x3</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inplanes</span><span class="p">,</span> <span class="n">outplanes</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ratio</span><span class="o">=</span><span class="mf">0.5</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">SPConv_3x3</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">inplanes_3x3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">inplanes</span><span class="o">*</span><span class="n">ratio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">inplanes_1x1</span> <span class="o">=</span> <span class="n">inplanes</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">inplanes_3x3</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">outplanes_3x3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">outplanes</span><span class="o">*</span><span class="n">ratio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">outplanes_1x1</span> <span class="o">=</span> <span class="n">outplanes</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes_3x3</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span> <span class="o">=</span> <span class="n">outplanes</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">stride</span> <span class="o">=</span> <span class="n">stride</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">gwc</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inplanes_3x3</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">stride</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                             <span class="n">padding</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">groups</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">pwc</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inplanes_3x3</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv1x1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inplanes_1x1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">,</span><span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_s2_1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AvgPool2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">stride</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_s2_3</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AvgPool2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_add_1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AdaptiveAvgPool2d</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_add_3</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">AdaptiveAvgPool2d</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">bn1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">bn2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">ratio</span> <span class="o">=</span> <span class="n">ratio</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">groups</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">ratio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">x_3x3</span> <span class="o">=</span> <span class="n">x</span><span class="p">[:,:</span><span class="nb">int</span><span class="p">(</span><span class="n">c</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">ratio</span><span class="p">),:,:]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_1x1</span> <span class="o">=</span> <span class="n">x</span><span class="p">[:,</span><span class="nb">int</span><span class="p">(</span><span class="n">c</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">ratio</span><span class="p">):,:,:]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">out_3x3_gwc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gwc</span><span class="p">(</span><span class="n">x_3x3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">stride</span> <span class="o">==</span><span class="mi">2</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_3x3</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_s2_3</span><span class="p">(</span><span class="n">x_3x3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_3x3_pwc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pwc</span><span class="p">(</span><span class="n">x_3x3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_3x3</span> <span class="o">=</span> <span class="n">out_3x3_gwc</span> <span class="o">+</span> <span class="n">out_3x3_pwc</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_3x3</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">bn1</span><span class="p">(</span><span class="n">out_3x3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_3x3_ratio</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_add_3</span><span class="p">(</span><span class="n">out_3x3</span><span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># use avgpool first to reduce information lost</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">stride</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_1x1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_s2_1</span><span class="p">(</span><span class="n">x_1x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">out_1x1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">conv1x1</span><span class="p">(</span><span class="n">x_1x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_1x1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">bn2</span><span class="p">(</span><span class="n">out_1x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_1x1_ratio</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">avgpool_add_1</span><span class="p">(</span><span class="n">out_1x1</span><span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">out_31_ratio</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">stack</span><span class="p">((</span><span class="n">out_3x3_ratio</span><span class="p">,</span> <span class="n">out_1x1_ratio</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out_31_ratio</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)(</span><span class="n">out_31_ratio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span> <span class="o">=</span> <span class="n">out_1x1</span> <span class="o">*</span> <span class="p">(</span><span class="n">out_31_ratio</span><span class="p">[:,:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">expand_as</span><span class="p">(</span><span class="n">out_1x1</span><span class="p">))</span>\
+</span></span><span class="line"><span class="cl">              <span class="o">+</span> <span class="n">out_3x3</span> <span class="o">*</span> <span class="p">(</span><span class="n">out_31_ratio</span><span class="p">[:,:,</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outplanes</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">expand_as</span><span class="p">(</span><span class="n">out_3x3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">out</span>
+</span></span></code></pre></div><p>代码中作者直接简单的对卷积进行了区域划分，其实是有点不合理的。</p>
 <p>
 
 
@@ -1185,7 +1247,7 @@
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://wxding0324.github.io/"
   style="z-index:500"
 >
   <div
