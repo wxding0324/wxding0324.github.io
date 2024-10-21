@@ -4,7 +4,37 @@
 
   <url>
     <loc>https://wxding0324.github.io/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/tricks/</loc>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/</loc>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/</loc>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/trainstrategy/</loc>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</loc>
+    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,12 +82,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/</loc>
     <lastmod>2024-10-16T21:02:31+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -118,12 +142,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</loc>
-    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/trainstrategy/</loc>
     <lastmod>2024-10-15T16:29:19+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -255,19 +273,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/python/tricks/</loc>
-    <lastmod>2024-06-17T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/tags/ddp/</loc>
-    <lastmod>2024-06-17T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/python/</loc>
     <lastmod>2024-06-17T17:11:08+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
