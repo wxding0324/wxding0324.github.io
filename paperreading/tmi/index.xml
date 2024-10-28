@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TMI on Xiiin&#39;s Blog</title>
-    <link>wxding0324.github.io/paperreading/tmi/</link>
+    <link>http://localhost:1313/paperreading/tmi/</link>
     <description>Recent content in TMI on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <atom:link href="wxding0324.github.io/paperreading/tmi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/paperreading/tmi/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TrainStrategy on Xiiin&#39;s Blog</title>
-    <link>wxding0324.github.io/tags/trainstrategy/</link>
+    <link>http://localhost:1313/tags/trainstrategy/</link>
     <description>Recent content in TrainStrategy on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sun, 20 Oct 2024 17:11:08 +0800</lastBuildDate><atom:link href="wxding0324.github.io/tags/trainstrategy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 17:11:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/trainstrategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见激活函数</title>
-      <link>wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</link>
+      <link>http://localhost:1313/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</link>
       <pubDate>Sun, 20 Oct 2024 17:11:08 +0800</pubDate>
       
-      <guid>wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</guid>
+      <guid>http://localhost:1313/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
-      <link>wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
+      <link>http://localhost:1313/paperreading/arxiv/ghostnetv3/</link>
       <pubDate>Tue, 15 Oct 2024 16:29:19 +0800</pubDate>
       
-      <guid>wxding0324.github.io/paperreading/arxiv/ghostnetv3/</guid>
+      <guid>http://localhost:1313/paperreading/arxiv/ghostnetv3/</guid>
       <description></description>
       
     </item>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IJCAI on Xiiin&#39;s Blog</title>
-    <link>wxding0324.github.io/paperreading/ijcai/</link>
+    <link>http://localhost:1313/paperreading/ijcai/</link>
     <description>Recent content in IJCAI on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 16:09:14 +0800</lastBuildDate><atom:link href="wxding0324.github.io/paperreading/ijcai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 16:09:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/paperreading/ijcai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution</title>
-      <link>wxding0324.github.io/paperreading/ijcai/spconv/</link>
+      <link>http://localhost:1313/paperreading/ijcai/spconv/</link>
       <pubDate>Wed, 16 Oct 2024 16:09:14 +0800</pubDate>
       
-      <guid>wxding0324.github.io/paperreading/ijcai/spconv/</guid>
+      <guid>http://localhost:1313/paperreading/ijcai/spconv/</guid>
       <description></description>
       
     </item>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DDP on Xiiin&#39;s Blog</title>
-    <link>wxding0324.github.io/tags/ddp/</link>
+    <link>http://localhost:1313/tags/ddp/</link>
     <description>Recent content in DDP on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Mon, 17 Jun 2024 17:11:08 +0800</lastBuildDate><atom:link href="wxding0324.github.io/tags/ddp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jun 2024 17:11:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/ddp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>单卡多机训练</title>
-      <link>wxding0324.github.io/python/tricks/ddp/ddp/</link>
+      <link>http://localhost:1313/python/tricks/ddp/ddp/</link>
       <pubDate>Mon, 17 Jun 2024 17:11:08 +0800</pubDate>
       
-      <guid>wxding0324.github.io/python/tricks/ddp/ddp/</guid>
+      <guid>http://localhost:1313/python/tricks/ddp/ddp/</guid>
       <description></description>
       
     </item>
