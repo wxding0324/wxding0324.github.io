@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LightWeight on Xiiin&#39;s Blog</title>
-    <link>https://wxding0324.github.io/tags/lightweight/</link>
+    <link>wxding0324.github.io/tags/lightweight/</link>
     <description>Recent content in LightWeight on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 16:09:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/lightweight/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 16:09:14 +0800</lastBuildDate><atom:link href="wxding0324.github.io/tags/lightweight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution</title>
-      <link>https://wxding0324.github.io/paperreading/ijcai/spconv/</link>
+      <link>wxding0324.github.io/paperreading/ijcai/spconv/</link>
       <pubDate>Wed, 16 Oct 2024 16:09:14 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/ijcai/spconv/</guid>
+      <guid>wxding0324.github.io/paperreading/ijcai/spconv/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>GhostNetV2: Enhance Cheap Operation with Long-Range Attention</title>
-      <link>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</link>
+      <link>wxding0324.github.io/paperreading/nips/ghostnetv2/</link>
       <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</guid>
+      <guid>wxding0324.github.io/paperreading/nips/ghostnetv2/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>GhostNet: More Features from Cheap Operations</title>
-      <link>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</link>
+      <link>wxding0324.github.io/paperreading/cvpr/ghostnet/</link>
       <pubDate>Tue, 15 Oct 2024 16:15:36 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</guid>
+      <guid>wxding0324.github.io/paperreading/cvpr/ghostnet/</guid>
       <description></description>
       
     </item>
