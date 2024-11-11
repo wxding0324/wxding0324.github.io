@@ -4,7 +4,103 @@
 
   <url>
     <loc>https://wxding0324.github.io/</loc>
-    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/2024/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/tmi/mcfn/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/tmi/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/tmi/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/vit/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/years/</loc>
+    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/attention/</loc>
+    <lastmod>2024-11-11T09:35:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/segmentation/</loc>
+    <lastmod>2024-11-11T09:35:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</loc>
+    <lastmod>2024-11-11T09:35:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/cvpr/ast/</loc>
+    <lastmod>2024-11-04T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/cvpr/</loc>
+    <lastmod>2024-11-04T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/cvpr/</loc>
+    <lastmod>2024-11-04T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/lightweight/</loc>
+    <lastmod>2024-11-04T09:37:14+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,12 +112,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/python/</loc>
-    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/</loc>
     <lastmod>2024-10-20T17:11:08+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -39,55 +129,43 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wxding0324.github.io/years/2019/</loc>
+    <lastmod>2024-10-20T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/cnn/</loc>
+    <lastmod>2024-10-20T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/iccv/octave/</loc>
+    <lastmod>2024-10-20T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/conferences/iccv/</loc>
+    <lastmod>2024-10-20T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/iccv/</loc>
+    <lastmod>2024-10-20T09:37:14+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wxding0324.github.io/years/2021/</loc>
     <lastmod>2024-10-16T21:02:31+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/attention/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/cnn/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/conferences/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/cvpr/coordatt/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/conferences/cvpr/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/cvpr/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/</loc>
-    <lastmod>2024-10-16T21:02:31+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/years/</loc>
     <lastmod>2024-10-16T21:02:31+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -111,20 +189,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/lightweight/</loc>
-    <lastmod>2024-10-16T16:09:14+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/ijcai/spconv/</loc>
     <lastmod>2024-10-16T16:09:14+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/years/2024/</loc>
-    <lastmod>2024-10-15T16:29:19+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -171,12 +237,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/vit/</loc>
-    <lastmod>2024-10-15T16:24:19+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</loc>
     <lastmod>2024-10-15T16:15:36+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -189,7 +249,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/paperreading/cvpr/fastercnn/</loc>
+    <loc>https://wxding0324.github.io/paperreading/cvpr/fasternet/</loc>
     <lastmod>2024-09-29T12:29:30+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -459,11 +519,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/series/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/tmi/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

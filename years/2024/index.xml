@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal Co-Attention Fusion Network With  Online Data Augmentation for Cancer  Subtype Classification</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/mcfn/</link>
+      <pubDate>Mon, 11 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/mcfn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UNETR&#43;&#43;: Delving Into Efficient and Accurate  3D Medical Image Segmentation</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</link>
+      <pubDate>Mon, 11 Nov 2024 09:35:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature  Refinement for Image Restoration</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/ast/</link>
+      <pubDate>Mon, 04 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/ast/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
       <link>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
