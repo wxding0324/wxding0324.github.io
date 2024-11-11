@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arxiv on Xiiin&#39;s Blog</title>
-    <link>http://localhost:1313/conferences/arxiv/</link>
+    <link>https://wxding0324.github.io/conferences/arxiv/</link>
     <description>Recent content in Arxiv on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/conferences/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 16:29:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/arxiv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GhostNetV3: Exploring the Training Strategies  for Compact Models</title>
-      <link>http://localhost:1313/paperreading/arxiv/ghostnetv3/</link>
+      <link>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</link>
       <pubDate>Tue, 15 Oct 2024 16:29:19 +0800</pubDate>
       
-      <guid>http://localhost:1313/paperreading/arxiv/ghostnetv3/</guid>
+      <guid>https://wxding0324.github.io/paperreading/arxiv/ghostnetv3/</guid>
       <description></description>
       
     </item>

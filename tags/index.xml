@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Xiiin&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://wxding0324.github.io/tags/</link>
     <description>Recent content in Tags on Xiiin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Xiiin</copyright>
-    <lastBuildDate>Sun, 20 Oct 2024 17:11:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 17:11:08 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TrainStrategy</title>
-      <link>http://localhost:1313/tags/trainstrategy/</link>
+      <link>https://wxding0324.github.io/tags/trainstrategy/</link>
       <pubDate>Sun, 20 Oct 2024 17:11:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/trainstrategy/</guid>
+      <guid>https://wxding0324.github.io/tags/trainstrategy/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Attention</title>
-      <link>http://localhost:1313/tags/attention/</link>
+      <link>https://wxding0324.github.io/tags/attention/</link>
       <pubDate>Wed, 16 Oct 2024 21:02:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/attention/</guid>
+      <guid>https://wxding0324.github.io/tags/attention/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>CNN</title>
-      <link>http://localhost:1313/tags/cnn/</link>
+      <link>https://wxding0324.github.io/tags/cnn/</link>
       <pubDate>Wed, 16 Oct 2024 21:02:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/cnn/</guid>
+      <guid>https://wxding0324.github.io/tags/cnn/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LightWeight</title>
-      <link>http://localhost:1313/tags/lightweight/</link>
+      <link>https://wxding0324.github.io/tags/lightweight/</link>
       <pubDate>Wed, 16 Oct 2024 16:09:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/lightweight/</guid>
+      <guid>https://wxding0324.github.io/tags/lightweight/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>ViT</title>
-      <link>http://localhost:1313/tags/vit/</link>
+      <link>https://wxding0324.github.io/tags/vit/</link>
       <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/vit/</guid>
+      <guid>https://wxding0324.github.io/tags/vit/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DDP</title>
-      <link>http://localhost:1313/tags/ddp/</link>
+      <link>https://wxding0324.github.io/tags/ddp/</link>
       <pubDate>Mon, 17 Jun 2024 17:11:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/ddp/</guid>
+      <guid>https://wxding0324.github.io/tags/ddp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Multi-Modal</title>
-      <link>http://localhost:1313/tags/multi-modal/</link>
+      <link>https://wxding0324.github.io/tags/multi-modal/</link>
       <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/multi-modal/</guid>
+      <guid>https://wxding0324.github.io/tags/multi-modal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>KD</title>
-      <link>http://localhost:1313/tags/kd/</link>
+      <link>https://wxding0324.github.io/tags/kd/</link>
       <pubDate>Sat, 18 May 2024 17:07:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/kd/</guid>
+      <guid>https://wxding0324.github.io/tags/kd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://wxding0324.github.io/tags/python/</link>
       <pubDate>Sat, 11 May 2024 17:39:25 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://wxding0324.github.io/tags/python/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>ImgProcess</title>
-      <link>http://localhost:1313/tags/imgprocess/</link>
+      <link>https://wxding0324.github.io/tags/imgprocess/</link>
       <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/imgprocess/</guid>
+      <guid>https://wxding0324.github.io/tags/imgprocess/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DataAugment</title>
-      <link>http://localhost:1313/tags/dataaugment/</link>
+      <link>https://wxding0324.github.io/tags/dataaugment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/dataaugment/</guid>
+      <guid>https://wxding0324.github.io/tags/dataaugment/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pooling</title>
-      <link>http://localhost:1313/tags/pooling/</link>
+      <link>https://wxding0324.github.io/tags/pooling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/pooling/</guid>
+      <guid>https://wxding0324.github.io/tags/pooling/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Semi</title>
-      <link>http://localhost:1313/tags/semi/</link>
+      <link>https://wxding0324.github.io/tags/semi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/semi/</guid>
+      <guid>https://wxding0324.github.io/tags/semi/</guid>
       <description></description>
       
     </item>
