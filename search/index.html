@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>搜索 &middot; Xiiin&#39;s Blog</title>
-  <meta name="title" content="搜索 &middot; Xiiin&#39;s Blog" />
+  <title>Search &middot; Xiiin&#39;s Blog</title>
+  <meta name="title" content="Search &middot; Xiiin&#39;s Blog" />
   
   
   
@@ -67,11 +67,11 @@
   
   <meta property="og:url" content="https://wxding0324.github.io/search/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
-  <meta property="og:title" content="搜索">
+  <meta property="og:title" content="Search">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="搜索">
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Search">
 <meta name="twitter:description" content="">
 
   
@@ -761,11 +761,28 @@
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
-<main id="main">
-    <div id="search-results">搜索中&hellip;</div>
-    <script src="/js/fuse.js"></script>
-    <script src="/js/search.js"></script>
+
+<main>
+    <div id="search-results"></div>
+    <div class="search-loading">Loading...</div>
+
+    <script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+        <h3><a href="${link}">${title}</a></h3>
+        <p>${snippet}</p>
+        <p>
+            <small>
+                ${ isset tags }Tags: ${tags}<br>${ end }
+            </small>
+        </p>
+    </div>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </main>
+
 
       
     </main><footer id="site-footer" class="py-10 print:hidden">
