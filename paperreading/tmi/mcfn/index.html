@@ -105,7 +105,7 @@
     "keywords": ["ViT"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "383"
   }]
   </script>
 
@@ -855,7 +855,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -874,7 +878,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  
+  <span>383 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -1013,7 +1017,45 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>病理学图像和基因组的多模态分类的一篇文章,图画的还是挺清晰易懂的,不过文章我也没有细看,主要看了两个模块:</p>
+<ul>
+<li>
+<p>一个模态交互</p>
+</li>
+<li>
+<p>一个在线数据生成
+
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202411112035701.png" alt="image-20241111203540647" />
+    
+  </figure>
+</p>
+</li>
+</ul>
+<p>模态交互如下图所示,使用病理学图生成Q,基因生成K,V各自为各自的,使用Q和K交互得到的注意力图去和各自的V做点积,从而使得两种数据可以对齐(我是这样子理解的,其实也可以理解为CLIP,但没有CLIP那么明显的对齐)</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202411112035535.png" alt="image-20241111203549508" />
+    
+  </figure>
+
+在线数据生成如下图所示,和Mixup类似,将两个或多个输入进行拼接从而得到新的输入,从而就行了数据扩增.</p>
+<p>但作者先利用注意力分数和topk算法对特征进行了筛选(不重要的特征不需要再扩增了,越多越难学),将不重要的特征加权融合,重要的特征进行拼接融合.</p>
+<p>采用余弦相似度对特征进行选择,选择与自己最相似的特征进行融合</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202411112043060.png" alt="image-20241111204341027" />
+    
+  </figure>
+</p>
+<p>融合后还需要与原来筛选下的重要特征进行fusing(就是简单的contact,因为原始特征中存在重要的信息)</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202411112035669.png" alt="image-20241111203556634" />
+    
+  </figure>
+</p>
+
           
           
           
@@ -1092,7 +1134,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
