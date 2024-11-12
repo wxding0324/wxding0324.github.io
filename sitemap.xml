@@ -4,7 +4,43 @@
 
   <url>
     <loc>https://wxding0324.github.io/</loc>
-    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/tricks/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/lightweight/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/trainstrategy/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/python/tricks/%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E7%AD%96%E7%95%A5/lw/</loc>
+    <lastmod>2024-11-12T16:34:19+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -28,12 +64,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/</loc>
-    <lastmod>2024-11-11T09:37:14+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/</loc>
     <lastmod>2024-11-11T09:37:14+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -99,31 +129,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/tags/lightweight/</loc>
-    <lastmod>2024-11-04T09:37:14+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/python/tricks/</loc>
-    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/python/</loc>
-    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/tags/trainstrategy/</loc>
-    <lastmod>2024-10-20T17:11:08+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/ddp/</loc>
+    <loc>https://wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/act/</loc>
     <lastmod>2024-10-20T17:11:08+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>

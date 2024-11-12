@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tricks on Xiiin&#39;s Blog</title>
+    <link>http://localhost:1313/tags/tricks/</link>
+    <description>Recent content in Tricks on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Xiiin</copyright>
+    <lastBuildDate>Tue, 12 Nov 2024 16:34:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小模型的搭建和训练tricks</title>
+      <link>http://localhost:1313/python/tricks/%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E7%AD%96%E7%95%A5/lw/</link>
+      <pubDate>Tue, 12 Nov 2024 16:34:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/python/tricks/%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E7%AD%96%E7%95%A5/lw/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
