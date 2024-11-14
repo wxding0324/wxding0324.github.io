@@ -46,12 +46,12 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.0c424ab1c6aafe2039f09c49da59e609e9c3639b293d752971a3f96bb967114eb9719493d28e382b62527c185812ddc2c5a3664a3a21d0cbab06dafccbf685e4.js"
+    integrity="sha512-DEJKscaq/iA58JxJ2lnmCenDY5spPXUpcaP5a7lnEU65cZST0o44K2JSfBhYEt3CxaNmSjoh0MurBtr8y/aF5A==" data-copy="" data-copied=""></script>
   
   
   
-  <script src="/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  <script src="/lib/zoom/zoom.min.fcbc7f7b3dcea96e3b5570cd322c5d7a12d5351c87f9889b1c31745a2cc711df58f6b70795a86d50e63813b236ade916668332c10a70a4ce26f7c0878f525fce.js" integrity="sha512-/Lx/ez3OqW47VXDNMixdehLVNRyH&#43;YibHDF0WizHEd9Y9rcHlahtUOY4E7I2rekWZoMywQpwpM4m98CHj1Jfzg=="></script>
   
   
   
@@ -102,7 +102,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "604"
+    "wordCount": "1566"
   }]
   </script>
 
@@ -864,7 +864,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>604 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>1566 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -981,10 +981,15 @@
   <ul>
     <li><a href="#linux">Linux</a>
       <ul>
-        <li><a href="#进程守护">进程守护</a>
+        <li><a href="#进程管理与守护">进程管理与守护</a>
           <ul>
             <li><a href="#终端日志重定向">终端日志重定向</a></li>
             <li><a href="#screen">Screen</a></li>
+          </ul>
+        </li>
+        <li><a href="#tmux">TMUX</a>
+          <ul>
+            <li></li>
           </ul>
         </li>
         <li><a href="#文件和目录管理">文件和目录管理</a></li>
@@ -1005,10 +1010,15 @@
   <ul>
     <li><a href="#linux">Linux</a>
       <ul>
-        <li><a href="#进程守护">进程守护</a>
+        <li><a href="#进程管理与守护">进程管理与守护</a>
           <ul>
             <li><a href="#终端日志重定向">终端日志重定向</a></li>
             <li><a href="#screen">Screen</a></li>
+          </ul>
+        </li>
+        <li><a href="#tmux">TMUX</a>
+          <ul>
+            <li></li>
           </ul>
         </li>
         <li><a href="#文件和目录管理">文件和目录管理</a></li>
@@ -1109,13 +1119,13 @@
 </h2>
 
 
-<h3 class="relative group">进程守护 
-    <div id="%E8%BF%9B%E7%A8%8B%E5%AE%88%E6%8A%A4" class="anchor"></div>
+<h3 class="relative group">进程管理与守护 
+    <div id="%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86%E4%B8%8E%E5%AE%88%E6%8A%A4" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%BF%9B%E7%A8%8B%E5%AE%88%E6%8A%A4" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86%E4%B8%8E%E5%AE%88%E6%8A%A4" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
@@ -1174,6 +1184,255 @@ screen -S &lt;作业名称&gt; #这回指定screen作业的名称
 </code></pre><p><strong>彻底关闭开启的会话</strong></p>
 <p>有程序则先 <code>crl+c</code>,再<code>crl+d</code></p>
 <p>还有很多作用可以参考&lt;参考链接&gt;</p>
+
+
+<h3 class="relative group">TMUX 
+    <div id="tmux" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tmux" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h5 class="relative group">优点 
+    <div id="%E4%BC%98%E7%82%B9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%BC%98%E7%82%B9" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<ul>
+<li>
+<p>可以在单个会话窗口中，同时分割成多个窗口，相当于之前访问的多个会话。对于同时运行多个命令行程序很有用。</p>
+</li>
+<li>
+<p>可以让新窗口&quot;接入&quot;已经存在的会话。</p>
+</li>
+<li>
+<p>支持窗口任意的垂直和水平拆分。</p>
+</li>
+</ul>
+<p>在 TMUX 中，组件的层次结构和顺序为：</p>
+<ol>
+<li>
+<p><strong>Session（会话）</strong>：TMUX 的最顶层单元。一个会话可以包含多个窗口，可以理解为一个工作区，您可以在其中创建和管理多个任务。</p>
+</li>
+<li>
+<p><strong>Window（窗口）</strong>：每个会话可以包含多个窗口。每个窗口相当于一个独立的终端界面，类似于不同的标签页。窗口可以在同一个会话中切换。</p>
+</li>
+<li>
+<p><strong>Pane（面板）</strong>：每个窗口可以进一步分割为多个面板。面板是窗口内的分割区域，可以显示不同的命令行内容，相当于一个窗口的分屏操作。</p>
+</li>
+</ol>
+<p><strong>Session</strong> (会话) &gt; <strong>Window</strong> (窗口) &gt; <strong>Pane</strong> (面板)</p>
+<p>我一般直接一个session、一个window，然后在里面创建pane</p>
+
+
+<h5 class="relative group">安装 
+    <div id="%E5%AE%89%E8%A3%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Debian/Ubuntu</span>
+</span></span><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install tmux
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># CentOS/RHEL</span>
+</span></span><span class="line"><span class="cl">sudo yum install tmux
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># macOS (使用 Homebrew)</span>
+</span></span><span class="line"><span class="cl">brew install tmux
+</span></span></code></pre></div><p>对于没有超级用户权限，没有macos的我来说，只能通过conda安装了</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda install tmux
+</span></span></code></pre></div>
+
+<h5 class="relative group">快速教程 
+    <div id="%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 新建会话</span>
+</span></span><span class="line"><span class="cl">tmux                    <span class="c1"># 创建匿名会话</span>
+</span></span><span class="line"><span class="cl">tmux new -s &lt;session-name&gt;  <span class="c1"># 新建一个指定名称的会话</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 分离会话</span>
+</span></span><span class="line"><span class="cl">tmux detach             <span class="c1"># 将当前会话挂起，不关闭</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 查看会话</span>
+</span></span><span class="line"><span class="cl">tmux ls                 <span class="c1"># 列出所有会话</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 接入会话</span>
+</span></span><span class="line"><span class="cl">tmux attach -t &lt;session-id or session-name&gt;  <span class="c1"># 通过会话 ID 或名称接入指定会话</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 重命名会话</span>
+</span></span><span class="line"><span class="cl">tmux rename-session -t &lt;session-id or old-name&gt; &lt;new-name&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 杀死会话</span>
+</span></span><span class="line"><span class="cl">tmux kill-session -t &lt;session-id or session-name&gt;  <span class="c1"># 关闭指定会话</span>
+</span></span><span class="line"><span class="cl">tmux kill-server      <span class="c1"># 关闭 TMUX 服务器，关闭所有会话</span>
+</span></span></code></pre></div>
+
+<h5 class="relative group">配置和状态 
+    <div id="%E9%85%8D%E7%BD%AE%E5%92%8C%E7%8A%B6%E6%80%81" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%85%8D%E7%BD%AE%E5%92%8C%E7%8A%B6%E6%80%81" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 重新加载配置文件</span>
+</span></span><span class="line"><span class="cl">tmux source-file ~/.tmux.conf     <span class="c1"># 从配置文件重新加载配置</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 查看当前配置</span>
+</span></span><span class="line"><span class="cl">tmux show-options -g              <span class="c1"># 显示 TMUX 的全局选项配置</span>
+</span></span><span class="line"><span class="cl">tmux show-window-options -g       <span class="c1"># 显示窗口的全局选项配置</span>
+</span></span><span class="line"><span class="cl">tmux show-options -s              <span class="c1"># 显示服务器配置</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 列出键绑定</span>
+</span></span><span class="line"><span class="cl">tmux list-keys                    <span class="c1"># 查看当前所有键绑定</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 列出所有 TMUX 命令</span>
+</span></span><span class="line"><span class="cl">tmux list-commands                <span class="c1"># 显示 TMUX 支持的所有命令</span>
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新建会话</td>
+<td>tmux new -s session名 -n 窗口名</td>
+</tr>
+<tr>
+<td>查看已创建的会话</td>
+<td>tmux ls</td>
+</tr>
+<tr>
+<td>attach到已有会话</td>
+<td>tmux attach/at -t xxx</td>
+</tr>
+<tr>
+<td>挂起会话</td>
+<td>tmux detach</td>
+</tr>
+<tr>
+<td>直接退出会话</td>
+<td>exit</td>
+</tr>
+<tr>
+<td>关闭指定会话</td>
+<td>tmux kill-session -t 会话名</td>
+</tr>
+<tr>
+<td>重命名当前窗口</td>
+<td>tmux rename-window -t 窗口编号 新窗口名</td>
+</tr>
+<tr>
+<td>水平分割面板</td>
+<td>tmux split-window -h</td>
+</tr>
+<tr>
+<td>垂直分割面板</td>
+<td>tmux split-window -v</td>
+</tr>
+</tbody>
+</table>
+<p>以下是 TMUX 中常用的快捷键：</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>快捷键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新建窗口</td>
+<td><code>Ctrl-b c</code></td>
+</tr>
+<tr>
+<td>切换到下一个窗口</td>
+<td><code>Ctrl-b n</code></td>
+</tr>
+<tr>
+<td>切换到上一个窗口</td>
+<td><code>Ctrl-b p</code></td>
+</tr>
+<tr>
+<td>指定窗口跳转</td>
+<td><code>Ctrl-b 数字</code></td>
+</tr>
+<tr>
+<td><strong>水平分割窗口</strong></td>
+<td><code>Ctrl-b %</code></td>
+</tr>
+<tr>
+<td>垂直分割窗口</td>
+<td><code>Ctrl-b &quot;</code></td>
+</tr>
+<tr>
+<td>关闭当前窗口</td>
+<td><code>Ctrl-b &amp;</code></td>
+</tr>
+<tr>
+<td>关闭当前面板</td>
+<td><code>Ctrl-b x</code></td>
+</tr>
+<tr>
+<td>切换面板</td>
+<td><code>Ctrl-b o</code></td>
+</tr>
+<tr>
+<td><strong>调整面板大小</strong></td>
+<td><code>Ctrl-b</code>，然后使用方向键调整</td>
+</tr>
+<tr>
+<td>查看窗口列表</td>
+<td><code>Ctrl-b w</code></td>
+</tr>
+<tr>
+<td>将面板上下翻滚</td>
+<td><code>Ctrl-b [</code></td>
+</tr>
+<tr>
+<td>退出滚动模式</td>
+<td><code>q</code>（在滚动模式中）</td>
+</tr>
+<tr>
+<td>切换到上一个会话</td>
+<td><code>Ctrl-b (</code></td>
+</tr>
+<tr>
+<td>切换到下一个会话</td>
+<td><code>Ctrl-b )</code></td>
+</tr>
+<tr>
+<td><strong>挂起会话</strong></td>
+<td><code>Ctrl-b d</code></td>
+</tr>
+</tbody>
+</table>
 
 
 <h3 class="relative group">文件和目录管理 
