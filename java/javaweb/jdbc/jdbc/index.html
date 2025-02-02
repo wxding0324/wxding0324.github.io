@@ -103,7 +103,7 @@
     "keywords": ["Java"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "1755"
   }]
   </script>
 
@@ -258,7 +258,7 @@
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
-        <a href="/java/javase/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/java/javase/javase/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="">
             JavaSE
@@ -645,7 +645,7 @@
 </li>
 
 <li class="mt-1">
-    <a href="/java/javase/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/java/javase/javase/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-sm font-small" title="">
             JavaSE
@@ -979,7 +979,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -998,7 +1002,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  
+  <span>1755 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -1109,7 +1113,129 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#jdbc-概述">JDBC 概述</a></li>
+    <li><a href="#jdbc-编写代码步骤">JDBC 编写代码步骤</a></li>
+    <li><a href="#jdbc-的几个-api-详解">JDBC 的几个 API 详解</a>
+      <ul>
+        <li><a href="#drivermanager">DriverManager</a></li>
+        <li><a href="#connection">Connection</a></li>
+        <li><a href="#statement">Statement</a></li>
+        <li><a href="#resultset">ResultSet</a></li>
+        <li><a href="#preparedstatement">PreparedStatement</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#jdbc-概述">JDBC 概述</a></li>
+    <li><a href="#jdbc-编写代码步骤">JDBC 编写代码步骤</a></li>
+    <li><a href="#jdbc-的几个-api-详解">JDBC 的几个 API 详解</a>
+      <ul>
+        <li><a href="#drivermanager">DriverManager</a></li>
+        <li><a href="#connection">Connection</a></li>
+        <li><a href="#statement">Statement</a></li>
+        <li><a href="#resultset">ResultSet</a></li>
+        <li><a href="#preparedstatement">PreparedStatement</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -1118,6 +1244,286 @@
 
         <div class="article-content max-w-prose mb-20">
           
+
+<h2 class="relative group">JDBC 概述 
+    <div id="jdbc-%E6%A6%82%E8%BF%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#jdbc-%E6%A6%82%E8%BF%B0" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Java 数据库连接（JDBC，Java Database Connectivity）是一套用于操作数据库的 Java API，它为 Java 应用程序提供了统一的数据库访问接口。通过 JDBC，开发者可以编写与具体数据库无关的代码，实现数据库的连接、操作以及数据处理，从而大大简化了数据库编程的复杂性。</p>
+<p>JDBC 支持标准 SQL 命令，并提供了处理结果集、事务管理以及批处理等功能，使得在 Java 应用中进行数据库操作变得灵活且高效。</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202502022256116.png" alt="image-20210725130537815" />
+    
+  </figure>
+</p>
+<p>不过这部分太复杂，后续只需要使用MyBatis就可以了。</p>
+
+
+<h2 class="relative group">JDBC 编写代码步骤 
+    <div id="jdbc-%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%E6%AD%A5%E9%AA%A4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#jdbc-%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%E6%AD%A5%E9%AA%A4" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ol>
+<li>
+<p><strong>加载 JDBC 驱动</strong>
+在与数据库建立连接之前，需要加载相应数据库的 JDBC 驱动类。早期版本需要显式加载驱动类（例如使用 <code>Class.forName</code>），但在新版 JDBC 中通常通过驱动自动注册机制完成。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">Class</span><span class="p">.</span><span class="n">forName</span><span class="p">(</span><span class="s2">&#34;com.mysql.jdbc.Driver&#34;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p><strong>建立数据库连接</strong>
+使用 <code>DriverManager.getConnection(url, username, password)</code> 方法与数据库建立连接。这里需要提供数据库的 URL、用户名以及密码。成功建立连接后会返回一个 <code>Connection</code> 对象。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">Connection</span><span class="w"> </span><span class="n">conn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="n">getConnection</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="w"> </span><span class="n">username</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p><strong>创建 SQL 语句对象</strong>
+通过 <code>Connection</code> 对象创建 <code>Statement</code> 或 <code>PreparedStatement</code> 对象。</p>
+<ul>
+<li><code>Statement</code> 对象适用于执行静态 SQL 语句；</li>
+<li><code>PreparedStatement</code> 对象适用于执行带参数的预编译 SQL 语句，具有更好的安全性（防止 SQL 注入）和性能优化。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">String</span><span class="w"> </span><span class="k">sql</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="err">“</span><span class="k">update</span><span class="err">…”</span><span class="w"> </span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">Statement</span><span class="w"> </span><span class="n">stmt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">conn</span><span class="p">.</span><span class="n">createStatement</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p><strong>执行 SQL 语句</strong>
+调用语句对象的 <code>executeQuery</code>、<code>executeUpdate</code> 或 <code>execute</code> 方法执行 SQL 语句，并获取执行结果。</p>
+<ul>
+<li>查询语句返回 <code>ResultSet</code> 对象；</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<p>更新、删除、插入等操作返回受影响的行数。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="w">  </span><span class="n">stmt</span><span class="p">.</span><span class="n">executeUpdate</span><span class="p">(</span><span class="k">sql</span><span class="p">);</span><span class="w">  
+</span></span></span></code></pre></div></li>
+</ul>
+<ol start="5">
+<li>
+<p><strong>处理结果集</strong>
+对于查询语句返回的 <code>ResultSet</code> 对象，可以通过遍历结果集来获取每一行的数据。常用方法包括 <code>next()</code>、<code>getString()</code>、<code>getInt()</code> 等。</p>
+</li>
+<li>
+<p><strong>关闭资源</strong>
+数据库操作完成后，需要依次关闭 <code>ResultSet</code>、<code>Statement</code>（或 <code>PreparedStatement</code>）以及 <code>Connection</code> 对象，释放数据库资源，避免资源泄露。</p>
+</li>
+</ol>
+<p><strong>完整示例</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCDemo</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//1. 注册驱动</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//Class.forName(&#34;com.mysql.jdbc.Driver&#34;);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//2. 获取连接</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;jdbc:mysql://127.0.0.1:3306/db1&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">username</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;root&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;1234&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Connection</span><span class="w"> </span><span class="n">conn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DriverManager</span><span class="p">.</span><span class="na">getConnection</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="w"> </span><span class="n">username</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//3. 定义sql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">sql</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;update xxx&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//4. 获取执行sql的对象 Statement</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Statement</span><span class="w"> </span><span class="n">stmt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">conn</span><span class="p">.</span><span class="na">createStatement</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//5. 执行sql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">stmt</span><span class="p">.</span><span class="na">executeUpdate</span><span class="p">(</span><span class="n">sql</span><span class="p">);</span><span class="c1">//受影响的行数</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//6. 处理结果</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">count</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//7. 释放资源</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">stmt</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">conn</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
+
+<h2 class="relative group">JDBC 的几个 API 详解 
+    <div id="jdbc-%E7%9A%84%E5%87%A0%E4%B8%AA-api-%E8%AF%A6%E8%A7%A3" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#jdbc-%E7%9A%84%E5%87%A0%E4%B8%AA-api-%E8%AF%A6%E8%A7%A3" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">DriverManager 
+    <div id="drivermanager" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#drivermanager" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>作用</strong>：
+<code>DriverManager</code> 类用于管理一组 JDBC 驱动程序。它负责根据提供的数据库 URL 选择合适的驱动程序，并建立与数据库的连接。</p>
+</li>
+<li>
+<p><strong>常用方法</strong>：</p>
+<ul>
+<li><code>getConnection(String url, String user, String password)</code>
+根据数据库 URL 及用户凭据获取一个数据库连接。</li>
+<li><code>registerDriver(Driver driver)</code>
+注册一个 JDBC 驱动程序（通常在驱动内部已经自动注册）。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意事项</strong>：
+早期需要显式加载驱动类，但在大多数现代应用中，只需在项目中引入对应数据库的 JDBC 驱动包即可，由驱动自动完成注册。</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">Connection 
+    <div id="connection" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#connection" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>作用</strong>：
+<code>Connection</code> 接口代表与数据库的一个连接会话，是 JDBC 操作的核心对象。通过它可以创建 SQL 执行语句、管理事务以及获取数据库元数据。</p>
+</li>
+<li>
+<p><strong>常用方法</strong>：</p>
+<ul>
+<li><code>createStatement()</code>
+创建一个 <code>Statement</code> 对象，用于执行静态 SQL 语句。</li>
+<li><code>prepareStatement(String sql)</code>
+创建一个 <code>PreparedStatement</code> 对象，用于执行预编译 SQL 语句，可以防止<em><strong>SQL注入</strong></em>。</li>
+<li><code>commit()</code> 和 <code>rollback()</code>
+用于管理事务的提交与回滚。</li>
+<li><code>close()</code>
+关闭连接，释放资源。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意事项</strong>：
+应始终在操作结束后调用 <code>close()</code> 方法释放连接资源，防止数据库连接数耗尽。</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">Statement 
+    <div id="statement" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#statement" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>作用</strong>：
+<code>Statement</code> 接口用于执行简单的 SQL 语句。适用于不带参数的静态 SQL 查询或更新操作。</p>
+</li>
+<li>
+<p><strong>常用方法</strong>：</p>
+<ul>
+<li><code>executeQuery(String sql)</code>
+执行查询语句，返回一个 <code>ResultSet</code> 对象</li>
+<li><code>executeUpdate(String sql)</code>
+执行更新操作（如 INSERT、UPDATE、DELETE），返回受影响的行数。</li>
+<li><code>execute(String sql)</code>
+执行任意 SQL 语句，返回一个布尔值表示是否返回 <code>ResultSet</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意事项</strong>：
+对于动态 SQL 或存在输入参数的情况，推荐使用 <code>PreparedStatement</code> 来增强安全性和性能。</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">ResultSet 
+    <div id="resultset" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#resultset" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>作用</strong>：
+<code>ResultSet</code> 对象存储了执行查询语句后返回的数据表数据。它允许按行逐步遍历查询结果，并获取每一列的值。</p>
+</li>
+<li>
+<p><strong>常用方法</strong>：</p>
+<ul>
+<li><code>next()</code>
+移动到结果集的下一行，初始时位于第一行之前。</li>
+<li><code>getString(String columnLabel)</code>、<code>getInt(String columnLabel)</code> 等
+根据列名或列索引获取对应类型的数据。</li>
+<li><code>close()</code>
+关闭 <code>ResultSet</code> 对象，释放相关资源。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意事项</strong>：
+读取数据时应确保 <code>next()</code> 返回 <code>true</code> 后再调用数据获取方法，否则可能会引发异常。</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">PreparedStatement 
+    <div id="preparedstatement" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preparedstatement" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>作用</strong>：
+<code>PreparedStatement</code> 接口是 <code>Statement</code> 的子接口，用于执行预编译的 SQL 语句。它支持带参数的查询和更新操作，有助于防止 SQL 注入并提升性能。</p>
+</li>
+<li>
+<p><strong>常用方法</strong>：</p>
+<ul>
+<li><code>setString(int parameterIndex, String x)</code>、<code>setInt(int parameterIndex, int x)</code> 等
+为预编译 SQL 语句中的参数占位符设置具体的值。</li>
+<li><code>executeQuery()</code>
+执行查询操作，返回一个 <code>ResultSet</code> 对象。</li>
+<li><code>executeUpdate()</code>
+执行更新操作，返回受影响的行数。</li>
+<li><code>close()</code>
+关闭 <code>PreparedStatement</code> 对象，释放资源。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意事项</strong>：
+在批量操作中，<code>PreparedStatement</code> 可以复用预编译 SQL，提高效率；并且因为参数是分离绑定的，所以可以有效防止 SQL 注入攻击。</p>
+</li>
+</ul>
+
           
           
           
@@ -1216,7 +1622,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
