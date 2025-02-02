@@ -429,12 +429,37 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wxding0324.github.io/java/javaweb/mysql/mysql/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/java/javaweb/jdbc/jdbc/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/java/javaweb/maven/maven/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/java/javaweb/mybatis/mybatis/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wxding0324.github.io/paperreading/miccai/a2fseg/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://wxding0324.github.io/python/algorithm/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/java/algorithm_java/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -504,17 +529,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wxding0324.github.io/java/javaweb/jdbc/jdbc/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wxding0324.github.io/paperreading/mia/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/java/javaweb/mysql/mysql/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -560,6 +575,11 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/cvpr/svit/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/java/algorithm_java/%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

@@ -10,17 +10,17 @@
     <atom:link href="https://wxding0324.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>JavaSE</title>
-      <link>https://wxding0324.github.io/java/javase/</link>
+      <title>1.Mysql</title>
+      <link>https://wxding0324.github.io/java/javaweb/mysql/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wxding0324.github.io/java/javase/</guid>
+      <guid>https://wxding0324.github.io/java/javaweb/mysql/mysql/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>JDBC</title>
+      <title>2.JDBC</title>
       <link>https://wxding0324.github.io/java/javaweb/jdbc/jdbc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,11 +30,31 @@
     </item>
     
     <item>
-      <title>Mysql</title>
-      <link>https://wxding0324.github.io/java/javaweb/mysql/mysql/</link>
+      <title>3.Maven</title>
+      <link>https://wxding0324.github.io/java/javaweb/maven/maven/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wxding0324.github.io/java/javaweb/mysql/mysql/</guid>
+      <guid>https://wxding0324.github.io/java/javaweb/maven/maven/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>4.MyBatis</title>
+      <link>https://wxding0324.github.io/java/javaweb/mybatis/mybatis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javaweb/mybatis/mybatis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>JavaSE</title>
+      <link>https://wxding0324.github.io/java/javase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javase/</guid>
       <description></description>
       
     </item>
