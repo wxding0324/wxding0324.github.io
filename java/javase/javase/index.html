@@ -103,7 +103,7 @@
     "keywords": ["Java"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "5"
+    "wordCount": "842"
   }]
   </script>
 
@@ -991,7 +991,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>5 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>842 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -1116,7 +1116,13 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#输入输出">输入输出</a></li>
+    <li><a href="#洛谷杂记">洛谷杂记</a>
+      <ul>
+        <li><a href="#顺序结构">顺序结构</a></li>
+        <li><a href="#分支结构">分支结构</a></li>
+        <li><a href="#循环结构">循环结构</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1130,7 +1136,13 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#输入输出">输入输出</a></li>
+    <li><a href="#洛谷杂记">洛谷杂记</a>
+      <ul>
+        <li><a href="#顺序结构">顺序结构</a></li>
+        <li><a href="#分支结构">分支结构</a></li>
+        <li><a href="#循环结构">循环结构</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1214,16 +1226,129 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">输入输出 
-    <div id="%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA" class="anchor"></div>
+<h2 class="relative group">洛谷杂记 
+    <div id="%E6%B4%9B%E8%B0%B7%E6%9D%82%E8%AE%B0" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E6%B4%9B%E8%B0%B7%E6%9D%82%E8%AE%B0" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+
+
+<h3 class="relative group">顺序结构 
+    <div id="%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p>Java读取单个字符时，一般使用<code>char c = scanner.next().charAt(0);</code></p>
+<p>不能使用char进行强制转换<code>char c = (char) scanner.next();</code></p>
+<p>``scanner.next()`读取的是String</p>
+</li>
+<li>
+<p>对于字符串的字母转换(小&ndash;&gt;大)有两种方法，一是使用Character <code> char upper = Character.toUpperCase(lower)</code>，</p>
+<p>二是使用 <code>char upper = (char) (lower - 32)</code></p>
+<p>大 &mdash;&gt;小时，就是<code>Upper</code>变<code>Lower</code>，<code>-</code>变<code>+</code></p>
+</li>
+<li>
+<p>Java中关于字符串转换和翻转的一些操作。使用 <code>String s = String.valueOf(num);</code>可以将数字转为字符串。</p>
+<p>对字符串进行翻转需要使用 <code>StringBulider</code>,即 <code>String reversed = new StringBuilder(str).reverse().toString();</code>注意需要将<code>StringBuilde</code>r转换为String类型</p>
+</li>
+<li>
+<p>向上取整 ，对于整数可以使用<code>int result = (a + b - 1) / b;</code></p>
+<p>对于浮点数使用 <code>Math.ceil()</code></p>
+<p>默认的 <code>/</code>（floor division）是向下取整</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">分支结构 
+    <div id="%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p>辗转相除法可以注意一下</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">0</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p>对数组进行排序使用 <code>Arrays.sort(nums);</code></p>
+</li>
+<li>
+<p>判断字符是否为数字 <code>Character.isDigit(ch</code></p>
+</li>
+<li>
+<p>获取字符串中指定位置的字符 <code>str.charAt(i)</code></p>
+</li>
+</ul>
+
+
+<h3 class="relative group">循环结构 
+    <div id="%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p>int为32位，long为64位，如果需要更大的位数则需要使用 <code>BigInteger</code>,它可以处理任意大小的整数.</p>
+<p>下面为一个示例代码，用于计算阶乘和求和。当<code>n</code>过大时，则需要使用<code>BigInteger</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.math.BigInteger</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Scanner</span><span class="w"> </span><span class="n">scanner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scanner</span><span class="p">.</span><span class="na">nextInt</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">BigInteger</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">BigInteger</span><span class="p">.</span><span class="na">ZERO</span><span class="p">;</span><span class="w"> </span><span class="c1">// 使用 BigInteger 存储总和</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">total</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">total</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">fac</span><span class="p">(</span><span class="n">n</span><span class="p">));</span><span class="w"> </span><span class="c1">// 使用 add 方法相加</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">n</span><span class="o">--</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">total</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// 使用 BigInteger 计算阶乘</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">BigInteger</span><span class="w"> </span><span class="nf">fac</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">1</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">BigInteger</span><span class="p">.</span><span class="na">ONE</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">fac</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">1</span><span class="p">).</span><span class="na">multiply</span><span class="p">(</span><span class="n">BigInteger</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">n</span><span class="p">));</span><span class="w"> </span><span class="c1">// 使用 multiply 方法相乘</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p>对于字符串，可以使用 <code>String str = String.valueOf(i);</code>将数字转为字符串；也可以使用 <code>for (char c : str.toCharArray())</code>将字符串转为<code>char</code>数组；还可以使用<code>StringBuilder</code>进行拼接。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">StringBuilder</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">StringBuilder</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">c</span><span class="p">.</span><span class="na">append</span><span class="p">(</span><span class="n">i</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p>找到数组中的最大值：Java 8 及以后版本提供了 <code>Arrays.stream()</code> 方法，可以轻松地找到最大值和最小值。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">stream</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="na">max</span><span class="p">().</span><span class="na">getAsInt</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">stream</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="na">min</span><span class="p">().</span><span class="na">getAsInt</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
 
           
           
