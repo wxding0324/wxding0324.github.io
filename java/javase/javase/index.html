@@ -103,7 +103,7 @@
     "keywords": ["Java"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "842"
+    "wordCount": "1560"
   }]
   </script>
 
@@ -991,7 +991,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>842 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>1560 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -1121,6 +1121,7 @@
         <li><a href="#顺序结构">顺序结构</a></li>
         <li><a href="#分支结构">分支结构</a></li>
         <li><a href="#循环结构">循环结构</a></li>
+        <li><a href="#数组">数组</a></li>
       </ul>
     </li>
   </ul>
@@ -1141,6 +1142,7 @@
         <li><a href="#顺序结构">顺序结构</a></li>
         <li><a href="#分支结构">分支结构</a></li>
         <li><a href="#循环结构">循环结构</a></li>
+        <li><a href="#数组">数组</a></li>
       </ul>
     </li>
   </ul>
@@ -1348,6 +1350,138 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">stream</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="na">max</span><span class="p">().</span><span class="na">getAsInt</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">stream</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="na">min</span><span class="p">().</span><span class="na">getAsInt</span><span class="p">();</span><span class="w">
 </span></span></span></code></pre></div></li>
+</ul>
+
+
+<h3 class="relative group">数组 
+    <div id="%E6%95%B0%E7%BB%84" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%95%B0%E7%BB%84" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p>List常用的为 <code>ArrayList&lt;Integer/int[]/String等等&gt;</code></p>
+</li>
+<li>
+<p>对于一些需要去重和检查交集的情况，可以使用 <code>HastSet</code>,</p>
+<p><code>HashSet</code> 是 <code>Set</code> 接口的一个具体实现，内部基于哈希表（HashMap）来存储元素。它不允许存储重复的元素，且不保证元素的顺序。</p>
+<p><code>retainAll(Collection&lt;?&gt; c)</code> 方法是 <code>Set</code> 接口的一个方法，它用于保留当前集合和给定集合 <code>c</code> 的交集。即，调用该方法后，<code>Set</code> 集合中只会保留与集合 <code>c</code> 中相同的元素，其他元素将被移除。</p>
+</li>
+<li>
+<p>对于**<code>Collection</code> 类型**（如 <code>ArrayList</code>, <code>LinkedList</code>, <code>HashSet</code>, <code>TreeSet</code> 等），其可以使用很多<code>Collection</code>的方法，比如找最大最小值、排序、翻转等。</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>min(Collection&lt;T&gt;)</code></td>
+<td>获取最小值</td>
+</tr>
+<tr>
+<td><code>max(Collection&lt;T&gt;)</code></td>
+<td>获取最大值</td>
+</tr>
+<tr>
+<td><code>sort(List&lt;T&gt;)</code></td>
+<td><strong>升序排序</strong></td>
+</tr>
+<tr>
+<td><code>sort(List&lt;T&gt;, Comparator&lt;T&gt;)</code></td>
+<td><strong>按自定义规则排序</strong></td>
+</tr>
+<tr>
+<td><code>reverse(List&lt;T&gt;)</code></td>
+<td>反转列表</td>
+</tr>
+<tr>
+<td><code>shuffle(List&lt;T&gt;)</code></td>
+<td><strong>随机打乱</strong></td>
+</tr>
+<tr>
+<td><code>binarySearch(List&lt;T&gt;, T key)</code></td>
+<td><strong>二分查找</strong>（前提：<strong>必须排序</strong>）</td>
+</tr>
+<tr>
+<td><code>fill(List&lt;T&gt;, T value)</code></td>
+<td>用 <code>value</code> 填充整个列表</td>
+</tr>
+<tr>
+<td><code>copy(List&lt;T&gt; dest, List&lt;T&gt; src)</code></td>
+<td>复制 <code>src</code> 到 <code>dest</code></td>
+</tr>
+<tr>
+<td><code>swap(List&lt;T&gt;, int i, int j)</code></td>
+<td>交换 <code>i</code> 和 <code>j</code> 位置的元素</td>
+</tr>
+<tr>
+<td><code>frequency(Collection&lt;T&gt;, T key)</code></td>
+<td><strong>统计 <code>key</code> 出现的次数</strong></td>
+</tr>
+<tr>
+<td><code>disjoint(Collection&lt;T&gt;, Collection&lt;T&gt;)</code></td>
+<td><strong>判断两个集合是否无交集</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>对于<code>int[]</code>这种基本数据类型数组，不能用<code>Collection</code>，可以使用 <code>int minValue = Arrays.stream(nums).min().getAsInt();</code>或者直接遍历寻找就行了。</p>
+</li>
+<li>
+<p>滑动窗口有两种方法，一种维护数组（用了前缀和）需要 <code>O(N)</code>的空间复杂度，一种不需要只需要 <code>O(1)</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//前缀和版本</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">long</span><span class="o">[]</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">long</span><span class="o">[</span><span class="n">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">1</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">sum</span><span class="o">[</span><span class="n">0</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">sum</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">num</span><span class="o">[</span><span class="n">0</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sum</span><span class="o">[</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">1</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sum</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">num</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">long</span><span class="w"> </span><span class="n">minValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Long</span><span class="p">.</span><span class="na">MAX_VALUE</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">windowSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sum</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">sum</span><span class="o">[</span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">m</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">minValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">min</span><span class="p">(</span><span class="n">minValue</span><span class="p">,</span><span class="w"> </span><span class="n">windowSum</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//只维护 windowSum 变量</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">windowSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">m</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">windowSum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">num</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">minSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">windowSum</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">windowSum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">num</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">num</span><span class="o">[</span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">m</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">minSum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">min</span><span class="p">(</span><span class="n">minSum</span><span class="p">,</span><span class="w"> </span><span class="n">windowSum</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p>使用<code>BufferedReader</code>读取数据，相对于<code>Scanner</code>更快，但需要自己处理数据。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">BufferedReader</span><span class="w"> </span><span class="n">br</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">BufferedReader</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">InputStreamReader</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">br</span><span class="p">.</span><span class="na">readLine</span><span class="p">().</span><span class="na">split</span><span class="p">(</span><span class="s">&#34; &#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">str</span><span class="o">[</span><span class="n">0</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">str</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div></li>
+<li>
+<p>hashset读取数值</p>
+</li>
+<li>
+<p>蛇形方针、杨辉三角</p>
+</li>
+<li>
+<p>方块转换</p>
+</li>
 </ul>
 
           
