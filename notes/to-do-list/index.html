@@ -130,6 +130,13 @@
 
 
 
+<script defer type="text/javascript" src="/js/chart.bundle.49bdcab03474fe63bf2a1b61785916114c37b8b858e4b02c847b05838a1c10f00648beddbccc52fedf8299d6307a76d709c0d1c5b2f89f6a79bd39c2b90b3339.js"
+  integrity="sha512-Sb3KsDR0/mO/KhtheFkWEUw3uLhY5LAshHsFg4ocEPAGSL7dvMxS/t&#43;CmdYwenbXCcDRxbL4n2p5vTnCuQszOQ=="></script>
+
+
+
+
+
 
 
 
@@ -1241,7 +1248,92 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <!-- prettier-ignore-start -->
+
+<div class="chart">
+  <canvas id="chart-e4f9d7588599a3e05637f39aa1b8e1fa"></canvas>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", (event) => {
+      const ctx = document.getElementById("chart-e4f9d7588599a3e05637f39aa1b8e1fa");
+      const chart = new Chart(ctx, {
+        
+type: 'bar',
+data: {
+  labels: ['JavaSE', 'SSM', '代码随想录', 'SpringBoot', '408','参照进度'],
+  datasets: [{
+    label: '学习进度记录',
+    data: [60, 14, 10, 0, 0, 100, 40],
+    backgroundColor: [
+      'rgba(177, 175, 243, 0.11)',
+      'rgba(255, 159, 64, 0.2)',
+      'rgba(255, 205, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(201, 203, 207, 0.2)'
+    ],
+    borderColor: [
+      'rgb(128, 99, 255)',
+      'rgb(255, 159, 64)',
+      'rgb(255, 205, 86)',
+      'rgb(75, 192, 192)',
+      'rgb(54, 162, 235)',
+      'rgb(153, 102, 255)',
+      'rgb(201, 203, 207)'
+    ],
+    borderWidth: 2
+  }]
+},
+options: {
+    indexAxis: 'y',
+    elements: {
+      bar: {
+        borderWidth: 2,
+      }
+    },
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          font: {
+            size: 16 // 图例字体大小
+          }
+        }
+      },
+      title: {
+        display: true,
+        text: 'Java进度',
+        font: {
+          size: 20 // 标题字体大小
+        }
+      },
+    },
+    scales: {
+      x: {
+        ticks: {
+          font: {
+            size: 15 // X轴标签字体大小
+          }
+        }
+      },
+      y: {
+        ticks: {
+          font: {
+            size: 15 // Y轴标签字体大小
+          }
+        }
+      }
+    }
+  },
+
+      });
+    });
+  </script>
+</div>
+
+<!-- prettier-ignore-end -->
+
 
 <h2 class="relative group">2025 每周记录 
     <div id="2025-%E6%AF%8F%E5%91%A8%E8%AE%B0%E5%BD%95" class="anchor"></div>
