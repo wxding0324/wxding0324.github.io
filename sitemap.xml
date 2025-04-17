@@ -429,6 +429,30 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wxding0324.github.io/tags/knowledge-distillation/</loc>
+    <lastmod>2024-05-01T15:22:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/tags/loss/</loc>
+    <lastmod>2024-05-01T15:22:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/others/margin-loss/</loc>
+    <lastmod>2024-05-01T15:22:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wxding0324.github.io/paperreading/others/</loc>
+    <lastmod>2024-05-01T15:22:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wxding0324.github.io/java/javaweb/mysql/mysql/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -525,11 +549,6 @@
   </url>
   <url>
     <loc>https://wxding0324.github.io/paperreading/mia/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wxding0324.github.io/paperreading/others/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
