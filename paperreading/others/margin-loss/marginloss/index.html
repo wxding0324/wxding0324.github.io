@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Others &middot; Xiiin&#39;s Blog</title>
-  <meta name="title" content="Others &middot; Xiiin&#39;s Blog" />
+  <title>Margin Loss &middot; Xiiin&#39;s Blog</title>
+  <meta name="title" content="Margin Loss &middot; Xiiin&#39;s Blog" />
   
   
+  <meta name="keywords" content="Loss, Knowledge Distillation, " />
   
   
-  
-  <link rel="canonical" href="https://wxding0324.github.io/paperreading/others/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/paperreading/others/index.xml" title="Xiiin's Blog" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/others/margin-loss/marginloss/" />
   
   
   
@@ -69,17 +67,49 @@
   
   
   
-  <meta property="og:url" content="https://wxding0324.github.io/paperreading/others/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/others/margin-loss/marginloss/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
-  <meta property="og:title" content="Others">
+  <meta property="og:title" content="Margin Loss">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="paperreading">
+    <meta property="article:published_time" content="2025-04-21T10:15:53+08:00">
+    <meta property="article:modified_time" content="2025-04-21T10:15:53+08:00">
+    <meta property="article:tag" content="Loss">
+    <meta property="article:tag" content="Knowledge Distillation">
 
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Others">
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Margin Loss">
 <meta name="twitter:description" content="">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Paper Reading",
+    "name": "Margin Loss",
+    "headline": "Margin Loss",
+    
+    
+    "inLanguage": "en",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/others\/margin-loss\/marginloss\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Xiiin"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-04-21T10:15:53\u002b08:00",
+    "datePublished": "2025-04-21T10:15:53\u002b08:00",
+    
+    "dateModified": "2025-04-21T10:15:53\u002b08:00",
+    
+    "keywords": ["Loss","Knowledge Distillation"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1473"
+  }]
+  </script>
+
 
   
   
@@ -94,6 +124,147 @@
   
 
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.9a243bd9a824b2db256f73c9cc08fb4324ade4b3561b6be07f389ca3d8f7fa47c89542d2c842370a70ca90adaa9a870142bc63b4ffc147db7c29696bc107c761.css" integrity="sha512-miQ72agkstslb3PJzAj7QySt5LNWG2vgfzico9j3&#43;kfIlULSyEI3CnDKkK2qmocBQrxjtP/BR9t8KWlrwQfHYQ==" />
+
+
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
+  onload="renderMathInElement(document.body, {
+      delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true },
+      ],
+      throwOnError: false
+  });"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -876,19 +1047,71 @@
       
 
 
-
-
-
-
- 
-
-
-
- <header>
+<article>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Others</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/"
+      >Paper Reading</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/others/"
+      >Others</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/others/margin-loss/marginloss/"
+      >Margin Loss</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Margin Loss
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
 
 
 
@@ -900,6 +1123,11 @@
 
 
 
+  
+
+
+
+  
 
 
 
@@ -907,112 +1135,39 @@
 
 
 
+
+
+
+
+  
 
 
 
 <div class="flex flex-row flex-wrap items-center">
   
   
-</div>
+  <span>1473 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
-  </div>
-  
-  
-    
-    
-      
-      
-    
-  <script>
-    var oid = "views_PaperReading\\Others\\_index.md"
-    var oid_likes = "likes_PaperReading\\Others\\_index.md"
-  </script>
-  
-  
-  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  
-  </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="min-w-0 min-h-0 max-w-prose">
-      
-    </div>
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
 
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
 
-
-  </section>
-  
-
-    
-    
-    
-    
-    
-
-    
-
-      
-
-        
-        <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-        
-        
-          
-          
-          
-
-  <a href="/paperreading/others/margin-loss/marginloss/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/paperreading/others/margin-loss/marginloss/">Margin Loss</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>1473 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+</span>
+    </span>
+</span>
   
 
   
@@ -1086,302 +1241,524 @@
 
 
 
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
     </div>
-  </a>
 
-          
-          
-          
-          
-
-  <a href="/paperreading/others/pyramid-pooling-module/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/paperreading/others/pyramid-pooling-module/">Pyramid Pooling Module</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>542 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pooling/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Pooling
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-          
-          
-
-  <a href="/paperreading/others/gated-attention/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/paperreading/others/gated-attention/">GATED MULTIMODAL UNITS FOR INFORMATION FUSION</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>325 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/attention/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Attention
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-          
-          
-        
-        </section>
-        
-
+    
+    
     
 
     
 
-  
-
     
-
-  
       
+      
+
+      
+
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#softmax-损失">Softmax 损失</a></li>
+    <li><a href="#margin-softmax-损失">Margin Softmax 损失</a>
+      <ul>
+        <li><a href="#通用公式">通用公式</a></li>
+        <li><a href="#sphereface">SphereFace</a></li>
+        <li><a href="#cosface">CosFace</a></li>
+        <li><a href="#arcface">ArcFace</a></li>
+      </ul>
+    </li>
+    <li><a href="#区别">区别</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#softmax-损失">Softmax 损失</a></li>
+    <li><a href="#margin-softmax-损失">Margin Softmax 损失</a>
+      <ul>
+        <li><a href="#通用公式">通用公式</a></li>
+        <li><a href="#sphereface">SphereFace</a></li>
+        <li><a href="#cosface">CosFace</a></li>
+        <li><a href="#arcface">ArcFace</a></li>
+      </ul>
+    </li>
+    <li><a href="#区别">区别</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+<p>记录一下人脸识别方面的Margin Loss，该loss通过对特征增加margin来增强模型的区分性。</p>
+<p>主要思想是通过对特征进行margin调整来增强模型的区分性。具体来说，Margin Loss在计算损失时，会对正样本和负样本之间的距离进行调整，使得正样本之间的距离更小，而负样本之间的距离更大。这样可以有效地提高模型对不同类别之间的区分能力。或许可以借鉴到医学影像分级中。</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222010700.png" alt="img" />
+    
+  </figure>
+</p>
+
+
+<h2 class="relative group">Softmax 损失 
+    <div id="softmax-%E6%8D%9F%E5%A4%B1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#softmax-%E6%8D%9F%E5%A4%B1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p><strong>Softmax 函数（Softmax）</strong></p>
+<p>对于网络输出的 logits 向量 $\mathbf{z} = [z_1, z_2, \dots, z_n]$，Softmax 将其转为概率分布：<br>
+$$
+p_j = \frac{e^{z_j}}{\sum_{k=1}^n e^{z_k}}
+$$</p>
+<p><strong>交叉熵损失（Cross-Entropy Loss）</strong></p>
+<p>给定样本的真实标签为 $y$，Softmax + 交叉熵定义为：<br>
+$$
+L_{\text{CE}} = -\log p_{y}
+= -\log \frac{e^{z_{y}}}{\sum_{k=1}^n e^{z_k}}
+$$
+通常我们在最后一层将 $z_j = \mathbf{w}_j^\top \mathbf{x} + b_j$，其中 $\mathbf{x}$ 是归一化前的特征向量，$\mathbf{w}_j$ 是第 $j$ 类的权重向量。</p>
+<p><strong>局限性</strong></p>
+<ul>
+<li><strong>类内紧凑度不足</strong>：无法明确拉近同类样本的特征距离。</li>
+<li><strong>类间可分性弱</strong>：不同类别的决策边界只由 logits 大小决定，难以保证边界具有足够的&quot;安全间隔&quot;（margin）。</li>
+</ul>
+
+
+<h2 class="relative group">Margin Softmax 损失 
+    <div id="margin-softmax-%E6%8D%9F%E5%A4%B1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#margin-softmax-%E6%8D%9F%E5%A4%B1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">通用公式 
+    <div id="%E9%80%9A%E7%94%A8%E5%85%AC%E5%BC%8F" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%80%9A%E7%94%A8%E5%85%AC%E5%BC%8F" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>许多变体可统一为：</p>
+<p>$$
+L = -\frac{1}{N}\sum_{i=1}^N
+\log\frac{
+e^{s\bigl(\cos(\theta_{y_i})\cdot m_1 + m_2\bigl)-m_3}
+}{
+e^{s\bigl(\cos(\theta_{y_i})\cdot m_1 + m_2\bigl)-m_3}
++\sum_{j \ne y_i} e^{s\cos(\theta_j)}
+}
+$$</p>
+<ul>
+<li>$\theta_j$：样本特征 $\mathbf{x}_i$ 与类别中心 $\mathbf{w}_j$ 的夹角，$\cos\theta_j = \frac{\mathbf{w}_j^\top \mathbf{x}_i}{|\mathbf{w}_j||\mathbf{x}_i|}$,此处是设置偏置$b_j$为0。</li>
+<li>$s$：缩放因子（scale），提高数值稳定性。</li>
+<li>$m_1,m_2,m_3$：不同方法中采用的 <strong>乘性／加性 margin</strong> 参数。</li>
+</ul>
+
+
+<h3 class="relative group">SphereFace 
+    <div id="sphereface" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#sphereface" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>参数</strong>：<br>
+$$
+m_1 = 4,\quad m_2 = 0,\quad m_3 = 0
+$$</p>
+</li>
+<li>
+<p><strong>损失公式</strong>：<br>
+$$
+L = -\frac{1}{N}\sum_i
+\log\frac{e^{s\cos(m\theta_{y_i})}}
+{e^{s\cos(m\theta_{y_i})} + \sum_{j\ne y_i} e^{s\cos(\theta_j)}}
+$$</p>
+</li>
+<li>
+<p><strong>特点</strong>：</p>
+<ul>
+<li>将角度 $\theta$ 乘以因子 $m$，等同在角度空间拉开类间距离。</li>
+<li>在对角度的非线性变换下，样本与中心的&quot;角度&quot;更加分散。</li>
+</ul>
+</li>
+<li>
+<p><strong>优缺点</strong>：</p>
+<ul>
+<li><strong>优点</strong>：几何意义清晰，能显著提高判别力。</li>
+<li><strong>缺点</strong>：对 $m$ 敏感，训练收敛困难，需要精心初始化和学习率调度。</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">CosFace 
+    <div id="cosface" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cosface" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>参数</strong>：<br>
+$$
+m_1 = 1,\quad m_2 = 0,\quad m_3 = 0.35
+$$</li>
+<li><strong>损失公式</strong>：<br>
+$$
+L = -\frac{1}{N}\sum_i
+\log\frac{e^{s\bigl(\cos\theta_{y_i} - m\bigr)}}
+{e^{s\bigl(\cos\theta_{y_i} - m\bigr)} + \sum_{j\ne y_i} e^{s\cos(\theta_j)}}
+$$</li>
+<li><strong>特点</strong>：
+<ul>
+<li>直接在余弦相似度上减去固定 margin $m$，易于理解和实现。</li>
+<li>不改变角度，只在概率空间人为拉开决策边界。</li>
+</ul>
+</li>
+<li><strong>优缺点</strong>：
+<ul>
+<li><strong>优点</strong>：训练稳定、超参数调节相对简单。</li>
+<li><strong>缺点</strong>：相比 ArcFace 可解释性稍弱，但在实践中效果同样优秀。</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">ArcFace 
+    <div id="arcface" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#arcface" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><strong>参数</strong>：<br>
+$$
+m_1 = 1,\quad m_2 = 0.5,\quad m_3 = 0
+$$</p>
+</li>
+<li>
+<p><strong>损失公式</strong>：<br>
+$$
+L = -\frac{1}{N}\sum_i
+\log\frac{e^{s\cos(\theta_{y_i} + m)}}
+{e^{s\cos(\theta_{y_i} + m)} + \sum_{j\ne y_i} e^{s\cos(\theta_j)}}
+$$</p>
+</li>
+<li>
+<p><strong>特点</strong>：</p>
+<ul>
+<li>在角度上<strong>加</strong>一个固定 margin，再计算余弦。</li>
+<li>兼具几何直观性与训练稳定性，已成为人脸识别领域的 <strong>事实标准</strong>。</li>
+</ul>
+</li>
+<li>
+<p><strong>优缺点</strong>：</p>
+<ul>
+<li><strong>优点</strong>：可解释性强、收敛快、效果稳定。</li>
+<li><strong>缺点</strong>：需要对 $m$ 和 $s$ 进行合理调参，但经验值已较成熟（$m\approx0.5, s\approx64$）</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 class="relative group">区别 
+    <div id="%E5%8C%BA%E5%88%AB" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8C%BA%E5%88%AB" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>SphereFace</th>
+<th>CosFace</th>
+<th>ArcFace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Margin 形式</strong></td>
+<td>乘性角度：$\cos(m\theta)$</td>
+<td>加性余弦：$cos\theta - m$</td>
+<td>加性角度：$cos(\theta + m)$</td>
+</tr>
+<tr>
+<td><strong>几何解释</strong></td>
+<td>在角度空间非线性拉伸</td>
+<td>在相似度空间平移</td>
+<td>在角度空间平移</td>
+</tr>
+<tr>
+<td><strong>收敛难度</strong></td>
+<td>较高（需特殊优化技巧）</td>
+<td>低（易于实现）</td>
+<td>中等（已被大量实践验证）</td>
+</tr>
+<tr>
+<td><strong>超参数敏感度</strong></td>
+<td>(m) 敏感，对初始化和学习率要求高</td>
+<td>(m) 影响平滑，但较稳</td>
+<td>(m,s) 有经验值，可快速调优</td>
+</tr>
+<tr>
+<td><strong>实际效果</strong></td>
+<td>有时优于 ArcFace（需精调）</td>
+<td>与 ArcFace 相当，训练更稳定</td>
+<td>最主流、综合表现最佳</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>核心差异</strong>在于 margin 作用的位置：
+<ul>
+<li><strong>SphereFace</strong> 对角度做了乘性变换，增加非线性难度；</li>
+<li><strong>CosFace</strong> 在余弦相似度上减去常数，更易控制；</li>
+<li><strong>ArcFace</strong> 在角度上加常数，同时保留了几何直观性和训练稳定性。</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 class="relative group">总结 
+    <div id="%E6%80%BB%E7%BB%93" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ol>
+<li><strong>传统 Softmax</strong> 只能拉开 logits 大小，无法显式构造“安全间隔”。</li>
+<li><strong>Margin-based Softmax</strong> 通过对角度或余弦值引入 margin，提高类间可分性。</li>
+<li>三种主流方法的区别在于 margin 的<strong>乘性／加性</strong>及<strong>作用空间（角度 vs 余弦）</strong>，实际中 ArcFace 最为常用。</li>
+</ol>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_PaperReading\\Others\\Margin Loss\\MarginLoss.md"
+        var oid_likes = "likes_PaperReading\\Others\\Margin Loss\\MarginLoss.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/paperreading/others/gated-attention/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >GATED MULTIMODAL UNITS FOR INFORMATION FUSION</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

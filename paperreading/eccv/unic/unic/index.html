@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>KD &middot; Xiiin&#39;s Blog</title>
-  <meta name="title" content="KD &middot; Xiiin&#39;s Blog" />
+  <title>UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation &middot; Xiiin&#39;s Blog</title>
+  <meta name="title" content="UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation &middot; Xiiin&#39;s Blog" />
   
   
+  <meta name="keywords" content="Knowledge Distillation, " />
   
   
-  
-  <link rel="canonical" href="https://wxding0324.github.io/tags/kd/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/tags/kd/index.xml" title="Xiiin's Blog" />
+  <link rel="canonical" href="https://wxding0324.github.io/paperreading/eccv/unic/unic/" />
   
   
   
@@ -69,17 +67,48 @@
   
   
   
-  <meta property="og:url" content="https://wxding0324.github.io/tags/kd/">
+  <meta property="og:url" content="https://wxding0324.github.io/paperreading/eccv/unic/unic/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
-  <meta property="og:title" content="KD">
+  <meta property="og:title" content="UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="paperreading">
+    <meta property="article:published_time" content="2025-04-22T10:15:53+08:00">
+    <meta property="article:modified_time" content="2025-04-22T10:15:53+08:00">
+    <meta property="article:tag" content="Knowledge Distillation">
 
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="KD">
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation">
 <meta name="twitter:description" content="">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Paper Reading",
+    "name": "UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation",
+    "headline": "UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation",
+    
+    
+    "inLanguage": "en",
+    "url" : "https:\/\/wxding0324.github.io\/paperreading\/eccv\/unic\/unic\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Xiiin"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-04-22T10:15:53\u002b08:00",
+    "datePublished": "2025-04-22T10:15:53\u002b08:00",
+    
+    "dateModified": "2025-04-22T10:15:53\u002b08:00",
+    
+    "keywords": ["Knowledge Distillation"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1688"
+  }]
+  </script>
+
 
   
   
@@ -94,6 +123,147 @@
   
 
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.9a243bd9a824b2db256f73c9cc08fb4324ade4b3561b6be07f389ca3d8f7fa47c89542d2c842370a70ca90adaa9a870142bc63b4ffc147db7c29696bc107c761.css" integrity="sha512-miQ72agkstslb3PJzAj7QySt5LNWG2vgfzico9j3&#43;kfIlULSyEI3CnDKkK2qmocBQrxjtP/BR9t8KWlrwQfHYQ==" />
+
+
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
+  onload="renderMathInElement(document.body, {
+      delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true },
+      ],
+      throwOnError: false
+  });"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -876,240 +1046,678 @@
       
 
 
-
-
-
-
- 
-
-
-
- <header>
+<article>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">KD</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
-</div>
-
-
-  </div>
-  </header>
-
-  <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
     
-  </section>
-
-
   
-
-  
-  
-  
-
-  
-
-  
-
-  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     
+  
     
-    
-
-  <a href="/paperreading/miccai/dcdistill/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/paperreading/miccai/dcdistill/">Discrepancy and Gradient-Guided Multi-modal Knowledge Distillation for Pathological Glioma Grading</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
 
   
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>1136 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/"
+      >Paper Reading</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
 
   
-  
-</div>
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/eccv/"
+      >ECCV</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
 
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/paperreading/eccv/unic/unic/"
+      >UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
 
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
+</ol>
 
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/conferences/miccai/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    MICCAI
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/multi-modal/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Multi-Modal
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/kd/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    KD
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/years/2022/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    2022
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
 
     
-    
-  </section>
-
-  
-
-  
-
-  
-
-  
-
-  
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>1688 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/conferences/eccv/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    ECCV
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/knowledge-distillation/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Knowledge Distillation
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/years/2024/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2024
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#动机">动机</a></li>
+    <li><a href="#主要贡献">主要贡献</a></li>
+    <li><a href="#具体实现">具体实现</a>
+      <ul>
+        <li><a href="#多教师蒸馏基础框架">多教师蒸馏基础框架</a>
+          <ul>
+            <li><a href="#输入与输出表示">输入与输出表示</a></li>
+            <li><a href="#学生网络与可剔除投影头">学生网络与可剔除投影头</a></li>
+            <li><a href="#损失函数定义">损失函数定义</a></li>
+          </ul>
+        </li>
+        <li><a href="#特征标准化">特征标准化</a></li>
+        <li><a href="#clspatch-专用投影头">CLS/Patch 专用投影头</a></li>
+        <li><a href="#可扩展投影器阶梯-ladder-of-projectors">可扩展投影器阶梯 (Ladder of Projectors)</a></li>
+        <li><a href="#教师丢弃正则-teacher-dropping">教师丢弃正则 (Teacher Dropping)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#动机">动机</a></li>
+    <li><a href="#主要贡献">主要贡献</a></li>
+    <li><a href="#具体实现">具体实现</a>
+      <ul>
+        <li><a href="#多教师蒸馏基础框架">多教师蒸馏基础框架</a>
+          <ul>
+            <li><a href="#输入与输出表示">输入与输出表示</a></li>
+            <li><a href="#学生网络与可剔除投影头">学生网络与可剔除投影头</a></li>
+            <li><a href="#损失函数定义">损失函数定义</a></li>
+          </ul>
+        </li>
+        <li><a href="#特征标准化">特征标准化</a></li>
+        <li><a href="#clspatch-专用投影头">CLS/Patch 专用投影头</a></li>
+        <li><a href="#可扩展投影器阶梯-ladder-of-projectors">可扩展投影器阶梯 (Ladder of Projectors)</a></li>
+        <li><a href="#教师丢弃正则-teacher-dropping">教师丢弃正则 (Teacher Dropping)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+<p><a href="https://europe.naverlabs.com/unic" target="_blank">本文</a>可以说是对知识蒸馏各种Tricks的一次尝试，将各种有用的Trick结合起来，提出了一个新的蒸馏方法，为UNIC。</p>
+<p>论文中对实际采用的方法进行的描述比较笼统，并没有具体深入去讲解如何操作与实现，但它给的开源代码是真的特别特别好，结构清晰、命名规范，没有堆砌任何多余代码。</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222012404.png" alt="image-20250422201257367" />
+    
+  </figure>
+</p>
+
+
+<h2 class="relative group">动机 
+    <div id="%E5%8A%A8%E6%9C%BA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8A%A8%E6%9C%BA" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>不同预训练策略（如自监督学习 (Self‑Supervised Learning)、监督学习 (Supervised Learning)、掩码建模 (Masked Modeling)）往往在不同场景中各有所长。例如，DINO 在迁移学习上表现优异，而 DeiT‑III 在 ImageNet 分类上达到最优。</p>
+<p>本文的出发点是：如何将这些互补优势融合，得到一个<strong>通用编码器 (Universal Encoder)</strong>，以<strong>单一模型</strong>同时在图像分类、细粒度识别、语义分割、深度估计等任务中取得或超越各自最好教师 (Teacher) 的性能，</p>
+
+
+<h2 class="relative group">主要贡献 
+    <div id="%E4%B8%BB%E8%A6%81%E8%B4%A1%E7%8C%AE" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%B8%BB%E8%A6%81%E8%B4%A1%E7%8C%AE" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><strong>多教师蒸馏 (Multi‑Teacher Distillation)</strong> 框架
+以 ViT‑Base 为骨干，蒸馏来自多个教师模型的特征表示，不依赖任何监督标签，仅用<strong>余弦损失 (Cosine Loss)</strong> 与<strong>平滑 L₁ 损失 (Smooth‑L₁ Loss)</strong>。</li>
+<li><strong>特征标准化 (Feature Standardization)</strong>
+对各教师输出特征做零均值、单位方差标准化，以消除 CLS Token 与 Patch Token 及不同教师间的统计差异。</li>
+<li><strong>CLS / Patch 专用投影头 (Dedicated Projectors)</strong>
+分别为全局 CLS Token 与局部 Patch Token 设计教师专属 MLP 投影头 (Projector)，增强对两类特征的适配。</li>
+<li><strong>可扩展投影器阶梯 (Ladder of Projectors)</strong>
+在学生模型每个中间层附加轻量级 MLP，将所有中间层特征<strong>汇聚 (sum)</strong> 到对应教师的投影头，更多层次信息更直接地参与蒸馏。</li>
+<li><strong>教师丢弃正则 (Teacher Dropping Regularization)</strong>
+利用各教师当前损失大小动态<strong>随机丢弃 (drop)</strong> 部分教师的损失，仅保留最大损失教师，平衡学习进度，避免性能倾斜。</li>
+</ul>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222039750.png" alt="image-20250422203909712" />
+    
+  </figure>
+</p>
+
+
+<h2 class="relative group">具体实现 
+    <div id="%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">多教师蒸馏基础框架 
+    <div id="%E5%A4%9A%E6%95%99%E5%B8%88%E8%92%B8%E9%A6%8F%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%A4%9A%E6%95%99%E5%B8%88%E8%92%B8%E9%A6%8F%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">输入与输出表示 
+    <div id="%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA%E8%A1%A8%E7%A4%BA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA%E8%A1%A8%E7%A4%BA" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>设有 $M$ 位教师模型 $\mathcal{T}={T_1,\dots,T_M}$，皆为 ViT‑Base 编码器。对于输入图像 $x$，教师 $T_t$ 在第 $l$ 层输出一组 $d$ 维特征向量
+$$
+y_{t,i}^{(l)} = f_t^{(l)}(x;i),\quad i\in{\text{CLS}}\cup P,
+$$
+其中 CLS 表示全局分类 Token，$P$ 为 $H\times W$ 个局部 Patch Token。最终只取 $l=L$（最后一层）的输出 $y_{t,i}$ 作为蒸馏目标。</li>
+</ul>
+
+
+<h4 class="relative group">学生网络与可剔除投影头 
+    <div id="%E5%AD%A6%E7%94%9F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%8F%AF%E5%89%94%E9%99%A4%E6%8A%95%E5%BD%B1%E5%A4%B4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%AD%A6%E7%94%9F%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%8F%AF%E5%89%94%E9%99%A4%E6%8A%95%E5%BD%B1%E5%A4%B4" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>
+<p>学生模型 $S$ 同样为 ViT‑Base，输出对应特征
+$$
+z_i = f_s(x;,i),\quad i\in{\text{CLS}}\cup P.
+$$</p>
+</li>
+<li>
+<p>为每位教师 $t$ 追加<strong>可剔除 (expendable) 投影头</strong> $h_t(\cdot)$，将 $d$ 维 $z_i$ 映射至教师特征空间。投影头均为含 GeLU 激活的两层 MLP</p>
+<p>训练结束后去除所有 $h_t$，仅保留学生编码器。</p>
+</li>
+</ul>
+
+
+<h4 class="relative group">损失函数定义 
+    <div id="%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>
+<p>对每位教师 $t$、每个 Token $i$（CLS 或 Patch）定义蒸馏损失：
+$$
+L_t(x,i)=0.5\Bigl[ L_{\cos}\bigl(h_t(z_i),y_{t,i}\bigr) +L_{\mathrm{smooth}\text{-}1}\bigl(h_t(z_i),y_{t,i}\bigr) \Bigr]
+$$
+其中
+$$
+L_{\cos}(s,t)=1-\frac{s^\top t}{|s|_2,|t|*2}
+$$</p>
+<p>$$
+L_{\mathrm{smooth}\text{-}1}(s,t) =
+\begin{cases}
+0.5, |s - t|_2^2, &amp; \text{if } |s - t|_1 &lt; 1 \\
+|s - t|_1 - 0.5, &amp; \text{otherwise}
+\end{cases}
+$$</p>
+</li>
+<li>
+<p><strong>总损失</strong> 汇总所有教师与所有 Token：
+$$
+L(x) =\sum_{t=1}^M\Bigl[L_t(x,\text{CLS})+\tfrac{1}{|P|}\sum_{p\in P}L_t(x,p)\Bigr]
+$$</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">特征标准化 
+    <div id="%E7%89%B9%E5%BE%81%E6%A0%87%E5%87%86%E5%8C%96" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%89%B9%E5%BE%81%E6%A0%87%E5%87%86%E5%8C%96" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222033919.png" alt="image-20250422203308877" />
+    
+  </figure>
+</p>
+<ul>
+<li><strong>动机</strong>：不同教师及 CLS/Patch Token 的一阶、二阶统计量（均值、方差）差异显著，会导致某些教师/Token 的损失主导蒸馏过程，缓慢或偏向地学习其它教师特征。</li>
+<li><strong>实现</strong>：对教师特征 $y_{t,i}$ 按通道维度做零均值、单位方差标准化：
+$$
+\tilde y_{t,i} ;=;\frac{y_{t,i}-\mu_t}{\sigma_t}
+$$
+其中 $\mu_t,\sigma_t$ 通过<strong>指数移动平均 (EMA)</strong> 在线估计：
+$$
+\mu_t\leftarrow m\mu_t+(1-m)\overline{y}_{t},\quad \sigma_t^2\leftarrow m\sigma_t^2+(1-m)\mathrm{Var}(y_t)
+$$
+标准化后再计算蒸馏损失，有效消除教师间及 Token 间的量纲不一致，全面提升分类与密集预测表现。</li>
+</ul>
+
+
+<h3 class="relative group">CLS/Patch 专用投影头 
+    <div id="clspatch-%E4%B8%93%E7%94%A8%E6%8A%95%E5%BD%B1%E5%A4%B4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#clspatch-%E4%B8%93%E7%94%A8%E6%8A%95%E5%BD%B1%E5%A4%B4" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>全局 CLS Token 应侧重图像级语义，局部 Patch Token 则聚焦空间细节。为此，为 CLS 和 Patch 分别各自学习一对 $h_t^{\text{CLS}}$、$h_t^{\text{Patch}}$ ——两组参数互不共享，却对最终蒸馏策略零额外开销（训练后剔除）。</p>
+
+
+<h3 class="relative group">可扩展投影器阶梯 (Ladder of Projectors) 
+    <div id="%E5%8F%AF%E6%89%A9%E5%B1%95%E6%8A%95%E5%BD%B1%E5%99%A8%E9%98%B6%E6%A2%AF-ladder-of-projectors" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8F%AF%E6%89%A9%E5%B1%95%E6%8A%95%E5%BD%B1%E5%99%A8%E9%98%B6%E6%A2%AF-ladder-of-projectors" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>动机</strong>：中间层往往包含丰富的多尺度特征，直接在此加损失会带来超参爆炸式增长与优化困难。</li>
+<li><strong>结构</strong>：在学生每层第 $l$ (1≤l≤L) 输出 $z^{(l)}$ 附加轻量 MLP $h^{(l)}<em>t$，并将所有层级输出汇聚到教师 $t$ 的主投影头：
+$$ h_t^{\mathrm{LP}}\bigl({z^{(l)}}\bigr) ;=;\sum</em>{l=1}^L h^{(l)}_t\bigl(z^{(l)}\bigr) $$
+其中对 $l&lt;L$ 的中间层 MLP 隐藏维度 $d_h^{(l)}$ 可设置为 $d$ 或更小（实验中取 768），仅在最后一层保留完整 $4d$ 隐藏维度，以控制参数规模。</li>
+<li><strong>效果</strong>：大幅提升 Patch Token 在密集任务上的判别力，且对图像分类亦有 +0.5% 的增益。</li>
+</ul>
+
+
+<h3 class="relative group">教师丢弃正则 (Teacher Dropping) 
+    <div id="%E6%95%99%E5%B8%88%E4%B8%A2%E5%BC%83%E6%AD%A3%E5%88%99-teacher-dropping" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%95%99%E5%B8%88%E4%B8%A2%E5%BC%83%E6%AD%A3%E5%88%99-teacher-dropping" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222035600.png" alt="image-20250422203528564" />
+    
+  </figure>
+</p>
+<ul>
+<li>
+<p><strong>问题</strong>：训练过程中损失收敛速度不一，少数教师（如 DINO）过早占优，导致整体性能偏向其强项，难以充分吸收其它教师（如 DeiT‑III）优势。</p>
+</li>
+<li>
+<p><strong>方案</strong>：对每张样本，在每次迭代中计算各教师损失 $L_t$，选出<strong>最大损失教师</strong>始终保留，其余教师以概率 $p$ 随机丢弃，令：</p>
+</li>
+</ul>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222038884.png" alt="image-20250422203816855" />
+    
+  </figure>
+</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_PaperReading\\ECCV\\UNIC\\unic.md"
+        var oid_likes = "likes_PaperReading\\ECCV\\UNIC\\unic.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
