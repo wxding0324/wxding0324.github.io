@@ -105,7 +105,7 @@
     "keywords": ["Knowledge Distillation"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1688"
+    "wordCount": "1563"
   }]
   </script>
 
@@ -1145,7 +1145,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>1688 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>1563 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -1656,14 +1656,9 @@ $$ h_t^{\mathrm{LP}}\bigl({z^{(l)}}\bigr) ;=;\sum</em>{l=1}^L h^{(l)}_t\bigl(z^{
     
   </figure>
 </p>
-<ul>
-<li>
-<p><strong>问题</strong>：训练过程中损失收敛速度不一，少数教师（如 DINO）过早占优，导致整体性能偏向其强项，难以充分吸收其它教师（如 DeiT‑III）优势。</p>
-</li>
-<li>
-<p><strong>方案</strong>：对每张样本，在每次迭代中计算各教师损失 $L_t$，选出<strong>最大损失教师</strong>始终保留，其余教师以概率 $p$ 随机丢弃，令：</p>
-</li>
-</ul>
+<!-- - **问题**：训练过程中损失收敛速度不一，少数教师（如 DINO）过早占优，导致整体性能偏向其强项，难以充分吸收其它教师（如 DeiT‑III）优势。
+
+- **方案**：对每张样本，在每次迭代中计算各教师损失 $L_t$，选出**最大损失教师**始终保留，其余教师以概率 $p$ 随机丢弃，令： -->
 <p>
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage@main/202504222038884.png" alt="image-20250422203816855" />
