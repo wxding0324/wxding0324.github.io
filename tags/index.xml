@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/</link>
+    <description>Recent content in Tags on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Tue, 22 Apr 2025 10:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Knowledge Distillation</title>
+      <link>https://wxding0324.github.io/tags/knowledge-distillation/</link>
+      <pubDate>Tue, 22 Apr 2025 10:15:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/knowledge-distillation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Loss</title>
+      <link>https://wxding0324.github.io/tags/loss/</link>
+      <pubDate>Mon, 21 Apr 2025 10:15:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/loss/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LightWeight</title>
+      <link>https://wxding0324.github.io/tags/lightweight/</link>
+      <pubDate>Tue, 12 Nov 2024 16:34:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/lightweight/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TrainStrategy</title>
+      <link>https://wxding0324.github.io/tags/trainstrategy/</link>
+      <pubDate>Tue, 12 Nov 2024 16:34:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/trainstrategy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>https://wxding0324.github.io/tags/vit/</link>
+      <pubDate>Mon, 11 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/vit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Attention</title>
+      <link>https://wxding0324.github.io/tags/attention/</link>
+      <pubDate>Mon, 11 Nov 2024 09:35:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/attention/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Segmentation</title>
+      <link>https://wxding0324.github.io/tags/segmentation/</link>
+      <pubDate>Mon, 11 Nov 2024 09:35:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/segmentation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CNN</title>
+      <link>https://wxding0324.github.io/tags/cnn/</link>
+      <pubDate>Sun, 20 Oct 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/cnn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DDP</title>
+      <link>https://wxding0324.github.io/tags/ddp/</link>
+      <pubDate>Mon, 17 Jun 2024 17:11:08 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/ddp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multi-Modal</title>
+      <link>https://wxding0324.github.io/tags/multi-modal/</link>
+      <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/multi-modal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://wxding0324.github.io/tags/python/</link>
+      <pubDate>Sat, 11 May 2024 17:39:25 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ImgProcess</title>
+      <link>https://wxding0324.github.io/tags/imgprocess/</link>
+      <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/imgprocess/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DataAugment</title>
+      <link>https://wxding0324.github.io/tags/dataaugment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/dataaugment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://wxding0324.github.io/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/java/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pooling</title>
+      <link>https://wxding0324.github.io/tags/pooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/pooling/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Semi</title>
+      <link>https://wxding0324.github.io/tags/semi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/tags/semi/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

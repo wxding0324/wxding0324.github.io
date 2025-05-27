@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ViT on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/vit/</link>
+    <description>Recent content in ViT on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Mon, 11 Nov 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multimodal Co-Attention Fusion Network With  Online Data Augmentation for Cancer  Subtype Classification</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/mcfn/</link>
+      <pubDate>Mon, 11 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/mcfn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UNETR&#43;&#43;: Delving Into Efficient and Accurate  3D Medical Image Segmentation</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</link>
+      <pubDate>Mon, 11 Nov 2024 09:35:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature  Refinement for Image Restoration</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/ast/</link>
+      <pubDate>Mon, 04 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/ast/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GhostNetV2: Enhance Cheap Operation with Long-Range Attention</title>
+      <link>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</link>
+      <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ZIPFORMER: A FASTER AND BETTER ENCODER FOR AUTOMATIC SPEECH RECOGNITION</title>
+      <link>https://wxding0324.github.io/paperreading/iclr/zipformer/</link>
+      <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/iclr/zipformer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS</title>
+      <link>https://wxding0324.github.io/paperreading/iclr/evit/</link>
+      <pubDate>Tue, 23 Jul 2024 10:32:27 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/iclr/evit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification</title>
+      <link>https://wxding0324.github.io/paperreading/nips/dynamicvit/</link>
+      <pubDate>Tue, 23 Jul 2024 10:24:29 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/dynamicvit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>All Tokens Matter: Token Labeling for Training Better Vision Transformers</title>
+      <link>https://wxding0324.github.io/paperreading/nips/lv-vit/</link>
+      <pubDate>Tue, 23 Jul 2024 10:22:46 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/lv-vit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/sharpose/</link>
+      <pubDate>Sun, 07 Jul 2024 22:01:01 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/sharpose/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LF-ViT: Reducing Spatial Redundancy in Vision Transformer for Efficient Image Recognition</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/lf-vit/</link>
+      <pubDate>Sun, 07 Jul 2024 21:45:54 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/lf-vit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CF-ViT: A General Coarse-to-Fine Method for Vision Transformer</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/cf-vit/</link>
+      <pubDate>Sun, 07 Jul 2024 17:41:32 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/cf-vit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DTMFormer: Dynamic Token Merging for Boosting Transformer-Based Medical Image Segmentationer</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/dtmformer/</link>
+      <pubDate>Sat, 08 Jun 2024 20:17:07 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/dtmformer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bi-directional Adapter for Multi-modal Tracking</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/bat/</link>
+      <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/bat/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BiFormer: Vision Transformer with Bi-Level Routing Attention</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/biformer/</link>
+      <pubDate>Wed, 08 May 2024 11:25:52 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/biformer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vision Transformer with Super Token Sampling</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/svit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/svit/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

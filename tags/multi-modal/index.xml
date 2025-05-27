@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Modal on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/multi-modal/</link>
+    <description>Recent content in Multi-Modal on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Sun, 19 May 2024 20:08:35 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/multi-modal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bi-directional Adapter for Multi-modal Tracking</title>
+      <link>https://wxding0324.github.io/paperreading/aaai/bat/</link>
+      <pubDate>Sun, 19 May 2024 20:08:35 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/aaai/bat/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Discrepancy and Gradient-Guided Multi-modal Knowledge Distillation for Pathological Glioma Grading</title>
+      <link>https://wxding0324.github.io/paperreading/miccai/dcdistill/</link>
+      <pubDate>Sat, 18 May 2024 17:07:28 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/miccai/dcdistill/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A2FSeg: Adaptive Multi-Modal Fusion Network for Medical Image Segmentation</title>
+      <link>https://wxding0324.github.io/paperreading/miccai/a2fseg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/miccai/a2fseg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Representation, Alignment, Fusion: A Generic Transformer-Based Framework for Multi-modal Glaucoma Recognition</title>
+      <link>https://wxding0324.github.io/paperreading/miccai/mm-raf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/miccai/mm-raf/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

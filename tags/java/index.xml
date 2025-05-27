@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/java/</link>
+    <description>Recent content in Java on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <atom:link href="https://wxding0324.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1.Mysql</title>
+      <link>https://wxding0324.github.io/java/javaweb/mysql/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javaweb/mysql/mysql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2.JDBC</title>
+      <link>https://wxding0324.github.io/java/javaweb/jdbc/jdbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javaweb/jdbc/jdbc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>3.Maven</title>
+      <link>https://wxding0324.github.io/java/javaweb/maven/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javaweb/maven/maven/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>4.MyBatis</title>
+      <link>https://wxding0324.github.io/java/javaweb/mybatis/mybatis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/java/javaweb/mybatis/mybatis/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

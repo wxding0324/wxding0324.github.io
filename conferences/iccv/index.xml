@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICCV on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/conferences/iccv/</link>
+    <description>Recent content in ICCV on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Sun, 20 Oct 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/iccv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Drop an Octave: Reducing Spatial Redundancy in  Convolutional Neural Networks with Octave Convolution</title>
+      <link>https://wxding0324.github.io/paperreading/iccv/octave/</link>
+      <pubDate>Sun, 20 Oct 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/iccv/octave/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

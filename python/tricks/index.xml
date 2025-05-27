@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheet Sheets on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/python/tricks/</link>
+    <description>Recent content in Cheet Sheets on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Tue, 12 Nov 2024 16:34:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/python/tricks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>小模型的搭建和训练tricks</title>
+      <link>https://wxding0324.github.io/python/tricks/%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E7%AD%96%E7%95%A5/lw/</link>
+      <pubDate>Tue, 12 Nov 2024 16:34:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/python/tricks/%E5%B0%8F%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E7%AD%96%E7%95%A5/lw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>常见激活函数</title>
+      <link>https://wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/act/</link>
+      <pubDate>Sun, 20 Oct 2024 17:11:08 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/python/tricks/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0/act/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>单卡多机训练</title>
+      <link>https://wxding0324.github.io/python/tricks/ddp/ddp/</link>
+      <pubDate>Mon, 17 Jun 2024 17:11:08 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/python/tricks/ddp/ddp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>校园网防断连（仅限suda，其它学校如果是网页验证登录也可以</title>
+      <link>https://wxding0324.github.io/python/tricks/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</link>
+      <pubDate>Sat, 11 May 2024 17:39:25 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/python/tricks/autologin/bn%E5%92%8Cln%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%AF%B9%E6%AF%94/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

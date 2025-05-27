@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TMI on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/paperreading/tmi/</link>
+    <description>Recent content in TMI on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Mon, 11 Nov 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/paperreading/tmi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multimodal Co-Attention Fusion Network With  Online Data Augmentation for Cancer  Subtype Classification</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/mcfn/</link>
+      <pubDate>Mon, 11 Nov 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/mcfn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UNETR&#43;&#43;: Delving Into Efficient and Accurate  3D Medical Image Segmentation</title>
+      <link>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</link>
+      <pubDate>Mon, 11 Nov 2024 09:35:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/tmi/uneter_pp/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

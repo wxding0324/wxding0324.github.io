@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/tags/cnn/</link>
+    <description>Recent content in CNN on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Sun, 20 Oct 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Drop an Octave: Reducing Spatial Redundancy in  Convolutional Neural Networks with Octave Convolution</title>
+      <link>https://wxding0324.github.io/paperreading/iccv/octave/</link>
+      <pubDate>Sun, 20 Oct 2024 09:37:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/iccv/octave/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/fasternet/</link>
+      <pubDate>Fri, 18 Oct 2024 12:29:30 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/fasternet/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Coordinate Attention for Efficient Mobile Network Design</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/coordatt/</link>
+      <pubDate>Wed, 16 Oct 2024 21:02:31 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/coordatt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution</title>
+      <link>https://wxding0324.github.io/paperreading/ijcai/spconv/</link>
+      <pubDate>Wed, 16 Oct 2024 16:09:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/ijcai/spconv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GhostNetV2: Enhance Cheap Operation with Long-Range Attention</title>
+      <link>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</link>
+      <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/ghostnetv2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GhostNet: More Features from Cheap Operations</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</link>
+      <pubDate>Tue, 15 Oct 2024 16:15:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/ghostnet/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

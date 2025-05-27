@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/python/algorithm/</link>
+    <description>Recent content in Algorithm on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <atom:link href="https://wxding0324.github.io/python/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>力扣Hot100</title>
+      <link>https://wxding0324.github.io/python/algorithm/hot100/hot100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/python/algorithm/hot100/hot100/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

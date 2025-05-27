@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IJCAI on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/conferences/ijcai/</link>
+    <description>Recent content in IJCAI on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 16:09:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/ijcai/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution</title>
+      <link>https://wxding0324.github.io/paperreading/ijcai/spconv/</link>
+      <pubDate>Wed, 16 Oct 2024 16:09:14 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/ijcai/spconv/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

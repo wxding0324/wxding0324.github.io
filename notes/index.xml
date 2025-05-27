@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/notes/</link>
+    <description>Recent content in Notes on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Tue, 16 Jul 2024 10:05:43 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>癫痫调研</title>
+      <link>https://wxding0324.github.io/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</link>
+      <pubDate>Tue, 16 Jul 2024 10:05:43 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CheetSheet</title>
+      <link>https://wxding0324.github.io/notes/cheetsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/notes/cheetsheet/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TODO</title>
+      <link>https://wxding0324.github.io/notes/todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxding0324.github.io/notes/todo/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

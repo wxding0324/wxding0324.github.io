@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 on Xiiin&#39;s Blog</title>
+    <link>https://wxding0324.github.io/years/2021/</link>
+    <description>Recent content in 2021 on Xiiin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Xiiin</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 21:02:31 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coordinate Attention for Efficient Mobile Network Design</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/coordatt/</link>
+      <pubDate>Wed, 16 Oct 2024 21:02:31 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/coordatt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>All Tokens Matter: Token Labeling for Training Better Vision Transformers</title>
+      <link>https://wxding0324.github.io/paperreading/nips/lv-vit/</link>
+      <pubDate>Tue, 23 Jul 2024 10:22:46 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/nips/lv-vit/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
