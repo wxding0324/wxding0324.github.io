@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Tue, 22 Apr 2025 10:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jun 2025 02:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/eccv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Distilling Knowledge from Large-Scale Image Models for Object Detection</title>
+      <link>https://wxding0324.github.io/paperreading/eccv/dlim-det/dlim-det/</link>
+      <pubDate>Tue, 03 Jun 2025 02:15:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/eccv/dlim-det/dlim-det/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>UNIC: Universal Classiﬁcation Models via Multi-teacher Distillation</title>
