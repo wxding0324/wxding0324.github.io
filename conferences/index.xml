@@ -7,12 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Tue, 03 Jun 2025 02:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 04:45:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TMI</title>
+      <link>https://wxding0324.github.io/conferences/tmi/</link>
+      <pubDate>Fri, 27 Jun 2025 04:45:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/conferences/tmi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ICCV</title>
+      <link>https://wxding0324.github.io/conferences/iccv/</link>
+      <pubDate>Fri, 27 Jun 2025 04:30:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/conferences/iccv/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>ECCV</title>
       <link>https://wxding0324.github.io/conferences/eccv/</link>
-      <pubDate>Tue, 03 Jun 2025 02:15:53 +0800</pubDate>
+      <pubDate>Fri, 27 Jun 2025 04:15:53 +0800</pubDate>
       
       <guid>https://wxding0324.github.io/conferences/eccv/</guid>
       <description></description>
@@ -20,11 +40,11 @@
     </item>
     
     <item>
-      <title>TMI</title>
-      <link>https://wxding0324.github.io/conferences/tmi/</link>
-      <pubDate>Mon, 11 Nov 2024 09:37:14 +0800</pubDate>
+      <title>ICLR</title>
+      <link>https://wxding0324.github.io/conferences/iclr/</link>
+      <pubDate>Fri, 27 Jun 2025 03:32:27 +0800</pubDate>
       
-      <guid>https://wxding0324.github.io/conferences/tmi/</guid>
+      <guid>https://wxding0324.github.io/conferences/iclr/</guid>
       <description></description>
       
     </item>
@@ -35,16 +55,6 @@
       <pubDate>Mon, 04 Nov 2024 09:37:14 +0800</pubDate>
       
       <guid>https://wxding0324.github.io/conferences/cvpr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>ICCV</title>
-      <link>https://wxding0324.github.io/conferences/iccv/</link>
-      <pubDate>Sun, 20 Oct 2024 09:37:14 +0800</pubDate>
-      
-      <guid>https://wxding0324.github.io/conferences/iccv/</guid>
       <description></description>
       
     </item>
@@ -75,16 +85,6 @@
       <pubDate>Tue, 15 Oct 2024 16:24:19 +0800</pubDate>
       
       <guid>https://wxding0324.github.io/conferences/nips/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>ICLR</title>
-      <link>https://wxding0324.github.io/conferences/iclr/</link>
-      <pubDate>Tue, 23 Jul 2024 11:12:12 +0800</pubDate>
-      
-      <guid>https://wxding0324.github.io/conferences/iclr/</guid>
       <description></description>
       
     </item>

@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 16:24:19 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 04:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2022/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Masked Generative Distillation</title>
+      <link>https://wxding0324.github.io/paperreading/eccv/mgd/mgd/</link>
+      <pubDate>Fri, 27 Jun 2025 04:15:53 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/eccv/mgd/mgd/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>GhostNetV2: Enhance Cheap Operation with Long-Range Attention</title>
