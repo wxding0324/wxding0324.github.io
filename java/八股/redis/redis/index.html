@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>CheetSheet &middot; Xiiin&#39;s Blog</title>
-  <meta name="title" content="CheetSheet &middot; Xiiin&#39;s Blog" />
+  <title>Redis &middot; Xiiin&#39;s Blog</title>
+  <meta name="title" content="Redis &middot; Xiiin&#39;s Blog" />
   
   
   
   
   
-  <link rel="canonical" href="https://wxding0324.github.io/notes/cheetsheet/" />
+  <link rel="canonical" href="https://wxding0324.github.io/java/%E5%85%AB%E8%82%A1/redis/redis/" />
   
   
   
@@ -67,16 +67,16 @@
   
   
   
-  <meta property="og:url" content="https://wxding0324.github.io/notes/cheetsheet/">
+  <meta property="og:url" content="https://wxding0324.github.io/java/%E5%85%AB%E8%82%A1/redis/redis/">
   <meta property="og:site_name" content="Xiiin&#39;s Blog">
-  <meta property="og:title" content="CheetSheet">
+  <meta property="og:title" content="Redis">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="notes">
+    <meta property="article:section" content="java">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="CheetSheet">
+  <meta name="twitter:title" content="Redis">
 
     
   
@@ -85,13 +85,13 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Notes",
-    "name": "CheetSheet",
-    "headline": "CheetSheet",
+    "articleSection": "Java",
+    "name": "Redis",
+    "headline": "Redis",
     
     
     "inLanguage": "en",
-    "url" : "https:\/\/wxding0324.github.io\/notes\/cheetsheet\/",
+    "url" : "https:\/\/wxding0324.github.io\/java\/%E5%85%AB%E8%82%A1\/redis\/redis\/",
     "author" : {
       "@type": "Person",
       "name": "Xiiin"
@@ -105,7 +105,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "8136"
+    "wordCount": "4875"
   }]
   </script>
 
@@ -921,6 +921,8 @@
   
     
   
+    
+  
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
@@ -933,8 +935,17 @@
   <li class="inline">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/notes/"
-      >Notes</a
+      href="/java/"
+      >Java</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/java/%E5%85%AB%E8%82%A1/"
+      >八股</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -942,8 +953,8 @@
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/notes/cheetsheet/"
-      >CheetSheet</a
+      href="/java/%E5%85%AB%E8%82%A1/redis/redis/"
+      >Redis</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -952,7 +963,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      CheetSheet
+      Redis
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -995,7 +1006,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>8136 words</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>4875 words</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.2a0a1375509c03daf41c53a9831aa2d560895b7a2528c3eb3b56e7b11a135c7529e49727162a053b6193be8340270a8342f42c69f3d7e262ae54bc248eaac8f5.js" integrity="sha512-KgoTdVCcA9r0HFOpgxqi1WCJW3olKMPrO1bnsRoTXHUp5JcnFioFO2GTvoNAJwqDQvQsafPX4mKuVLwkjqrI9Q=="></script>
@@ -1112,22 +1123,41 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#linux">Linux</a>
+    <li><a href="#redis的使用场景">Redis的使用场景</a></li>
+    <li><a href="#什么是缓存穿透如何解决">什么是缓存穿透，如何解决？</a></li>
+    <li><a href="#什么是缓存击穿如何解决">什么是缓存击穿？如何解决？</a></li>
+    <li><a href="#什么是缓存雪崩如何解决">什么是缓存雪崩？如何解决？</a></li>
+    <li><a href="#双写一致性">双写一致性</a></li>
+    <li><a href="#持久化rdbaof">持久化（RDB、AOF）</a>
       <ul>
-        <li><a href="#进程管理与守护">进程管理与守护</a>
-          <ul>
-            <li><a href="#终端日志重定向">终端日志重定向</a></li>
-            <li><a href="#screen">Screen</a></li>
-          </ul>
-        </li>
-        <li><a href="#tmux">TMUX</a>
-          <ul>
-            <li></li>
-          </ul>
-        </li>
-        <li><a href="#文件和目录管理">文件和目录管理</a></li>
+        <li><a href="#如何选择-rdb-和-aof">如何选择 RDB 和 AOF？</a></li>
       </ul>
     </li>
+    <li><a href="#数据过期策略">数据过期策略</a></li>
+    <li><a href="#数据淘汰策略">数据淘汰策略</a></li>
+    <li><a href="#分布式锁">分布式锁</a>
+      <ul>
+        <li><a href="#如何实现">如何实现？</a></li>
+        <li><a href="#如何控制redis实现分布式锁有效时长">如何控制Redis实现分布式锁有效时长？</a></li>
+        <li><a href="#redisson实现的分布式锁是可重入的吗">redisson实现的分布式锁是可重入的吗？</a></li>
+        <li><a href="#redisson实现的分布式锁能解决主从一致性的问题吗">redisson实现的分布式锁能解决主从一致性的问题吗？</a></li>
+        <li><a href="#如果业务非要保证数据的强一致性这个该怎么解决呢">如果业务非要保证数据的强一致性，这个该怎么解决呢？</a></li>
+      </ul>
+    </li>
+    <li><a href="#主从哨兵集群">主从、哨兵、集群</a>
+      <ul>
+        <li><a href="#redis集群有哪些方案">Redis集群有哪些方案？</a></li>
+        <li><a href="#主从同步">主从同步</a></li>
+        <li><a href="#主从同步数据的流程">主从同步数据的流程</a></li>
+      </ul>
+    </li>
+    <li><a href="#分片集群">分片集群</a>
+      <ul>
+        <li><a href="#分片集群的作用">分片集群的作用</a></li>
+        <li><a href="#数据是怎么存储和读取">数据是怎么存储和读取</a></li>
+      </ul>
+    </li>
+    <li><a href="#redis为什么快">Redis为什么快？</a></li>
   </ul>
 </nav>
   </div>
@@ -1141,22 +1171,41 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#linux">Linux</a>
+    <li><a href="#redis的使用场景">Redis的使用场景</a></li>
+    <li><a href="#什么是缓存穿透如何解决">什么是缓存穿透，如何解决？</a></li>
+    <li><a href="#什么是缓存击穿如何解决">什么是缓存击穿？如何解决？</a></li>
+    <li><a href="#什么是缓存雪崩如何解决">什么是缓存雪崩？如何解决？</a></li>
+    <li><a href="#双写一致性">双写一致性</a></li>
+    <li><a href="#持久化rdbaof">持久化（RDB、AOF）</a>
       <ul>
-        <li><a href="#进程管理与守护">进程管理与守护</a>
-          <ul>
-            <li><a href="#终端日志重定向">终端日志重定向</a></li>
-            <li><a href="#screen">Screen</a></li>
-          </ul>
-        </li>
-        <li><a href="#tmux">TMUX</a>
-          <ul>
-            <li></li>
-          </ul>
-        </li>
-        <li><a href="#文件和目录管理">文件和目录管理</a></li>
+        <li><a href="#如何选择-rdb-和-aof">如何选择 RDB 和 AOF？</a></li>
       </ul>
     </li>
+    <li><a href="#数据过期策略">数据过期策略</a></li>
+    <li><a href="#数据淘汰策略">数据淘汰策略</a></li>
+    <li><a href="#分布式锁">分布式锁</a>
+      <ul>
+        <li><a href="#如何实现">如何实现？</a></li>
+        <li><a href="#如何控制redis实现分布式锁有效时长">如何控制Redis实现分布式锁有效时长？</a></li>
+        <li><a href="#redisson实现的分布式锁是可重入的吗">redisson实现的分布式锁是可重入的吗？</a></li>
+        <li><a href="#redisson实现的分布式锁能解决主从一致性的问题吗">redisson实现的分布式锁能解决主从一致性的问题吗？</a></li>
+        <li><a href="#如果业务非要保证数据的强一致性这个该怎么解决呢">如果业务非要保证数据的强一致性，这个该怎么解决呢？</a></li>
+      </ul>
+    </li>
+    <li><a href="#主从哨兵集群">主从、哨兵、集群</a>
+      <ul>
+        <li><a href="#redis集群有哪些方案">Redis集群有哪些方案？</a></li>
+        <li><a href="#主从同步">主从同步</a></li>
+        <li><a href="#主从同步数据的流程">主从同步数据的流程</a></li>
+      </ul>
+    </li>
+    <li><a href="#分片集群">分片集群</a>
+      <ul>
+        <li><a href="#分片集群的作用">分片集群的作用</a></li>
+        <li><a href="#数据是怎么存储和读取">数据是怎么存储和读取</a></li>
+      </ul>
+    </li>
+    <li><a href="#redis为什么快">Redis为什么快？</a></li>
   </ul>
 </nav>
   </div>
@@ -1213,680 +1262,353 @@
 
         <div class="article-content max-w-prose mb-20">
           
-<h2 class="relative group">Linux 
-    <div id="linux" class="anchor"></div>
+<h2 class="relative group">Redis的使用场景 
+    <div id="redis的使用场景" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#linux" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#redis%e7%9a%84%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Redis是基于C语言开发的NoSQL数据库，其数据保存在内存中，支持持久化，因此读写速度快。存储的数据为KV对。</p>
+
+<h2 class="relative group">什么是缓存穿透，如何解决？ 
+    <div id="什么是缓存穿透如何解决" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e4%bb%80%e4%b9%88%e6%98%af%e7%bc%93%e5%ad%98%e7%a9%bf%e9%80%8f%e5%a6%82%e4%bd%95%e8%a7%a3%e5%86%b3" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>缓存穿透是查询一个数据库和缓存中都不存在的数据，大量的并发请求会使得数据库宕机。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/redis-cache-penetration.png" alt="缓存穿透" style="zoom:50%;" />
+<p>常见的解决方法有三种：</p>
+<p>一是返回空数据，缓存无效的key。如果缓存和数据库都查不到某个 key 的数据，就写一个到 Redis 中去并设置过期时间。</p>
+<p>二是使用布隆过滤器。</p>
+<p>布隆过滤器主要是用于检索一个元素是否在一个集合中。可以使用redisson实现的布隆过滤器。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/redis-cache-penetration-bloom-filter.png" alt="加入布隆过滤器之后的缓存处理流程图" style="zoom:50%;" />
+<p>它的底层主要是先去初始化一个比较大数组，里面存放的二进制0或1。在一开始都是0，当一个key来了之后经过3次hash计算，模于数组长度找到数据的下标然后把数组中原来的0改为1，这样的话，三个数组的位置就能标明一个key的存在。查找的过程也是一样的。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/bloom-filter-simple-schematic-diagram.png" alt="Bloom Filter 的简单原理示意图" style="zoom:67%;" />
+<p>当然是有缺点的，布隆过滤器有可能会产生一定的误判，一般可以设置这个误判率，大概不会超过5%，其实这个误判是必然存在的，要不就得增加数组的长度，5%以内的误判率一般的项目也能接受，不至于高并发下压倒数据库。</p>
+<p>三就是采用万能的接口限流。</p>
+<p>根据用户或者 IP 对接口进行限流，对于异常频繁的访问行为，还可以采取黑名单机制，例如将异常 IP 列入黑名单。</p>
+<p>后面提到的缓存击穿和雪崩都可以配合接口限流来解决，毕竟这些问题的关键都是有很多请求落到了数据库上造成数据库压力过大。</p>
+
+<h2 class="relative group">什么是缓存击穿？如何解决？ 
+    <div id="什么是缓存击穿如何解决" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e4%bb%80%e4%b9%88%e6%98%af%e7%bc%93%e5%ad%98%e5%87%bb%e7%a9%bf%e5%a6%82%e4%bd%95%e8%a7%a3%e5%86%b3" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>缓存击穿是指对于某个设置了过期时间的key，刚好在该key过期的时候有大量关于它的并发请求，会导致大量请求到数据库，压垮DB。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/redis-cache-breakdown.png" alt="缓存击穿" style="zoom:50%;" />
+<p>解决方法有：</p>
+<p>1.永不过期（不推荐）：设置热点数据永不过期或者过期时间比较长。</p>
+<p>2.提前预测（推荐）：针对热点数据提前预热，将其存入缓存中并设置合理的过期时间比如秒杀场景下的数据在秒杀结束之前不过期。</p>
+<p>3.使用互斥锁：只放一个请求去查询DB。实现数据强一致性</p>
+<p>4.设置逻辑过期，不设置过期时间，但在缓存中存放过期时间字段，查询的时候如果过期则开新线程去进行数据同步，当前线程返回数据（旧）。实现高可用</p>
+
+<h2 class="relative group">什么是缓存雪崩？如何解决？ 
+    <div id="什么是缓存雪崩如何解决" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e4%bb%80%e4%b9%88%e6%98%af%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e5%a6%82%e4%bd%95%e8%a7%a3%e5%86%b3" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>缓存在同一时间大面积的失效，导致大量的请求都直接落到了数据库上，对数据库造成了巨大的压力。另外，缓存服务宕机也会导致缓存雪崩现象，导致所有的请求都落到了数据库上。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/redis-cache-avalanche.png" alt="缓存雪崩" style="zoom:50%;" />
+<p>解决方法：</p>
+<p>1.设置随机失效时间（可选）：为缓存设置随机的失效时间，例如在固定过期时间的基础上加上一个随机值，这样可以避免大量缓存同时到期，从而减少缓存雪崩的风险。</p>
+<p>2.提前预热（推荐）：针对热点数据提前预热，将其存入缓存中并设置合理的过期时间，比如秒杀场景下的数据在秒杀结束之前不过期。</p>
+
+<h2 class="relative group">双写一致性 
+    <div id="双写一致性" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%8f%8c%e5%86%99%e4%b8%80%e8%87%b4%e6%80%a7" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>针对需要强一致性：</p>
+<p>采用的是redisson实现的读写锁，在读的时候添加共享锁，可以保证读读不互斥，读写互斥。当我们更新数据的时候，添加排他锁，它是读写，读读都互斥，这样就能保证在写数据的同时是不会让其他线程读数据的，避免了脏数据。这里面需要注意的是读方法和写方法上需要使用同一把锁才行。</p>
+<p>为什么不用延时双删：</p>
+<p>延迟双删，如果是写操作，先把缓存中的数据删除，然后更新数据库，最后再延时删除缓存中的数据，其中这个延时多久不太好确定，在延时的过程中可能会出现脏数据，并不能保证强一致性。</p>
+<p>针对可以有一定延时：</p>
+<p>使用异步通知保证消息的最终一致性，采用RabbitMQ，监听和发送缓存更新的消息。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/image-20250703160559110.png" alt="image-20250703160559110" style="zoom: 50%;" />
+
+<h2 class="relative group">持久化（RDB、AOF） 
+    <div id="持久化rdbaof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e6%8c%81%e4%b9%85%e5%8c%96rdbaof" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Redis支持持久化，包括三种：</p>
+<p>1、快照（snapshotting，RDB）</p>
+<p>2、只追加文件（append-only file, AOF）</p>
+<p>3、RDB 和 AOF 的混合持久化(Redis 4.0 新增)</p>
+<p>RDB是一个快照文件，Redis 创建快照之后，可以对快照进行备份，可以将快照复制到其他服务器从而创建具有相同数据的服务器副本（Redis 主从结构，主要用来提高 Redis 性能），还可以将快照留在原地以便重启服务器的时候使用。</p>
+<p>Redis 提供了两个命令来生成 RDB 快照文件：</p>
+<ul>
+<li>
+<p><code>save</code> : 同步保存操作，会阻塞 Redis 主线程；</p>
+</li>
+<li>
+<p><code>bgsave</code> : fork 出一个子进程，子进程执行，不会阻塞 Redis 主线程，默认选项。</p>
+</li>
+</ul>
+<p>AOF是追加文件，当Redis操作写命令的时候，会将其存储到这个文件中，当宕机恢复数据的时候，从这个文件中执行命令进行恢复。</p>
+
+<h3 class="relative group">如何选择 RDB 和 AOF？ 
+    <div id="如何选择-rdb-和-aof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%a6%82%e4%bd%95%e9%80%89%e6%8b%a9-rdb-%e5%92%8c-aof" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>RDB 文件存储的内容是经过压缩的二进制数据， 保存着某个时间点的数据集，文件很小，适合做数据的备份，灾难恢复，但是它有可能会丢数据。</p>
+<p>通常在项目中也会使用AOF来恢复数据，虽然AOF恢复的速度慢一些，但是它丢数据的风险要小很多，在AOF文件中可以设置刷盘策略，我们当时设置的就是每秒批量写入一次命令。</p>
+
+<h2 class="relative group">数据过期策略 
+    <div id="数据过期策略" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e6%95%b0%e6%8d%ae%e8%bf%87%e6%9c%9f%e7%ad%96%e7%95%a5" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>有两种：</p>
+<p>1.惰性删除 ：在设置该key过期时间后，不去管它，当需要该key时，检查其是否过期，如果过期，就删掉它，反之返回该key。</p>
+<p>2.定期删除：就是说每隔一段时间，我们就对一些key进行检查，删除里面过期的key</p>
+<p>定期清理的两种模式：
+SLOW模式是定时任务，执行频率默认为10hz，每次不超过25ms，以通过修改配置文件redis.conf 的 hz 选项来调整这个次数
+FAST模式执行频率不固定，每次事件循环会尝试执行，但两次间隔不低于2ms，每次耗时不超过1ms</p>
+<p>Redis的过期删除策略：惰性删除 + 定期删除两种策略进行配合使用。</p>
+
+<h2 class="relative group">数据淘汰策略 
+    <div id="数据淘汰策略" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e6%95%b0%e6%8d%ae%e6%b7%98%e6%b1%b0%e7%ad%96%e7%95%a5" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>volatile-lru（least recently used）：从已设置过期时间的数据集（server.db[i].expires）中挑选最近最少使用的数据淘汰。</p>
+<p>volatile-ttl：从已设置过期时间的数据集（server.db[i].expires）中挑选将要过期的数据淘汰。</p>
+<p>volatile-random：从已设置过期时间的数据集（server.db[i].expires）中任意选择数据淘汰。</p>
+<p>allkeys-lru（least recently used）：从数据集（server.db[i].dict）中移除最近最少使用的数据淘汰。</p>
+<p>allkeys-random：从数据集（server.db[i].dict）中任意选择数据淘汰。</p>
+<p>no-eviction（默认内存淘汰策略）：禁止驱逐数据，当内存不足以容纳新写入数据时，新写入操作会报错。</p>
+
+<h2 class="relative group">分布式锁 
+    <div id="分布式锁" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%88%86%e5%b8%83%e5%bc%8f%e9%94%81" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/distributed-lock.png" alt="分布式锁" style="zoom:50%;" />
+
+<h3 class="relative group">如何实现？ 
+    <div id="如何实现" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%a6%82%e4%bd%95%e5%ae%9e%e7%8e%b0" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>在redis中提供了一个命令setnx(SET if not exists)由于redis的单线程的，用了命令之后，只能有一个客户端对某一个key设置值，在没有过期或删除key的时候是其他客户端是不能设置这个key的</p>
+
+<h3 class="relative group">如何控制Redis实现分布式锁有效时长？ 
+    <div id="如何控制redis实现分布式锁有效时长" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%a6%82%e4%bd%95%e6%8e%a7%e5%88%b6redis%e5%ae%9e%e7%8e%b0%e5%88%86%e5%b8%83%e5%bc%8f%e9%94%81%e6%9c%89%e6%95%88%e6%97%b6%e9%95%bf" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>采用的redis的一个框架redisson实现。</p>
+<p>在redisson中需要手动加锁，并且可以控制锁的失效时间和等待时间，当锁住的一个业务还没有执行完成的时候，在redisson中引入了一个看门狗机制，就是说每隔一段时间就检查当前业务是否还持有锁，如果持有就增加加锁的持有时间，当业务执行完成之后需要使用释放锁就可以了。</p>
+<p>还有一个好处就是，在高并发下，一个业务有可能会执行很快，先客户1持有锁的时候，客户2来了以后并不会马上拒绝，它会自旋不断尝试获取锁，如果客户1释放之后，客户2就可以马上持有锁，性能也得到了提升。</p>
+
+<h3 class="relative group">redisson实现的分布式锁是可重入的吗？ 
+    <div id="redisson实现的分布式锁是可重入的吗" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#redisson%e5%ae%9e%e7%8e%b0%e7%9a%84%e5%88%86%e5%b8%83%e5%bc%8f%e9%94%81%e6%98%af%e5%8f%af%e9%87%8d%e5%85%a5%e7%9a%84%e5%90%97" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>是可以重入的。这样做是为了避免死锁的产生。这个重入其实在内部就是判断是否是当前线程持有的锁，如果是当前线程持有的锁就会计数，如果释放锁就会在计算上减一。在存储数据的时候采用的hash结构，大key可以按照自己的业务进行定制，其中小key是当前线程的唯一标识，value是当前线程重入的次数。</p>
+
+<h3 class="relative group">redisson实现的分布式锁能解决主从一致性的问题吗？ 
+    <div id="redisson实现的分布式锁能解决主从一致性的问题吗" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#redisson%e5%ae%9e%e7%8e%b0%e7%9a%84%e5%88%86%e5%b8%83%e5%bc%8f%e9%94%81%e8%83%bd%e8%a7%a3%e5%86%b3%e4%b8%bb%e4%bb%8e%e4%b8%80%e8%87%b4%e6%80%a7%e7%9a%84%e9%97%ae%e9%a2%98%e5%90%97" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>不能，比如，当线程1加锁成功后，master节点数据会异步复制到slave节点，此时当前持有Redis锁的master节点宕机，slave节点被提升为新的master节点，假如现在来了一个线程2，再次加锁，会在新的master节点上加锁成功，这个时候就会出现两个节点同时持有一把锁的问题。</p>
+
+<h3 class="relative group">如果业务非要保证数据的强一致性，这个该怎么解决呢？ 
+    <div id="如果业务非要保证数据的强一致性这个该怎么解决呢" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%a6%82%e6%9e%9c%e4%b8%9a%e5%8a%a1%e9%9d%9e%e8%a6%81%e4%bf%9d%e8%af%81%e6%95%b0%e6%8d%ae%e7%9a%84%e5%bc%ba%e4%b8%80%e8%87%b4%e6%80%a7%e8%bf%99%e4%b8%aa%e8%af%a5%e6%80%8e%e4%b9%88%e8%a7%a3%e5%86%b3%e5%91%a2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>redis本身就是支持高可用的，做到强一致性，就非常影响性能，所以，如果有强一致性要求高的业务，建议使用zookeeper实现的分布式锁，它是可以保证强一致性的。</p>
+
+<h2 class="relative group">主从、哨兵、集群 
+    <div id="主从哨兵集群" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e4%b8%bb%e4%bb%8e%e5%93%a8%e5%85%b5%e9%9b%86%e7%be%a4" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 
-<h3 class="relative group">进程管理与守护 
-    <div id="进程管理与守护" class="anchor"></div>
+<h3 class="relative group">Redis集群有哪些方案？ 
+    <div id="redis集群有哪些方案" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e8%bf%9b%e7%a8%8b%e7%ae%a1%e7%90%86%e4%b8%8e%e5%ae%88%e6%8a%a4" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#redis%e9%9b%86%e7%be%a4%e6%9c%89%e5%93%aa%e4%ba%9b%e6%96%b9%e6%a1%88" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<p><strong>两种方法</strong>:</p>
-<ul>
-<li>
-<p>一种是日志重定向,但也会因为运行的终端被关闭而导致进程结束,好处是可以直接将日志保存下来;</p>
-</li>
-<li>
-<p>一种是使用screen保护会话,除非主动中止进程,否则无论是关闭终端还是ssh断连都不会影响程序运行.</p>
-</li>
-</ul>
+<p>在Redis中提供的集群方案总共有三种：主从复制、哨兵模式、Redis分片集群</p>
 
-<h4 class="relative group">终端日志重定向 
-    <div id="终端日志重定向" class="anchor"></div>
+<h3 class="relative group">主从同步 
+    <div id="主从同步" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e7%bb%88%e7%ab%af%e6%97%a5%e5%bf%97%e9%87%8d%e5%ae%9a%e5%90%91" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<pre tabindex="0"><code># 日志重定向到train.log文件。即在你的命令后加上：&gt; xxx.log 2&gt;&amp;1
-python xxx.py &gt; xxx.log 2&gt;&amp;1
-# 实时查看日志
-tail -f xxx.log
-</code></pre>
-<h4 class="relative group">Screen 
-    <div id="screen" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#screen" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><a href="https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html" target="_blank">参考链接</a></p>
-<p>只要Screen本身没有终止，在其内部运行的会话都可以恢复。这一点对于远程登录的用户特别有用——即使网络连接中断，用户也不会失去对已经打开的命令行会话的控制。只要再次登录到主机上执行<strong>screen -r</strong>就可以恢复会话的运行。同样在暂时离开的时候，也可以执行分离命令<strong>detach</strong>，在保证里面的程序正常运行的情况下让Screen挂起（切换到后台）。</p>
-<p>该方法可以和<strong>日志重定向</strong>结合使用</p>
-<p>具体使用方法如下:</p>
-<p><strong>创建screen终端</strong></p>
-<pre tabindex="0"><code>screen #随机名称
-screen -S &lt;作业名称&gt; #这回指定screen作业的名称
-</code></pre><p>创建完成后敲下回车即可进入一个和之前一模一样的终端,在这个终端运行命令是收到保护的.</p>
-<p><strong>离开窗口</strong></p>
-<p>使用<code>ctl + a + d</code>即可退出到原始端,并显示detached,代表这个会话只是离开并未退出。</p>
-<p><strong>查看窗口和窗口名称</strong></p>
-<pre tabindex="0"><code>screen -ls
-</code></pre><p>可以列出目前所有窗口的名称</p>
-<p><strong>进入之前的窗口</strong></p>
-<pre tabindex="0"><code>screen -r &lt;窗口名称&gt;
-</code></pre><p><strong>彻底关闭开启的会话</strong></p>
-<p>有程序则先 <code>crl+c</code>,再<code>crl+d</code></p>
-<p>还有很多作用可以参考&lt;参考链接&gt;</p>
-
-<h3 class="relative group">TMUX 
-    <div id="tmux" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#tmux" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%e4%b8%bb%e4%bb%8e%e5%90%8c%e6%ad%a5" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p>主从同步：单节点Redis的并发能力是有上限的，要进一步提高Redis的并发能力，可以搭建主从集群，实现读写分离。一般都是一主多从，主节点负责写数据，从节点负责读数据，主节点写入数据之后，需要把数据同步到从节点中</p>
 
-<h5 class="relative group">优点 
-    <div id="优点" class="anchor"></div>
+<h3 class="relative group">主从同步数据的流程 
+    <div id="主从同步数据的流程" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e4%bc%98%e7%82%b9" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<ul>
-<li>
-<p>可以在单个会话窗口中，同时分割成多个窗口，相当于之前访问的多个会话。对于同时运行多个命令行程序很有用。</p>
-</li>
-<li>
-<p>可以让新窗口&quot;接入&quot;已经存在的会话。</p>
-</li>
-<li>
-<p>支持窗口任意的垂直和水平拆分。</p>
-</li>
-</ul>
-<p>在 TMUX 中，组件的层次结构和顺序为：</p>
-<ol>
-<li>
-<p><strong>Session（会话）</strong>：TMUX 的最顶层单元。一个会话可以包含多个窗口，可以理解为一个工作区，您可以在其中创建和管理多个任务。</p>
-</li>
-<li>
-<p><strong>Window（窗口）</strong>：每个会话可以包含多个窗口。每个窗口相当于一个独立的终端界面，类似于不同的标签页。窗口可以在同一个会话中切换。</p>
-</li>
-<li>
-<p><strong>Pane（面板）</strong>：每个窗口可以进一步分割为多个面板。面板是窗口内的分割区域，可以显示不同的命令行内容，相当于一个窗口的分屏操作。</p>
-</li>
-</ol>
-<p><strong>Session</strong> (会话) &gt; <strong>Window</strong> (窗口) &gt; <strong>Pane</strong> (面板)</p>
-<p>我一般直接一个session、一个window，然后在里面创建pane</p>
-
-<h5 class="relative group">安装 
-    <div id="安装" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e5%ae%89%e8%a3%85" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Debian/Ubuntu</span>
-</span></span><span class="line"><span class="cl">sudo apt update
-</span></span><span class="line"><span class="cl">sudo apt install tmux
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># CentOS/RHEL</span>
-</span></span><span class="line"><span class="cl">sudo yum install tmux
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># macOS (使用 Homebrew)</span>
-</span></span><span class="line"><span class="cl">brew install tmux
-</span></span></code></pre></div><p>对于没有超级用户权限，没有macos的我来说，只能通过conda安装了</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda install tmux
-</span></span></code></pre></div>
-<h5 class="relative group">快速教程 
-    <div id="快速教程" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e5%bf%ab%e9%80%9f%e6%95%99%e7%a8%8b" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 新建会话</span>
-</span></span><span class="line"><span class="cl">tmux                    <span class="c1"># 创建匿名会话</span>
-</span></span><span class="line"><span class="cl">tmux new -s &lt;session-name&gt;  <span class="c1"># 新建一个指定名称的会话</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 分离会话</span>
-</span></span><span class="line"><span class="cl">tmux detach             <span class="c1"># 将当前会话挂起，不关闭</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 查看会话</span>
-</span></span><span class="line"><span class="cl">tmux ls                 <span class="c1"># 列出所有会话</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 接入会话</span>
-</span></span><span class="line"><span class="cl">tmux attach -t &lt;session-id or session-name&gt;  <span class="c1"># 通过会话 ID 或名称接入指定会话</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 重命名会话</span>
-</span></span><span class="line"><span class="cl">tmux rename-session -t &lt;session-id or old-name&gt; &lt;new-name&gt;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 杀死会话</span>
-</span></span><span class="line"><span class="cl">tmux kill-session -t &lt;session-id or session-name&gt;  <span class="c1"># 关闭指定会话</span>
-</span></span><span class="line"><span class="cl">tmux kill-server      <span class="c1"># 关闭 TMUX 服务器，关闭所有会话</span>
-</span></span></code></pre></div>
-<h5 class="relative group">配置和状态 
-    <div id="配置和状态" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae%e5%92%8c%e7%8a%b6%e6%80%81" aria-label="Anchor">#</a>
-    </span>        
-    
-</h5>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 重新加载配置文件</span>
-</span></span><span class="line"><span class="cl">tmux source-file ~/.tmux.conf     <span class="c1"># 从配置文件重新加载配置</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 查看当前配置</span>
-</span></span><span class="line"><span class="cl">tmux show-options -g              <span class="c1"># 显示 TMUX 的全局选项配置</span>
-</span></span><span class="line"><span class="cl">tmux show-window-options -g       <span class="c1"># 显示窗口的全局选项配置</span>
-</span></span><span class="line"><span class="cl">tmux show-options -s              <span class="c1"># 显示服务器配置</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 列出键绑定</span>
-</span></span><span class="line"><span class="cl">tmux list-keys                    <span class="c1"># 查看当前所有键绑定</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 列出所有 TMUX 命令</span>
-</span></span><span class="line"><span class="cl">tmux list-commands                <span class="c1"># 显示 TMUX 支持的所有命令</span>
-</span></span></code></pre></div><table>
-  <thead>
-      <tr>
-          <th>功能</th>
-          <th>命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>新建会话</td>
-          <td>tmux new -s session名 -n 窗口名</td>
-      </tr>
-      <tr>
-          <td>查看已创建的会话</td>
-          <td>tmux ls</td>
-      </tr>
-      <tr>
-          <td>attach到已有会话</td>
-          <td>tmux attach/at -t xxx</td>
-      </tr>
-      <tr>
-          <td>挂起会话</td>
-          <td>tmux detach</td>
-      </tr>
-      <tr>
-          <td>直接退出会话</td>
-          <td>exit</td>
-      </tr>
-      <tr>
-          <td>关闭指定会话</td>
-          <td>tmux kill-session -t 会话名</td>
-      </tr>
-      <tr>
-          <td>重命名当前窗口</td>
-          <td>tmux rename-window -t 窗口编号 新窗口名</td>
-      </tr>
-      <tr>
-          <td>水平分割面板</td>
-          <td>tmux split-window -h</td>
-      </tr>
-      <tr>
-          <td>垂直分割面板</td>
-          <td>tmux split-window -v</td>
-      </tr>
-  </tbody>
-</table>
-<p>以下是 TMUX 中常用的快捷键：</p>
-<table>
-  <thead>
-      <tr>
-          <th>功能</th>
-          <th>快捷键</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>新建窗口</td>
-          <td><code>Ctrl-b c</code></td>
-      </tr>
-      <tr>
-          <td>切换到下一个窗口</td>
-          <td><code>Ctrl-b n</code></td>
-      </tr>
-      <tr>
-          <td>切换到上一个窗口</td>
-          <td><code>Ctrl-b p</code></td>
-      </tr>
-      <tr>
-          <td>指定窗口跳转</td>
-          <td><code>Ctrl-b 数字</code></td>
-      </tr>
-      <tr>
-          <td><strong>水平分割窗口</strong></td>
-          <td><code>Ctrl-b %</code></td>
-      </tr>
-      <tr>
-          <td>垂直分割窗口</td>
-          <td><code>Ctrl-b &quot;</code></td>
-      </tr>
-      <tr>
-          <td>关闭当前窗口</td>
-          <td><code>Ctrl-b &amp;</code></td>
-      </tr>
-      <tr>
-          <td>关闭当前面板</td>
-          <td><code>Ctrl-b x</code></td>
-      </tr>
-      <tr>
-          <td>切换面板</td>
-          <td><code>Ctrl-b o</code></td>
-      </tr>
-      <tr>
-          <td><strong>调整面板大小</strong></td>
-          <td><code>Ctrl-b</code>，然后使用方向键调整</td>
-      </tr>
-      <tr>
-          <td>查看窗口列表</td>
-          <td><code>Ctrl-b w</code></td>
-      </tr>
-      <tr>
-          <td>将面板上下翻滚</td>
-          <td><code>Ctrl-b [</code></td>
-      </tr>
-      <tr>
-          <td>退出滚动模式</td>
-          <td><code>q</code>（在滚动模式中）</td>
-      </tr>
-      <tr>
-          <td>切换到上一个会话</td>
-          <td><code>Ctrl-b (</code></td>
-      </tr>
-      <tr>
-          <td>切换到下一个会话</td>
-          <td><code>Ctrl-b )</code></td>
-      </tr>
-      <tr>
-          <td><strong>挂起会话</strong></td>
-          <td><code>Ctrl-b d</code></td>
-      </tr>
-  </tbody>
-</table>
-
-<h3 class="relative group">文件和目录管理 
-    <div id="文件和目录管理" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e6%96%87%e4%bb%b6%e5%92%8c%e7%9b%ae%e5%bd%95%e7%ae%a1%e7%90%86" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%e4%b8%bb%e4%bb%8e%e5%90%8c%e6%ad%a5%e6%95%b0%e6%8d%ae%e7%9a%84%e6%b5%81%e7%a8%8b" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<blockquote>
-<p>那你思考一下，我如果做医学影像分类，如何在这三个方法的基础上寻找创新点？</p></blockquote>
-<p>✦ 当然，这是一个极具价值的思考方向。在医学影像分类这个特殊且高风险的领域，可解释性不仅是学术追求，更是临床应用的刚需。医生需要知道AI“为什么”会做出这样的判断。</p>
-<p>结合这三种方法的核心思想，我们可以从以下几个方向寻找交叉、深化和特化的创新点：</p>
-<hr>
-<p>方法一：融合解剖先验的注意力迁移 (Anatomically-Aware Attention Transfer)</p>
-<ul>
-<li>
-<p>[核心思路]：
-医学影像与自然图像最大的不同在于其拥有明确的解剖学结构。肺部疾病只会出现在肺区，脑部肿瘤只会出现在颅内。当前的解释方法都忽略了这一强大的先验知识。我们可以将CAT-KD（类别注意力迁移）与解剖结构信息结合起来。</p>
-</li>
-<li>
-<p>[实现方法]：</p>
-<ol>
-<li>引入解剖分割：在训练前，使用一个现成的分割模型（如U-Net）对医学影像进行处理，得到关键器官或区域的掩码（Mask），我们称之为“解剖先验掩码”（Anatomical Prior Mask），例如肺区、肝区或特定的脑区。</li>
-<li>加权解释损失：在计算教师和学生解释图（无论是用CAM还是B-cos的贡献图）之间的损失时，不再对所有像素一视同仁。而是引入这个解剖掩码作为权重。
-<ul>
-<li>对于掩码内部的像素（即关键器官区域），我们施加更高的损失权重。这意味着学生模型必须非常精确地学习教师在关键区域内的注意力模式。</li>
-<li>对于掩码外部的像素，施加较低的权重甚至忽略。这能防止模型被背景或无关区域的伪影干扰，并让模型专注于真正重要的部分。</li>
-</ul>
-</li>
-<li>损失函数：L_total = L_KD + λ * L_CAT_AnatomyAware
-其中 L_CAT_AnatomyAware = MSE(T_cam, S_cam) * Anatomy_Mask</li>
-</ol>
-</li>
-<li>
-<p>[创新点]：</p>
-<ol>
-<li>领域知识融合：首次将解剖学先验知识显式地融入到可解释知识蒸馏框架中，使模型的注意力更符合临床逻辑。</li>
-<li>抗干扰性：通过专注于关键区域，可以有效抑制背景噪声和伪影对模型决策的影响，提升鲁棒性。</li>
-<li>更精准的解释：生成的学生解释图将更聚焦于病灶所在的器官内部，解释结果对医生来说更有意义。</li>
-</ol>
-</li>
-</ul>
-<hr>
-<p>方法二：双阶层、多粒度的解释蒸馏 (Hierarchical &amp; Multi-Granularity Explanation Distillation)</p>
-<ul>
-<li>
-<p>[核心思路]：
-医生的诊断过程通常是分层的：首先定位到可疑的宏观区域（Coarse-grained），然后仔细观察该区域的微观纹理、边缘等细节特征（Fine-grained）来做最终判断。我们可以设计一个能同时传递这两种粒度解释的蒸馏方法。</p>
-</li>
-<li>
-<p>[实现方法]：</p>
-<ol>
-<li>教师的多粒度解释：
-<ul>
-<li>宏观定位：使用CAT-KD的方法，从教师模型的中间层提取类别激活图（CAM），这代表了对病灶区域的粗略定位。</li>
-<li>微观特征：使用GoodTeachersExplain（如果教师是B-cos模型）或更精细的后处理方法（如Grad-CAM++）从教师模型的最后一层提取高分辨率的解释图，这代表了对病灶细节特征的关注。</li>
-</ul>
-</li>
-<li>学生的多任务学习：
-学生模型需要同时学习模仿这两种解释。</li>
-<li>损失函数：
-L_total = L_KD + α * L_exp_coarse + β * L_exp_fine
-<ul>
-<li>L_exp_coarse: 学生和教师的宏观定位图之间的损失。</li>
-<li>L_exp_fine: 学生和教师的微观特征图之间的损失。</li>
-</ul>
-</li>
-</ol>
-</li>
-<li>
-<p>[创新点]：</p>
-<ol>
-<li>模拟临床诊断流：模仿了医生从“定位”到“定性”的诊断思维过程，使AI的推理过程更符合人类认知。</li>
-<li>解释的层次化：提供了层次化的解释，既能告诉医生“病灶在哪”，又能展示“为什么判断它是恶性/良性”，信息量远超单一解释图。</li>
-<li>结合多种解释优点：融合了CAM在定位上的优势和高分辨率方法在细节上的优势。</li>
-</ol>
-</li>
-</ul>
-<hr>
-<p>方法三：基于潜在空间的跨模态解释蒸馏 (Latent-Space Cross-Modal Explanation Distillation)</p>
-<ul>
-<li>
-<p>[核心思路]：
-在临床实践中，诊断常常依赖于多模态影像（如MRI的T1、T2、DWI序列）。一个强大的教师模型可以融合多模态信息做出精准判断。但出于成本考虑，我们可能希望部署一个只使用单模态数据的轻量级学生模型。我们可以利用XDistillation的思想，让单模态的学生学习
-模仿多模态教师的“综合解释”。</p>
-</li>
-<li>
-<p>[实现方法]：</p>
-<ol>
-<li>多模态教师：训练一个强大的多模态教师模型，其输入是所有模态的影像（如T1+T2），并能生成一个融合了所有信息的“综合解释图”。</li>
-<li>解释的编码：使用XDistillation中的卷积自编码器（CAE），学习这个“综合解释图”的低维潜在表示。</li>
-<li>单模态学生：学生模型的输入只有一个模态的影像（如T1）。</li>
-<li>潜在空间对齐：学生模型也需要生成一个解释图，并用一个CAE将其编码到潜在空间。我们的目标是让学生的单模态解释的潜在表示去逼近教师的多模态综合解释的潜在表示。</li>
-</ol>
-</li>
-<li>
-<p>[创新点]：</p>
-<ol>
-<li>知识的跨模态迁移：实现了从复杂的多模态教师到简单的单模态学生的知识蒸馏，这在实际临床部署中非常有价值。</li>
-<li>隐式信息推断：迫使学生模型从单一模态中学习“推断”出其他模态信息在线索，因为它需要重建一个融合了多模态信息的解释。</li>
-<li>利用潜在空间优势：在抽象的潜在空间进行对齐，可能比直接匹配像素级的、不同模态的解释图更有效、更鲁棒。</li>
-</ol>
-</li>
-</ul>
-<p>总结与对比</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">创新方向</th>
-          <th style="text-align: left">核心思想</th>
-          <th style="text-align: left">借鉴的基础方法</th>
-          <th style="text-align: left">解决的医学影像痛点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">解剖先验</td>
-          <td style="text-align: left">融合解剖结构，让模型关注关键区域</td>
-          <td style="text-align: left">CAT-KD</td>
-          <td style="text-align: left">图像背景复杂、伪影干扰、解释不聚焦</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">双阶层解释</td>
-          <td style="text-align: left">模仿医生“定位-定性”的诊断流</td>
-          <td style="text-align: left">CAT-KD + GoodTeachersExplain</td>
-          <td style="text-align: left">单一解释图信息量不足，无法区分宏观与微观特征</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">跨模态蒸馏</td>
-          <td style="text-align: left">让单模态学生学到多模态教师的综合判断</td>
-          <td style="text-align: left">XDistillation</td>
-          <td style="text-align: left">多模态数据采集成本高，希望部署轻量级单模态模型</td>
-      </tr>
-  </tbody>
-</table>
-<p>您可以根据您的具体课题（如特定疾病、特定影像类型）和技术偏好，选择其中一个方向进行深入探索。这三个方向都具有很强的学术创新性和临床应用潜力。</p>
-<blockquote>
-<p>详细讲解一下方法二：双阶层、多粒度的解释蒸馏 (Hierarchical &amp; Multi-Granularity Explanation Distillation)，我的是眼底彩照，用于一些眼部疾病的分类和分级。</p></blockquote>
-<p>✦ 好的，我们来详细拆解“双阶层、多粒度的解释蒸馏”这个方法，并将其完全适配于您的眼底彩照（Fundus Photography）分类和分级任务。</p>
-<p>眼底彩照的诊断，例如糖尿病视网膜病变（Diabetic Retinopathy, DR）的分级，完美契合这个双阶层思想。医生通常会：</p>
-<ol>
-<li>宏观定位（Coarse-grained）：首先快速扫视整个眼底，寻找大的、可疑的病变区域，比如“这片区域有大量出血点和渗出”，或者“视盘看起来不太对劲”。</li>
-<li>微观定性（Fine-grained）：然后放大到这些区域，仔细观察微小病变的形态，比如区分微动脉瘤（microaneurysms）、棉绒斑（cotton wool spots）或新生血管（neovascularization）的精细形态。这些微小细节是精确分级的关键。</li>
-</ol>
-<p>我们的方法就是要让学生模型学会这个“先定位，再定性”的诊断逻辑。</p>
-<hr>
-<p>方法详解：应用于眼底彩照</p>
-<ol>
-<li>教师模型 (The Teacher)</li>
-</ol>
-<p>你需要一个强大的、预训练好的教师模型。它可以是一个在大型眼底图数据集（如EyePACS, Messidor）上训练好的、性能优异的复杂模型，比如一个高分辨率的EfficientNet-B7或者Vision Transformer (ViT)。</p>
-<p>教师模型的任务：为一张输入的眼底图，同时提供两种粒度的解释。</p>
-<ul>
-<li>
-<p>宏观解释图 (Coarse-grained Explanation):</p>
-<ul>
-<li>目的：标识出主要的、大范围的病变区域。</li>
-<li>如何生成：从教师模型的中间层（例如，ResNet的layer3或EfficientNet的中间block）提取特征图，并生成类别激活图（CAM）。中间层的感受野（receptive field）较大，特征更抽象，非常适合做粗略的定位。</li>
-<li>结果：一张低分辨率的、模糊的热力图，高亮显示了如“大片出血区域”或“黄斑水肿区域”。我们称之为 Teacher_CAM_coarse。</li>
-</ul>
-</li>
-<li>
-<p>微观解释图 (Fine-grained Explanation):</p>
-<ul>
-<li>目的：精细地描绘出对分类/分级至关重要的微小病变。</li>
-<li>如何生成：从教师模型的最后一层卷积层提取特征图，并使用更精细的解释方法，如Grad-CAM++ 或 Score-CAM。这些方法能生成分辨率更高、细节更丰富的解释图，可以精确到微动脉瘤或单个渗出点。</li>
-<li>结果：一张高分辨率的热力图，精确地圈出了微小的、决定性的病理特征。我们称之为 Teacher_CAM_fine。</li>
-</ul>
-</li>
-</ul>
-<ol start="2">
-<li>学生模型 (The Student)</li>
-</ol>
-<p>学生模型是你最终想要部署的轻量级模型，例如MobileNetV3或一个小型化的ResNet。它的训练目标是模仿教师的全部行为。</p>
-<p>学生模型的任务：在训练过程中，也需要生成对应层级的两种解释图。</p>
-<ul>
-<li>Student_CAM_coarse：从学生模型的中间层生成。</li>
-<li>Student_CAM_fine：从学生模型的最后一层生成。</li>
-</ul>
-<ol start="3">
-<li>损失函数 (The Loss Function)</li>
-</ol>
-<p>这是整个方法的核心。总损失由四部分构成：</p>
-<p><code>L_total = L_CE + α * L_KD + β * L_exp_coarse + γ * L_exp_fine</code></p>
-<ol>
-<li>
-<p><code>L_CE</code> (标准分类损失):</p>
-<ul>
-<li>公式: CrossEntropy(Student_output, Ground_truth_label)</li>
-<li>目的：最基本的损失，确保学生模型的预测结果与真实的疾病标签（如DR的0-4级）一致。</li>
-</ul>
-</li>
-<li>
-<p><code>L_KD</code> (标准知识蒸馏损失):</p>
-<ul>
-<li>公式: KL_Divergence(Soft_Student_output, Soft_Teacher_output)</li>
-<li>目的：让学生模型的最终输出概率分布（logits）模仿教师模型的输出。这能传递教师在类别间的模糊性知识（例如，一张图可能“70%像2级，30%像3级”）。</li>
-</ul>
-</li>
-<li>
-<p><code>L_exp_coarse</code> (宏观解释损失):</p>
-<ul>
-<li>公式: MSE_Loss(Student_CAM_coarse, Teacher_CAM_coarse)</li>
-<li>目的：强制学生学会在眼底的相同宏观区域寻找病变。这是在模仿医生“快速扫视定位”的第一步。</li>
-</ul>
-</li>
-<li>
-<p><code>L_exp_fine</code> (微观解释损失):</p>
-<ul>
-<li>公式: MSE_Loss(Student_CAM_fine, Teacher_CAM_fine)</li>
-<li>目的：强制学生关注到与教师相同的微小病理细节。这是在模仿医生“放大观察定性”的第二步。</li>
-</ul>
-</li>
-</ol>
-<p>α, β, γ 是超参数，需要通过实验来调整，用以平衡这几项任务的重要性。通常，β 和 γ 的权重会比较关键。</p>
-<hr>
-<p>实施流程与伪代码</p>
-<pre><code>1 # 假设 teacher_model 和 student_model 已经定义好
-2 # optimizer 和 dataloader 也已设置
-3
-4 for images, labels in dataloader:
-5     # 1. 获取教师模型的输出和解释 (在no_grad模式下)
-6     with torch.no_grad():
-7         teacher_logits = teacher_model(images)
-8         # 从中间层和最后层分别获取解释图
-9         teacher_cam_coarse = teacher_model.get_coarse_explanation(images, target_class=labels)
-</code></pre>
-<p>10         teacher_cam_fine = teacher_model.get_fine_explanation(images, target_class=labels)
-11
-12     # 2. 获取学生模型的输出和解释
-13     student_logits = student_model(images)
-14     student_cam_coarse = student_model.get_coarse_explanation(images, target_class=labels)
-15     student_cam_fine = student_model.get_fine_explanation(images, target_class=labels)
-16
-17     # 3. 计算各项损失
-18     loss_ce = cross_entropy_loss(student_logits, labels)
-19     loss_kd = kld_loss(student_logits, teacher_logits)
-20     loss_exp_coarse = mse_loss(student_cam_coarse, teacher_cam_coarse)
-21     loss_exp_fine = mse_loss(student_cam_fine, teacher_cam_fine)
-22
-23     # 4. 组合总损失
-24     total_loss = (loss_ce +
-25                   alpha * loss_kd +
-26                   beta * loss_exp_coarse +
-27                   gamma * loss_exp_fine)
-28
-29     # 5. 反向传播和优化
-30     optimizer.zero_grad()
-31     total_loss.backward()
-32     optimizer.step()</p>
-<p>创新点与预期效果</p>
-<ul>
-<li>临床相关性强的可解释性：最终得到的学生模型不仅能给出分类结果，还能提供两张解释图：一张宏观的“病变区域图”和一张微观的“关键特征图”。这套输出对医生来说，比单一的热力图信息量大得多，也更符合他们的诊断逻辑，从而更容易获得临床医生的信任。</li>
-<li>提升分级精度：通过强制模型关注微观细节，可以有效提升模型在困难分级任务上的表现。例如，区分DR的2级和3级，关键就在于能否准确识别新生血管等微小特征，而这正是L_exp_fine所关注的。</li>
-<li>更鲁棒的学生模型：由于学生模型被要求在两个不同的抽象层次上都与教师保持一致，它被迫学习到更本质、更稳健的特征，而不仅仅是拟合数据中的某些表面统计规律。</li>
-<li>学术创新：这是一个新颖的、层次化的知识蒸馏框架，将“多粒度”这一概念引入到可解释性知识的传递中，特别适用于医学影像这种具有天然层次化特征的领域，具有很强的发表潜力。</li>
-</ul>
-<blockquote>
-<p>去调研，去搜索，有没有论文采用这种方法。并且思考、总结你搜索和调研的相关论文。</p></blockquote>
-<p>ℹ ⚡ Slow response times detected. Automatically switching from gemini-2.5-pro to gemini-2.5-flash for faster responses for the remainder of this session.
-⚡ To avoid this you can utilize a Gemini API Key. See: <a href="https://goo.gle/gemini-cli-docs-auth#gemini-api-key" target="_blank">https://goo.gle/gemini-cli-docs-auth#gemini-api-key</a>
-⚡ You can switch authentication methods by typing /auth
-✦ 好的，这是一个非常重要的步骤，确保我们的创新点是真正“新颖”的。我将进行调研，搜索相关论文，并总结我的发现。</p>
-<p>我将使用以下关键词组合进行搜索：</p>
-<ul>
-<li>&ldquo;hierarchical explanation knowledge distillation&rdquo;</li>
-<li>&ldquo;multi-granularity explanation knowledge distillation&rdquo;</li>
-<li>&ldquo;explainable AI medical image classification&rdquo;</li>
-<li>&ldquo;fundus image explanation knowledge distillation&rdquo;</li>
-<li>&ldquo;coarse-grained fine-grained explanation distillation&rdquo;</li>
-<li>&ldquo;attention transfer medical image&rdquo;</li>
-</ul>
-<p>╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ ✔  GoogleSearch Searching the web for: &ldquo;hierarchical explanation knowledge distillation medical image&rdquo;                                                                                                                                   │
-│                                                                                                                                                                                                                                          │
-│    Search results for &ldquo;hierarchical explanation knowledge distillation medical image&rdquo; returned.                                                                                                                                          │
-│ ✔  GoogleSearch Searching the web for: &ldquo;multi-granularity explanation knowledge distillation medical image&rdquo;                                                                                                                              │
-│                                                                                                                                                                                                                                          │
-│    Search results for &ldquo;multi-granularity explanation knowledge distillation medical image&rdquo; returned.                                                                                                                                     │
-│ ✔  GoogleSearch Searching the web for: &ldquo;coarse-grained fine-grained explanation distillation medical image&rdquo;                                                                                                                              │
-│                                                                                                                                                                                                                                          │
-│    Search results for &ldquo;coarse-grained fine-grained explanation distillation medical image&rdquo; returned.                                                                                                                                     │
-│ ✔  GoogleSearch Searching the web for: &ldquo;attention transfer fundus image explanation&rdquo;                                                                                                                                                     │
-│                                                                                                                                                                                                                                          │
-│    Search results for &ldquo;attention transfer fundus image explanation&rdquo; returned.                                                                                                                                                            │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-✦ 我进行了搜索，结果显示“分层解释知识蒸馏”（Hierarchical Explanation Knowledge Distillation）和“多粒度解释知识蒸馏”（Multi-Granularity Explanation Knowledge Distillation）在医学影像领域是一个活跃的研究方向，并且已经有一些相关的论文。</p>
-<p>然而，我没有找到完全符合我们提出的“双阶层、多粒度的解释蒸馏”框架，特别是针对眼底彩照，并明确区分宏观定位（Coarse-grained）和微观定性（Fine-grained）两种解释类型，并将其作为独立损失项进行蒸馏的论文。</p>
-<p>以下是我对搜索结果的总结和思考：</p>
-<p>搜索结果总结</p>
-<ol>
-<li>
-<p>“分层知识蒸馏” (Hierarchical Knowledge Distillation):</p>
-<ul>
-<li>普遍存在：这是最常见的概念。很多论文会提到从教师模型的不同层（浅层、深层）提取特征或激活图进行蒸馏。</li>
-<li>目的：通常是为了让学生模型学习到教师模型在不同抽象层次上的表示能力，从而提升学生模型的性能。</li>
-<li>解释性：虽然这些方法在某种程度上可以被解释为“传递了不同层次的知识”，但它们通常不以“解释”本身作为明确的蒸馏目标，也没有明确区分“宏观定位”和“微观定性”这两种解释类型。它们更多关注的是特征表示的匹配，而不是人类可理解的解释图的匹配。</li>
-<li>医学影像应用：在医学影像中，分层知识蒸馏常用于肿瘤分割、疾病分类等任务，以提高小型模型的性能。</li>
-</ul>
-</li>
-<li>
-<p>“多粒度解释” (Multi-Granularity Explanations):</p>
-<ul>
-<li>概念存在：一些论文会讨论生成多粒度解释，例如像素级、区域级、图像级解释。</li>
-<li>目的：主要是为了提供更全面的可解释性，让用户从不同视角理解模型决策。</li>
-<li>与知识蒸馏结合：虽然有讨论多粒度解释，但将其明确地与知识蒸馏结合，并作为蒸馏损失的一部分来传递给学生模型的案例相对较少，或者没有像我们这样明确地定义两种不同粒度的解释类型并进行独立损失计算。</li>
-</ul>
-</li>
-<li>
-<p>“注意力迁移” (Attention Transfer):</p>
-<ul>
-<li>广泛应用：在知识蒸馏中，注意力迁移（如匹配CAM）非常常见，尤其是在医学影像领域。</li>
-<li>目的：让学生模型关注教师模型关注的区域。</li>
-<li>粒度区分：虽然CAM本身可以被视为一种解释，但大多数注意力迁移方法没有明确区分“宏观”和“微观”两种粒度，也没有针对性地从不同层提取并匹配。它们通常只关注最后一层或某一层特征的注意力。</li>
-</ul>
-</li>
-<li>
-<p>眼底彩照领域的解释性AI和知识蒸馏：</p>
-<ul>
-<li>有大量关于眼底图像分类和分级的论文，也有很多关于可解释性AI（如使用Grad-CAM）的论文。</li>
-<li>知识蒸馏也应用于眼底图像，以训练轻量级模型。</li>
-<li>但将“双阶层、多粒度解释”作为核心蒸馏机制的，特别是明确区分“宏观定位”和“微观定性”并独立建模的，尚未发现。</li>
-</ul>
-</li>
-</ol>
-<p>思考与总结</p>
-<p>基于以上调研，我得出以下结论：</p>
-<ol>
-<li>
-<p>我们的“双阶层、多粒度解释蒸馏”方法具有创新性。</p>
-<ul>
-<li>虽然“分层知识蒸馏”和“多粒度解释”的概念都存在，但我们提出的将“宏观定位”和“微观定性”这两种人类诊断逻辑明确地映射到模型的不同层级解释，并将其作为独立且加权的损失项进行蒸馏，这在现有文献中是独特的。</li>
-<li>特别是将其应用于眼底彩照这种具有明显层次化病变特征的领域，并强调其对分级精度的提升作用，更是具有很强的领域特异性创新。</li>
-</ul>
-</li>
-<li>
-<p>现有研究的不足与我们的优势：</p>
-<ul>
-<li>现有分层知识蒸馏更多关注特征表示的匹配，而非解释图的匹配。即使匹配解释图，也通常是单一粒度的。</li>
-<li>现有注意力迁移方法通常不区分解释的粒度，或者没有像我们这样明确地从不同层级提取并独立优化。</li>
-<li>在医学影像领域，虽然对可解释性需求很高，但很少有方法能像我们这样直接模拟医生的诊断思维，提供层次化的、更具临床意义的解释。</li>
-</ul>
-</li>
-<li>
-<p>潜在的挑战与未来工作：</p>
-<ul>
-<li>教师模型解释的生成：如何确保教师模型生成的宏观和微观解释图是高质量且具有区分度的，这需要仔细选择CAM方法和目标层。</li>
-<li>超参数调优：α, β, γ 这三个损失权重需要仔细调优，以平衡不同知识的重要性。</li>
-<li>量化评估：除了传统的分类性能指标，如何量化评估学生模型解释的“宏观定位”和“微观定性”的质量，以及它们与医生诊断逻辑的一致性，将是一个重要的挑战。这可能需要设计新的指标或进行用户研究。</li>
-</ul>
-</li>
-</ol>
-<p>因此，我坚信您提出的“双阶层、多粒度的解释蒸馏”方法，特别是针对眼底彩照的应用，是一个非常有前景且具有明确创新点的研究方向。</p>
+<p>主从同步分为了两个阶段，一个是全量同步，一个是增量同步
+全量同步是指从节点第一次与主节点建立连接的时候使用全量同步，流程是这样的：
+第一：从节点请求主节点同步数据，其中从节点会携带自己的replication id和offset偏移量。
+第二：主节点判断是否是第一次请求，主要判断的依据就是，主节点与从节点是否是同一个replication id，如果不是，就说明是第一次同步，那主节点就会把自己的replication id和offset发送给从节点，让从节点与主节点的信息保持一致。
+第三：在同时主节点会执行bgsave，生成rdb文件后，发送给从节点去执行，从节点先把自己的数据清空，然后执行主节点发送过来的rdb文件，这样就保持了一致
+当然，如果在rdb生成执行期间，依然有请求到了主节点，而主节点会以命令的方式记录到缓冲区，缓冲区是一个日志文件，最后把这个日志文件发送给从节点，这样就能保证主节点与从节点完全一致了，后期再同步数据的时候，都是依赖于这个日志文件，这个就是全量同步</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/image-20250703162147468.png" alt="image-20250703162147468" style="zoom:50%;" />
+<p>增量同步指的是，当从节点服务重启之后，数据就不一致了，所以这个时候，从节点会请求主节点同步数据，主节点还是判断不是第一次请求，不是第一次就获取从节点的offset值，然后主节点从命令日志中获取offset值之后的数据，发送给从节点进行数据同步。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/image-20250703162220649.png" alt="image-20250703162220649" style="zoom:50%;" />
+
+<h2 class="relative group">分片集群 
+    <div id="分片集群" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%88%86%e7%89%87%e9%9b%86%e7%be%a4" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+<h3 class="relative group">分片集群的作用 
+    <div id="分片集群的作用" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%88%86%e7%89%87%e9%9b%86%e7%be%a4%e7%9a%84%e4%bd%9c%e7%94%a8" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/image-20250703162827651.png" alt="image-20250703162827651" style="zoom:50%;" />
+<p>分片集群主要解决的是，海量数据存储的问题，集群中有多个master，每个master保存不同数据，并且还可以给每个master设置多个slave节点，就可以继续增大集群的高并发能力。同时每个master之间通过ping监测彼此健康状态，就类似于哨兵模式了。当客户端请求可以访问集群任意节点，最终都会被转发到正确节点。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/image-20250703162852131.png" alt="image-20250703162852131" style="zoom:50%;" />
+
+<h3 class="relative group">数据是怎么存储和读取 
+    <div id="数据是怎么存储和读取" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e6%95%b0%e6%8d%ae%e6%98%af%e6%80%8e%e4%b9%88%e5%ad%98%e5%82%a8%e5%92%8c%e8%af%bb%e5%8f%96" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Redis 集群引入了哈希槽的概念，有 16384 个哈希槽，集群中每个主节点绑定了一定范围的哈希槽范围， key通过 CRC16 校验后对 16384 取模来决定放置哪个槽，通过槽找到对应的节点进行存储。取值的逻辑是一样的。</p>
+
+<h2 class="relative group">Redis为什么快？ 
+    <div id="redis为什么快" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#redis%e4%b8%ba%e4%bb%80%e4%b9%88%e5%bf%ab" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>1.基于内存，读写速度快</p>
+<p>2.采用单线程，避免了不必要的线程切换</p>
+<p>3.优化的内部数据结构，Redis 提供多种数据类型（如 String, List, Hash, Set, Sorted Set 等），其内部实现采用高度优化的编码方式（如 ziplist, quicklist, skiplist, hashtable 等）。Redis 会根据数据大小和类型动态选择最合适的内部编码，以在性能和空间效率之间取得最佳平衡。</p>
+<p>4.简洁高效的通信协议，Redis 使用的是自己设计的 RESP (REdis Serialization Protocol) 协议。这个协议实现简单、解析性能好，并且是二进制安全的。</p>
+<p>5.高效的I/O模型，使用多路I/O复用模型</p>
+<p>其中多路I/O复用是指利用单个线程监听多个socket，并在某个socket可读写时得到通知，避免无效等待。</p>
+<p>目前的I/O多路复用基本采用epoll实现，会在通知用户进程socket就绪时将已经就绪的socket写入用户空间，避免轮询。</p>
+<p>其中Redis的网络模型就是使用I/O多路复用结合事件的处理器来应对多个Socket请求，比如，提供了连接应答处理器、命令回复处理器，命令请求处理器；在Redis6.0之后，为了提升更好的性能，在命令回复处理器使用了多线程来处理回复事件，在命令请求处理器中，将命令的转换使用了多线程，增加命令转换速度，在命令执行的时候，依然是单线程。</p>
+<img src="https://cdn.jsdelivr.net/gh/wxding0324/BlogImage/redis-event-handler.png" alt="文件事件处理器（file event handler）" style="zoom:50%;" />
 
           
           
@@ -2304,8 +2026,8 @@ L_total = L_KD + α * L_exp_coarse + β * L_exp_fine
           
         
       <script>
-        var oid = "views_Notes\/CheetSheet\/index.md"
-        var oid_likes = "likes_Notes\/CheetSheet\/index.md"
+        var oid = "views_Java\/八股\/Redis\/redis.md"
+        var oid_likes = "likes_Java\/八股\/Redis\/redis.md"
       </script>
       
       
@@ -2316,64 +2038,6 @@ L_total = L_KD + α * L_exp_coarse + β * L_exp_fine
   <footer class="pt-8 max-w-prose print:hidden">
 
     
-  
-    
-    
-    
-      
-      
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-      <div class="flex justify-between pt-3">
-        <span>
-          
-            <a class="flex group mr-3" href="/notes/%E7%99%AB%E7%97%AB%E8%B0%83%E7%A0%94/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >癫痫调研</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/notes/todo/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >TODO</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
-          
-        </span>
-      </div>
-    </div>
   
 
 
