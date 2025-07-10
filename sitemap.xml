@@ -395,6 +395,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wxding0324.github.io/java/%E5%85%AB%E8%82%A1/mysql/mysql/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wxding0324.github.io/paperreading/others/pyramid-pooling-module/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
