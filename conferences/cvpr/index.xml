@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Mon, 04 Nov 2024 09:37:14 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 06:32:27 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Decoupled Knowledge Distillation</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/dkd/dkd/</link>
+      <pubDate>Mon, 25 Aug 2025 06:32:27 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/dkd/dkd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multi-Level Logit Distillation</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/mlkd/mlkd/</link>
+      <pubDate>Mon, 25 Aug 2025 06:32:27 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/mlkd/mlkd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OverLoCK: An Overview-first-Look-Closely-next ConvNet  with Context-Mixing Dynamic Kernels</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/overlock/overlock/</link>
+      <pubDate>Thu, 17 Jul 2025 03:13:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/overlock/overlock/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature  Refinement for Image Restoration</title>

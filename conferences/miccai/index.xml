@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Sat, 18 May 2024 17:07:28 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/miccai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jul 2025 08:31:36 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/miccai/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Mutual Distillation for Semi-Supervised Medical Image Segmentation</title>
+      <link>https://wxding0324.github.io/paperreading/miccai/dual-mutual-distillation/dual-mutual-distillation/</link>
+      <pubDate>Thu, 17 Jul 2025 08:31:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/miccai/dual-mutual-distillation/dual-mutual-distillation/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Discrepancy and Gradient-Guided Multi-modal Knowledge Distillation for Pathological Glioma Grading</title>

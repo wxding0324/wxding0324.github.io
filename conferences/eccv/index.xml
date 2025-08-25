@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 04:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jul 2025 08:27:36 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/conferences/eccv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Good Teachers Explain: Explanation-Enhanced Knowledge Distillation</title>
+      <link>https://wxding0324.github.io/paperreading/eccv/goodteachersexplain/goodteachersexplain/</link>
+      <pubDate>Thu, 17 Jul 2025 08:27:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/eccv/goodteachersexplain/goodteachersexplain/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AnatoMask: Enhancing Medical Image  Segmentation with Reconstruction-guided  Self-masking</title>
+      <link>https://wxding0324.github.io/paperreading/eccv/anatomask/anatomask/</link>
+      <pubDate>Thu, 17 Jul 2025 08:13:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/eccv/anatomask/anatomask/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Simple Unsupervised Knowledge Distillation With Space Similarity</title>
+      <link>https://wxding0324.github.io/paperreading/eccv/coss/coss/</link>
+      <pubDate>Thu, 17 Jul 2025 08:13:36 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/eccv/coss/coss/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Masked Generative Distillation</title>

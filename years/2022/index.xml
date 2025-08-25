@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Xiiin</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 04:15:53 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 06:32:27 +0800</lastBuildDate><atom:link href="https://wxding0324.github.io/years/2022/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Decoupled Knowledge Distillation</title>
+      <link>https://wxding0324.github.io/paperreading/cvpr/dkd/dkd/</link>
+      <pubDate>Mon, 25 Aug 2025 06:32:27 +0800</pubDate>
+      
+      <guid>https://wxding0324.github.io/paperreading/cvpr/dkd/dkd/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Masked Generative Distillation</title>
